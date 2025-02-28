@@ -1,0 +1,9 @@
+M1 (net014 VLO1 IB1 VSS) nmos4
+M4 (net012 VLO2 IB1 VSS) nmos4
+M0 (net8 VRF1 VSS VSS) nmos4
+M2 (VIF2 net014 net8 VSS) nmos4
+M3 (VIF1 net012 net8 VSS) nmos4
+R0 (VDD VIF1) resistor
+R1 (VDD VIF2) resistor
+L0 (VDD net014) inductor
+L1 (VDD net012) inductor

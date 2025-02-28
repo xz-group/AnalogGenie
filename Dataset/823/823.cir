@@ -1,0 +1,11 @@
+M3 (VOUT1 net19 VDD VDD) pmos4
+M2 (net19 net15 VDD VDD) pmos4
+M1 (net15 net14 VDD VDD) pmos4
+M0 (net14 net14 VDD VDD) pmos4
+M9 (VOUT1 net7 VSS VSS) nmos4
+M8 (net19 net7 VSS VSS) nmos4
+M7 (net13 net7 VSS VSS) nmos4
+M6 (net7 net7 VSS VSS) nmos4
+M5 (net15 VSS net13 VSS) nmos4
+M4 (net14 VIN1 net13 VSS) nmos4
+R0 (VDD net7) resistor

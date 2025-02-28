@@ -1,0 +1,22 @@
+M14 (VREF1 VSS VDD VDD) pmos4
+M13 (net16 VSS VDD VDD) pmos4
+M12 (net14 VSS VDD VDD) pmos4
+M11 (net10 VSS VDD VDD) pmos4
+M10 (net8 VSS VDD VDD) pmos4
+M3 (VSS VB2 net27 VDD) pmos4
+M2 (VSS VB2 net38 VDD) pmos4
+M1 (net27 VB3 VDD VDD) pmos4
+M0 (net38 VB3 VDD VDD) pmos4
+M9 (net38 net10 VSS VSS) nmos4
+M8 (net27 net16 VSS VSS) nmos4
+M7 (net48 VSS VSS VSS) nmos4
+M6 (VSS VB1 net48 VSS) nmos4
+M5 (net49 VSS VSS VSS) nmos4
+M4 (VSS VB1 net49 VSS) nmos4
+R1 (VREF1 net46) resistor
+R0 (net16 net47) resistor
+Q4 (VSS VSS net46 0) pnp
+Q3 (VSS VSS net8 0) pnp
+Q2 (VSS net8 net10 0) pnp
+Q1 (VSS VSS net14 0) pnp
+Q0 (VSS net14 net47 0) pnp

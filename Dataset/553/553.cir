@@ -1,0 +1,10 @@
+M4 (net04 net04 VDD VDD) pmos4
+M2 (VCONT3 VCONT1 net026 VDD) pmos4
+M3 (net026 net04 VDD VDD) pmos4
+M6 (IB1 IB1 VSS VSS) nmos4
+M5 (net04 IB1 VSS VSS) nmos4
+M0 (VCONT3 VCONT2 net027 VSS) nmos4
+M1 (net027 IB1 VSS VSS) nmos4
+C0 (VCONT3 VSS) capacitor
+C1 (net025 VSS) capacitor
+R0 (net025 VCONT3) resistor

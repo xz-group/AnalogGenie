@@ -1,0 +1,17 @@
+Q1 (VOUT2 net23 net24 0) npn
+Q0 (VOUT1 net17 net16 0) npn
+L1 (VDD VOUT2) inductor
+L3 (net23 VB1) inductor
+L7 (net24 net20) inductor
+L2 (VB1 net17) inductor
+L6 (net20 net16) inductor
+L0 (VDD VOUT1) inductor
+C3 (net22 net24) capacitor
+C2 (net18 net16) capacitor
+C1 (net23 net24) capacitor
+C0 (net17 net16) capacitor
+R2 (net22 VSS) resistor
+R1 (net18 VSS) resistor
+R0 (net20 VSS) resistor
+M1 (VCONT1 net22 VCONT1 VSS) nmos4
+M0 (VCONT1 net18 VCONT1 VSS) nmos4

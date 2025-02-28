@@ -1,0 +1,6 @@
+R4 (VDD VIF1) resistor
+R3 (VDD VIF2) resistor
+M5 (VIF1 VLO1 IB1 VSS) nmos4
+M4 (VIF2 VLO2 IB1 VSS) nmos4
+C1 (IB1 IIN1) capacitor
+L1 (IIN1 VDD) inductor

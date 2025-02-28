@@ -1,0 +1,10 @@
+Q1 (net7 net6 VDD 0) pnp
+Q0 (net6 net6 VDD 0) pnp
+Q4 (net7 net14 net4 0) npn
+Q3 (net6 net18 net17 0) npn
+Q2 (VDD net7 VOUT1 0) npn
+R4 (net18 net14) resistor
+R3 (net4 VSS) resistor
+R2 (net17 net4) resistor
+R1 (net14 VSS) resistor
+R0 (VOUT1 net14) resistor

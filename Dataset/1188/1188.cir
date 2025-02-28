@@ -1,0 +1,13 @@
+M3 (net21 net8 net12 VDD) pmos4
+M2 (net8 net21 net12 VDD) pmos4
+M1 (net9 net9 VDD VDD) pmos4
+M0 (net12 net9 VDD VDD) pmos4
+R0 (net9 VSS) resistor
+M5 (net21 net8 VSS VSS) nmos4
+M4 (net8 net21 VSS VSS) nmos4
+C1 (net21 net24) capacitor
+C0 (net8 net25) capacitor
+L1 (net8 net21) inductor
+L0 (net25 net24) inductor
+D1 (net21 VCONT1) diode
+D0 (net8 VCONT1) diode

@@ -1,0 +1,48 @@
+M49 (net255 VCLK2 VOUT1 VSS) nmos4
+M48 (net247 VCLK1 net252 VSS) nmos4
+M47 (net246 VCLK2 VOUT1 VSS) nmos4
+M46 (net259 VCLK1 net244 VSS) nmos4
+M45 (net245 VCLK2 net247 VSS) nmos4
+M44 (VCONT1 VCLK1 net243 VSS) nmos4
+M43 (net237 VCLK2 net247 VSS) nmos4
+M42 (VIN1 VCLK1 net235 VSS) nmos4
+M41 (net233 VCLK2 net259 VSS) nmos4
+M40 (VIN1 VCLK1 net232 VSS) nmos4
+M39 (net255 VCLK1 VSS VSS) nmos4
+M38 (net252 VCLK2 VSS VSS) nmos4
+M35 (net246 VCLK1 VSS VSS) nmos4
+M34 (net244 VCLK2 VSS VSS) nmos4
+M27 (net254 net247 IB2 VSS) nmos4
+M26 (net263 VSS IB2 VSS) nmos4
+M25 (VOUT1 VB5 net265 VSS) nmos4
+M24 (net249 VB5 net266 VSS) nmos4
+M23 (net265 net249 VSS VSS) nmos4
+M22 (net266 net249 VSS VSS) nmos4
+M21 (net245 VCLK1 VSS VSS) nmos4
+M20 (net243 VCLK2 VSS VSS) nmos4
+M17 (net237 VCLK1 VSS VSS) nmos4
+M16 (net235 VCLK2 VSS VSS) nmos4
+M13 (net233 VCLK1 VSS VSS) nmos4
+M12 (net232 VCLK2 VSS VSS) nmos4
+M9 (net240 net259 IB1 VSS) nmos4
+M8 (net260 VSS IB1 VSS) nmos4
+M5 (VCONT1 VB2 net267 VSS) nmos4
+M4 (net234 VB2 net268 VSS) nmos4
+M7 (net267 net234 VSS VSS) nmos4
+M6 (net268 net234 VSS VSS) nmos4
+C7 (net255 net252) capacitor
+C6 (net246 net244) capacitor
+C5 (VOUT1 net247) capacitor
+C3 (net245 net243) capacitor
+C1 (net247 VIN1) capacitor
+C0 (net237 net235) capacitor
+C2 (net233 net232) capacitor
+C4 (VCONT1 net259) capacitor
+M31 (net254 VB6 VDD VDD) pmos4
+M30 (net263 VB6 VDD VDD) pmos4
+M29 (VOUT1 VB4 net254 VDD) pmos4
+M28 (net249 VB4 net263 VDD) pmos4
+M1 (net240 VB3 VDD VDD) pmos4
+M0 (net260 VB3 VDD VDD) pmos4
+M3 (VCONT1 VB1 net240 VDD) pmos4
+M2 (net234 VB1 net260 VDD) pmos4

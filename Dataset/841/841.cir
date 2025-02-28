@@ -1,0 +1,4 @@
+M3 (net8 net8 VSS VSS) nmos4
+M2 (net12 net8 VSS VSS) nmos4
+M1 (IOUT1 IIN1 net8 VSS) nmos4
+M0 (IIN1 IIN1 net12 VSS) nmos4

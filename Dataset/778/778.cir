@@ -1,0 +1,18 @@
+R7 (VSS net18) resistor
+R6 (VSS net15) resistor
+R5 (VSS net12) resistor
+R4 (IOUT2 VDD) resistor
+R3 (IOUT1 VDD) resistor
+R2 (VSS net7) resistor
+R1 (VSS net3) resistor
+R0 (net3 net7) resistor
+Q9 (net17 net17 net18 0) npn
+Q8 (VDD net8 net17 0) npn
+Q7 (net14 net14 net15 0) npn
+Q6 (VDD net4 net14 0) npn
+Q5 (IOUT1 net15 net12 0) npn
+Q4 (IOUT2 net18 net12 0) npn
+Q3 (net8 VIN2 net7 0) npn
+Q2 (VDD VDD net8 0) npn
+Q1 (net4 VIN1 net3 0) npn
+Q0 (VDD VDD net4 0) npn

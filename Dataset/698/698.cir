@@ -1,0 +1,3 @@
+C0 (IOUT1 VSS) capacitor
+M1 (IIN1 IIN1 VSS VSS) nmos4
+M0 (IOUT1 IIN1 VSS VSS) nmos4

@@ -1,0 +1,9 @@
+I0 (VIN1 VOUT2 VDD VSS net20) XOR
+R0 (net20 net7) resistor
+C0 (net7 VSS) capacitor
+M1 (VOUT2 VOUT1 IB1 VSS) nmos4
+M0 (VOUT1 VOUT2 IB1 VSS) nmos4
+L1 (VDD VOUT2) inductor
+L0 (VDD VOUT1) inductor
+D1 (net7 VOUT2) diode
+D0 (net7 VOUT1) diode

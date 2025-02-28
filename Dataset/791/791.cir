@@ -1,0 +1,22 @@
+M21 (net73 VCLK2 net75 VSS) nmos4
+M20 (VIN3 VCLK1 net66 VSS) nmos4
+M19 (net74 VCLK2 net75 VSS) nmos4
+M18 (VIN2 VCLK1 net68 VSS) nmos4
+M17 (net74 VCLK1 VSS VSS) nmos4
+M16 (net68 VCLK2 VSS VSS) nmos4
+M13 (net73 VCLK1 VSS VSS) nmos4
+M12 (net66 VCLK2 VSS VSS) nmos4
+M9 (net81 net75 IB1 VSS) nmos4
+M8 (net86 VSS IB1 VSS) nmos4
+M5 (VOUT1 VB2 net88 VSS) nmos4
+M4 (net77 VB2 net89 VSS) nmos4
+M7 (net88 net77 VSS VSS) nmos4
+M6 (net89 net77 VSS VSS) nmos4
+M1 (net81 VB3 VDD VDD) pmos4
+M0 (net86 VB3 VDD VDD) pmos4
+M3 (VOUT1 VB1 net81 VDD) pmos4
+M2 (net77 VB1 net86 VDD) pmos4
+C4 (net75 VOUT1) capacitor
+C2 (net73 net66) capacitor
+C3 (net74 net68) capacitor
+C0 (net75 VIN1) capacitor

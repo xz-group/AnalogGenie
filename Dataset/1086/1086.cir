@@ -1,0 +1,6 @@
+M3 (VOUT1 VDD net16 VSS) nmos4
+M2 (net16 VIN1 VSS VSS) nmos4
+M1 (net12 VB1 VSS VSS) nmos4
+M0 (VDD VOUT1 net12 VSS) nmos4
+L0 (VDD VOUT1) inductor
+R0 (net12 VIN1) resistor

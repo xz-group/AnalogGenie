@@ -1,0 +1,9 @@
+Q3 (VDD net6 net14 0) npn
+Q2 (net7 VIN1 net13 0) npn
+Q1 (net7 net13 VSS 0) npn
+Q0 (VDD net14 VOUT1 0) npn
+Q4 (net6 VB1 VDD 0) pnp
+D2 (net17 net7) diode
+D1 (net6 net17) diode
+D0 (VOUT1 net7) diode
+R0 (VOUT1 VSS) resistor

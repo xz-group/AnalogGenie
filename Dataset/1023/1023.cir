@@ -1,0 +1,3 @@
+M1 (IOUT1 IB1 VSS VSS) nmos4
+M0 (IIN1 IB1 VSS VSS) nmos4
+Q0 (VSS IIN1 IB1 0) pnp

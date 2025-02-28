@@ -1,0 +1,1 @@
+VDD VSS VCONT1

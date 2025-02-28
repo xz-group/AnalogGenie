@@ -1,0 +1,16 @@
+Q9 (VDD net26 VOUT1 0) npn
+Q8 (VDD net21 VOUT1 0) npn
+Q7 (VDD VCONT4 net17 0) npn
+Q6 (net26 VIN1 net17 0) npn
+Q5 (net26 VCONT3 net15 0) npn
+Q4 (VDD VIN1 net15 0) npn
+Q3 (VDD VCONT2 net14 0) npn
+Q2 (net21 VIN1 net14 0) npn
+Q1 (net21 VCONT1 net9 0) npn
+Q0 (VDD VIN1 net9 0) npn
+R5 (net17 VSS) resistor
+R4 (net15 VSS) resistor
+R3 (net14 VSS) resistor
+R2 (net9 VSS) resistor
+R1 (VDD net26) resistor
+R0 (VDD net21) resistor

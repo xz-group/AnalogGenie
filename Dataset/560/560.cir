@@ -1,0 +1,9 @@
+M5 (net13 LOGICA1 net17 VSS) nmos4
+M4 (net13 LOGICB1 net17 VSS) nmos4
+M7 (net16 VB1 net17 VSS) nmos4
+M0 (net17 VCLK1 IB1 VSS) nmos4
+M1 (net029 VCLK2 IB1 VSS) nmos4
+M2 (net16 net13 net029 VSS) nmos4
+M3 (net13 net16 net029 VSS) nmos4
+R4 (VDD net16) resistor
+R5 (VDD net13) resistor

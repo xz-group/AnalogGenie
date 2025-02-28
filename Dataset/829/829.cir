@@ -1,0 +1,4 @@
+Q1 (VDD net5 VOUT1 0) npn
+Q0 (VDD VIN1 net5 0) npn
+R1 (VOUT1 VSS) resistor
+R0 (net5 VOUT1) resistor

@@ -1,0 +1,8 @@
+M2 (net12 VLO1 VBB1 VSS) nmos4
+M5 (VOUT1 net11 VSS VSS) nmos4
+M4 (VOUT2 net10 VSS VSS) nmos4
+M1 (net9 VLO2 VBB2 VSS) nmos4
+L0 (VOUT1 VDD) inductor
+L2 (VOUT2 VDD) inductor
+C0 (net9 net10) capacitor
+C1 (net11 net12) capacitor

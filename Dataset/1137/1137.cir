@@ -1,0 +1,17 @@
+M1 (net24 net26 VDD VDD) pmos4
+M0 (net26 net24 VDD VDD) pmos4
+L2 (net10 VB1) inductor
+L1 (net23 VB2) inductor
+L0 (net24 net26) inductor
+C7 (VLO1 net23) capacitor
+C6 (VLO2 net10) capacitor
+C5 (net26 VCONT1) capacitor
+C4 (net24 VCONT1) capacitor
+C3 (net26 VCONT2) capacitor
+C2 (net24 VCONT2) capacitor
+C1 (net26 VCONT3) capacitor
+C0 (net24 VCONT3) capacitor
+M5 (VDD net26 net23 VSS) nmos4
+M4 (VDD net24 net10 VSS) nmos4
+M3 (net26 net24 VSS VSS) nmos4
+M2 (net24 net26 VSS VSS) nmos4

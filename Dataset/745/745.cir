@@ -1,0 +1,14 @@
+M2 (VDD VCONT1 net3 VDD) pmos4
+M3 (VIN1 VCONT2 net3 VDD) pmos4
+M4 (VDD VCONT1 net6 VDD) pmos4
+M5 (VIN2 VCONT2 net6 VDD) pmos4
+M1 (VSS net6 IB3 VSS) nmos4
+M0 (VSS net3 IB1 VSS) nmos4
+R0 (VSS net34) resistor
+R1 (VSS net26) resistor
+Q3 (net26 IB3 IB2 0) npn
+Q2 (VSS net26 net29 0) npn
+Q0 (net34 IB1 IB2 0) npn
+Q1 (VSS net34 net32 0) npn
+D1 (net29 VDD) diode
+D0 (net32 VDD) diode

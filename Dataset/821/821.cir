@@ -1,0 +1,6 @@
+M1 (VOUT2 VOUT1 VSS VSS) nmos4
+M0 (VOUT1 VOUT2 VSS VSS) nmos4
+L1 (VDD VOUT2) inductor
+L0 (VDD VOUT1) inductor
+C1 (VOUT2 VSS) capacitor
+C0 (VOUT1 VSS) capacitor

@@ -1,0 +1,7 @@
+Q5 (net13 VIN2 net11 0) npn
+Q4 (net10 VIN1 net11 0) npn
+Q3 (IOUT2 VIN3 net13 0) npn
+Q2 (IOUT1 VIN4 net13 0) npn
+Q1 (IOUT2 VIN4 net10 0) npn
+Q0 (IOUT1 VIN3 net10 0) npn
+R0 (net11 VSS) resistor

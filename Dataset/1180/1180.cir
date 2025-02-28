@@ -1,0 +1,20 @@
+L3 (net14 net25) inductor
+L2 (net14 net25) inductor
+L1 (net19 net16) inductor
+L0 (net19 net16) inductor
+C5 (net31 net19) capacitor
+C4 (net32 net25) capacitor
+C3 (net29 net16) capacitor
+C2 (net30 net14) capacitor
+C1 (net25 net14) capacitor
+C0 (net16 net19) capacitor
+M9 (net25 VCONT2 net16 VSS) nmos4
+M8 (net14 VCONT2 net19 VSS) nmos4
+M7 (net25 VCONT1 net19 VSS) nmos4
+M6 (net14 VCONT1 net16 VSS) nmos4
+M5 (net32 VCONT3 net31 VSS) nmos4
+M4 (net30 VCONT3 net29 VSS) nmos4
+M3 (net25 net14 VSS VSS) nmos4
+M2 (net14 net25 VSS VSS) nmos4
+M1 (net16 net19 VSS VSS) nmos4
+M0 (net19 net16 VSS VSS) nmos4

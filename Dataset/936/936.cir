@@ -1,0 +1,4 @@
+M3 (IIN1 IIN1 VSS VSS) nmos4
+M2 (IREF1 net11 VSS VSS) nmos4
+M1 (net11 IIN1 VSS VSS) nmos4
+M0 (IOUT1 IREF1 net11 VSS) nmos4

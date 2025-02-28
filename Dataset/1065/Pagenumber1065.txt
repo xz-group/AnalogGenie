@@ -1,0 +1,2 @@
+B. Goll and H. Zimmermann, "A 0.12μm CMOS Comparator Requiring 0.5V at 600MHz and 1.5V at 6GHz," 2007 IEEE International Solid-State Circuits Conference. Digest of Technical Papers, San Francisco, CA, USA, 2007, pp. 316-605, doi: 10.1109/ISSCC.2007.373421.
+keywords: {Clocks;Voltage;Bit error rate;Variable structure systems;Switches;CMOS logic circuits;Delay effects;Solid state circuits;Testing;Semiconductor device measurement},

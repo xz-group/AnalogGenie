@@ -1,0 +1,6 @@
+M1 (IOUT2 VIN1 net15 VSS) nmos4
+M0 (IOUT1 VIN2 net13 VSS) nmos4
+C1 (IOUT1 VIN1) capacitor
+C0 (IOUT2 VIN2) capacitor
+L1 (VSS net15) inductor
+L0 (net13 VSS) inductor

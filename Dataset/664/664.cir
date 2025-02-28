@@ -1,0 +1,14 @@
+M3 (net21 net26 net24 VSS) nmos4
+M2 (net6 net26 net018 VSS) nmos4
+M7 (VOUT1 net6 net20 net19) pmos4
+M6 (net20 net8 VDD net19) pmos4
+M5 (net22 net8 VDD net14) pmos4
+M4 (net23 net8 VDD net18) pmos4
+M0 (net8 net6 net23 net18) pmos4
+M1 (net21 net6 net22 net14) pmos4
+Q1 (VSS VSS net25 0) pnp
+Q0 (VSS VSS net24 0) pnp
+R2 (net018 net25) resistor
+R1 (VOUT1 VSS) resistor
+R0 (net8 net6) resistor
+D0 (VSS net6) diode

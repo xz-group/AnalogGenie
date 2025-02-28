@@ -1,0 +1,40 @@
+MM8 (net9 net9 VSS VSS) nmos4
+MM7 (net8 net9 VSS VSS) nmos4
+MM3 (net20 net38 net16 VSS) nmos4
+MM0 (net11 VREF1 net16 VSS) nmos4
+MM4 (net16 net1005 VSS VSS) nmos4
+MM6 (net9 net11 VIN1 VIN1) pmos4
+MM5 (net8 net20 VIN1 VIN1) pmos4
+MM1 (net20 net20 VIN1 VIN1) pmos4
+MM2 (net11 net11 VIN1 VIN1) pmos4
+MM4 (VB1 net1005 VSS VSS) nmos4
+MM2 (net1005 net1005 VSS VSS) nmos4
+MM10 (neta net1007 VSS VSS) nmos4
+MM3 (VB1 VB1 VIN1 VIN1) pmos4
+MM1 (net1005 neta VIN1 VIN1) pmos4
+MM0 (neta neta VIN1 VIN1) pmos4
+MM0 (net1007 net1007 VSS VSS) nmos4
+MM1 (net10 net1007 VSS VSS) nmos4
+MM2 (net1007 net10 VIN1 VIN1) pmos4
+RRF (VIN1 net1007) resistor
+RR0 (VIN1 net10) resistor
+M14 (VOUT1 net36 VIN1 VIN1) pmos4
+M11 (net36 net34 VIN1 VIN1) pmos4
+M10 (net34 net34 VIN1 VIN1) pmos4
+M6 (net26 net26 VIN1 VIN1) pmos4
+M5 (net20 net20 VIN1 VIN1) pmos4
+M3 (net17 net20 VIN1 VIN1) pmos4
+M0 (net11 VB4 VIN1 VIN1) pmos4
+M13 (net36 net11 VSS VSS) nmos4
+M12 (net34 net8 VSS VSS) nmos4
+M9 (net25 VB2 VSS VSS) nmos4
+M8 (net20 VB3 net25 VSS) nmos4
+M7 (net26 net17 net25 VSS) nmos4
+M4 (net17 net8 VSS VSS) nmos4
+M2 (net11 net11 VSS VSS) nmos4
+M1 (net11 net8 VSS VSS) nmos4
+C2 (VOUT1 net38) capacitor
+C1 (VOUT1 net8) capacitor
+C0 (net8 net17) capacitor
+R1 (net38 VSS) resistor
+R0 (VOUT1 net38) resistor

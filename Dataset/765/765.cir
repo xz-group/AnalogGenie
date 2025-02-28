@@ -1,0 +1,23 @@
+Q11 (net16 VTRACK1 net14 0) npn
+Q10 (VOUT2 VTRACK1 net14 0) npn
+Q9 (net13 VHOLD1 net14 0) npn
+Q8 (VDD net16 VOUT2 0) npn
+Q7 (VDD net13 net16 0) npn
+Q1 (net4 VTRACK1 net7 0) npn
+Q0 (VOUT1 VTRACK1 net7 0) npn
+Q2 (net9 VHOLD1 net7 0) npn
+Q3 (VDD net4 VOUT1 0) npn
+Q4 (VDD net9 net4 0) npn
+Q5 (net13 VIN2 net25 0) npn
+Q6 (net9 VIN1 net26 0) npn
+R6 (net24 VSS) resistor
+R5 (net14 VSS) resistor
+R4 (net7 VSS) resistor
+R3 (VDD net9) resistor
+R0 (net26 net24) resistor
+R1 (net25 net24) resistor
+R2 (VDD net13) resistor
+C3 (net9 net16) capacitor
+C2 (VDD net16) capacitor
+C1 (net13 net4) capacitor
+C0 (VDD net4) capacitor

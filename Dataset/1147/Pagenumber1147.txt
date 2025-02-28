@@ -1,0 +1,2 @@
+A. Mostajeran, M. S. Bakhtiar and E. Afshari, "25.8 A 2.4GHz VCO with FOM of 190dBc/Hz at 10kHz-to-2MHz offset frequencies in 0.13μm CMOS using an ISF manipulation technique," 2015 IEEE International Solid-State Circuits Conference - (ISSCC) Digest of Technical Papers, San Francisco, CA, USA, 2015, pp. 1-3, doi: 10.1109/ISSCC.2015.7063121.
+keywords: {Transistors;1f noise;Voltage-controlled oscillators;CMOS integrated circuits;Impedance},

@@ -1,0 +1,8 @@
+M1 (VOUT1 net32 VSS VSS) nmos4
+M0 (net32 VOUT1 VSS VSS) nmos4
+R1 (VDD VOUT1) resistor
+R0 (VDD net32) resistor
+C1 (VDD VOUT1) capacitor
+C0 (VDD net32) capacitor
+L1 (VDD VOUT1) inductor
+L0 (VDD net32) inductor

@@ -1,0 +1,6 @@
+Q5 (net1 net1 VSS 0) npn
+Q4 (VOUT1 net1 VSS 0) npn
+Q3 (VSS VSS net6 0) pnp
+Q2 (VOUT1 net6 IB1 0) pnp
+Q1 (VSS VIN1 net12 0) pnp
+Q0 (net1 net12 IB1 0) pnp

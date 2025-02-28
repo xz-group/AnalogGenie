@@ -1,0 +1,4 @@
+C0 (net013 VOUT1) capacitor
+M0 (net013 VB2 VIN1 VSS) nmos4
+M18 (VOUT1 VIN1 VSS VSS) nmos4
+M17 (VOUT1 VB1 VDD VDD) pmos4

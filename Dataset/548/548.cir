@@ -1,0 +1,4 @@
+C0 (VCONT1 VSS) capacitor
+C1 (net4 VSS) capacitor
+R1 (VCONT1 VIN1) resistor
+R0 (net4 VIN1) resistor

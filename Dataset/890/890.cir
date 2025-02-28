@@ -1,0 +1,12 @@
+R4 (net17 VSS) resistor
+R3 (net14 VSS) resistor
+R2 (VDD net23) resistor
+R1 (VDD net24) resistor
+R0 (VDD net25) resistor
+Q4 (net17 VIN1 net9 0) pnp
+Q3 (net14 VIN2 net9 0) pnp
+Q2 (VOUT2 VB1 net23 0) pnp
+Q1 (VOUT1 VB1 net24 0) pnp
+Q0 (net9 VB1 net25 0) pnp
+Q6 (VOUT2 VB2 net17 0) npn
+Q5 (VOUT1 VB2 net14 0) npn

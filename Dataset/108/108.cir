@@ -1,0 +1,4 @@
+M4 (net03 net03 VSS VSS) nmos4
+M3 (net20 net03 VSS VSS) nmos4
+M5 (IOUT1 VB1 net20 VSS) nmos4
+R0 (VDD net03) resistor

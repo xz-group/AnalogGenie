@@ -1,0 +1,28 @@
+R2 (net85 VOUT1) resistor
+R1 (VIN1 net85) resistor
+R0 (net93 net94) resistor
+C2 (net85 VOUT1) capacitor
+C1 (VIN1 net94) capacitor
+C0 (VIN1 net85) capacitor
+C4 (net93 net85) capacitor
+C5 (VOUT1 net94) capacitor
+M9 (net90 net85 IB1 VSS) nmos4
+M8 (net105 VSS IB1 VSS) nmos4
+M5 (net93 VB2 net123 VSS) nmos4
+M4 (net86 VB2 net124 VSS) nmos4
+M27 (net99 net94 IB2 VSS) nmos4
+M26 (net121 VSS IB2 VSS) nmos4
+M7 (net123 net86 VSS VSS) nmos4
+M6 (net124 net86 VSS VSS) nmos4
+M25 (VOUT1 VB5 net125 VSS) nmos4
+M24 (net95 VB5 net126 VSS) nmos4
+M23 (net125 net95 VSS VSS) nmos4
+M22 (net126 net95 VSS VSS) nmos4
+M1 (net90 VB3 VDD VDD) pmos4
+M0 (net105 VB3 VDD VDD) pmos4
+M3 (net93 VB1 net90 VDD) pmos4
+M2 (net86 VB1 net105 VDD) pmos4
+M31 (net99 VB6 VDD VDD) pmos4
+M30 (net121 VB6 VDD VDD) pmos4
+M29 (VOUT1 VB4 net99 VDD) pmos4
+M28 (net95 VB4 net121 VDD) pmos4

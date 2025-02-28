@@ -1,0 +1,4 @@
+R1 (VOUT1 VDD) resistor
+M2 (VOUT1 net03 VSS VSS) nmos4
+C0 (net03 VOUT1) capacitor
+C1 (VSS net03) capacitor

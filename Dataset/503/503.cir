@@ -1,0 +1,7 @@
+M0 (net1 VRF1 VSS VSS) nmos4
+M3 (VIF1 VLO1 net1 VSS) nmos4
+M2 (VIF2 VLO2 net1 VSS) nmos4
+R0 (VDD VIF1) resistor
+R1 (VDD VIF2) resistor
+C1 (VSS VIF2) capacitor
+C0 (VIF1 VSS) capacitor

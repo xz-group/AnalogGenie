@@ -1,0 +1,28 @@
+Q3 (VOUT1 net13 net025 0) npn
+Q2 (VOUT1 net13 net024 0) npn
+Q1 (VOUT2 net21 net025 0) npn
+Q0 (VOUT2 net21 net024 0) npn
+C7 (net11 net15) capacitor
+C6 (net13 VOUT1) capacitor
+C5 (net13 VIN1) capacitor
+C4 (net11 net3) capacitor
+C3 (net12 net18) capacitor
+C1 (net21 VOUT2) capacitor
+C0 (net21 VIN2) capacitor
+C2 (net12 net6) capacitor
+M15 (net15 VCLK2 VOUT1 VSS) nmos4
+M14 (net18 VCLK2 VOUT2 VSS) nmos4
+M11 (net11 VCLK2 net13 VSS) nmos4
+M10 (VIN1 VCLK1 net3 VSS) nmos4
+M9 (net12 VCLK2 net21 VSS) nmos4
+M8 (VIN2 VCLK1 net6 VSS) nmos4
+M7 (net15 VCLK1 VSS VSS) nmos4
+M5 (net11 VCLK1 VSS VSS) nmos4
+M4 (net3 VCLK2 VSS VSS) nmos4
+M1 (net18 VCLK1 VSS VSS) nmos4
+M13 (net12 VCLK1 VSS VSS) nmos4
+M12 (net6 VCLK2 VSS VSS) nmos4
+R1 (VDD VOUT1) resistor
+R0 (VDD VOUT2) resistor
+R3 (net025 VSS) resistor
+R2 (net024 VSS) resistor

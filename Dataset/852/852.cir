@@ -1,0 +1,4 @@
+R0 (VDD net2) resistor
+R1 (net5 VSS) resistor
+M1 (net2 net5 VSS VSS) nmos4
+M0 (IOUT1 net2 net5 VSS) nmos4

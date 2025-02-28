@@ -1,0 +1,7 @@
+Q7 (IB3 IB1 VSS 0) npn
+Q6 (IOUT1 IB1 VSS 0) npn
+Q5 (IOUT2 IB2 VSS 0) npn
+Q4 (IB4 IB2 VSS 0) npn
+R4 (IB4 IB3) resistor
+M1 (IB2 VIN2 IB4 IB4) pmos4
+M0 (IB1 VIN1 IB3 IB3) pmos4

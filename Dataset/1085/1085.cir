@@ -1,0 +1,10 @@
+M4 (net38 VB1 VDD VDD) pmos4
+M3 (net38 net37 VDD VDD) pmos4
+M2 (net37 net37 VDD VDD) pmos4
+R0 (VDD net33) resistor
+R2 (net34 VSS) resistor
+M5 (net33 net34 VSS VSS) nmos4
+M0 (net37 net33 net34 VSS) nmos4
+M1 (net38 net34 VSS VSS) nmos4
+L2 (net38 VOUT1) inductor
+L1 (VIN1 net33) inductor

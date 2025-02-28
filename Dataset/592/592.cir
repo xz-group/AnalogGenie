@@ -1,0 +1,10 @@
+C0 (VOUT1 VOUT2) capacitor
+L3 (net8 VOUT2) inductor
+L2 (net5 VOUT1) inductor
+L1 (net6 net8) inductor
+L0 (net6 net5) inductor
+M3 (net8 net5 VSS VSS) nmos4
+M2 (net8 VIN2 VSS VSS) nmos4
+M1 (net5 net8 VSS VSS) nmos4
+M0 (net5 VIN1 VSS VSS) nmos4
+M4 (net6 VCONT1 VDD VDD) pmos4

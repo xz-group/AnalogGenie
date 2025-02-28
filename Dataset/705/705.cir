@@ -1,0 +1,10 @@
+M17 (VOUT1 IB1 VDD VDD) pmos4
+M14 (net014 VIN1 net97 net023) pmos4
+M13 (net016 VIN2 net97 net023) pmos4
+M12 (net97 IB1 VDD VDD) pmos4
+M10 (IB1 IB1 VDD VDD) pmos4
+M18 (VOUT1 net016 VSS VSS) nmos4
+M16 (net016 net014 VSS VSS) nmos4
+M15 (net014 net014 VSS VSS) nmos4
+C0 (net022 VOUT1) capacitor
+R0 (net016 net022) resistor

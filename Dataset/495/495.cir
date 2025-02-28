@@ -1,0 +1,8 @@
+C1 (VLO1 VRF1) capacitor
+C0 (VOUT1 VLO1) capacitor
+C2 (VOUT2 VLO2) capacitor
+C3 (VLO2 VRF1) capacitor
+R1 (VOUT2 VSS) resistor
+R0 (VOUT1 VSS) resistor
+M1 (VOUT2 VLO2 VRF1 VSS) nmos4
+M0 (VOUT1 VLO1 VRF1 VSS) nmos4

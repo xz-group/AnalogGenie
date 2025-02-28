@@ -1,0 +1,31 @@
+// Library name: tutorial_test
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: tutorial_test
+// Cell name: 602
+// View name: schematic
+M18 (net031 VCONT1 VDD VDD) pmos4
+M1 (net041 VOUT1 net031 net031) pmos4
+M17 (net09 VCLK1 VDD VDD) pmos4
+M16 (net030 net029 VDD VDD) pmos4
+M15 (net029 net028 VDD VDD) pmos4
+M3 (VOUT1 VCLK1 VDD VDD) pmos4
+M2 (net038 net041 VDD VDD) pmos4
+M0 (net041 net09 VDD VDD) pmos4
+M14 (net044 VCONT1 VSS VSS) nmos4
+M13 (net029 VCLK1 net054 VSS) nmos4
+M11 (net09 net030 VSS VSS) nmos4
+M10 (net030 VCLK1 VSS VSS) nmos4
+M6 (net044 VOUT1 VSS VSS) nmos4
+M8 (VOUT1 net038 VSS VSS) nmos4
+M7 (net038 VCLK1 VSS VSS) nmos4
+M5 (net045 net09 net044 VSS) nmos4
+M4 (net041 VCLK1 net045 VSS) nmos4
+M9 (net054 net028 VSS VSS) nmos4
+I4 (VOUT1 net028 VDD VSS) INVERTER

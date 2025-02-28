@@ -1,0 +1,6 @@
+M5 (IOUT1 IIN1 net16 VSS) nmos4
+M4 (net16 IIN2 VSS VSS) nmos4
+M3 (net17 IIN2 VSS VSS) nmos4
+M2 (net18 IIN1 VSS VSS) nmos4
+M1 (IIN2 IIN1 net17 VSS) nmos4
+M0 (IIN1 IIN1 net18 VSS) nmos4

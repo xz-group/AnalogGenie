@@ -1,0 +1,6 @@
+M1 (net8 net10 VDD VDD) pmos4
+M0 (IB1 IB1 net10 VDD) pmos4
+M3 (IIN1 net8 VSS VSS) nmos4
+M2 (net8 net8 VSS VSS) nmos4
+C1 (net8 VSS) capacitor
+C0 (VDD IB1) capacitor

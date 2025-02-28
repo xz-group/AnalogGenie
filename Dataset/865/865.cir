@@ -1,0 +1,11 @@
+M16 (IOUT2 net38 VSS VSS) nmos4
+M15 (net38 net38 VSS VSS) nmos4
+M12 (net35 net35 VSS VSS) nmos4
+M11 (IOUT1 net35 VSS VSS) nmos4
+M8 (IB1 IB1 VSS VSS) nmos4
+M7 (net32 IB1 VSS VSS) nmos4
+M6 (net015 IB1 VSS VSS) nmos4
+M14 (net015 net015 VDD VDD) pmos4
+M13 (net38 net015 VDD VDD) pmos4
+M10 (net32 net32 VDD VDD) pmos4
+M9 (net35 net32 VDD VDD) pmos4

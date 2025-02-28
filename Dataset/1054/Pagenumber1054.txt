@@ -1,0 +1,1 @@
+B. Razavi and B. A. Wooley, "Design techniques for high-speed, high-resolution comparators," in IEEE Journal of Solid-State Circuits, vol. 27, no. 12, pp. 1916-1926, Dec. 1992, doi: 10.1109/4.173122. keywords: {Preamplifiers;BiCMOS integrated circuits;CMOS technology;Latches;Capacitors;Power dissipation;Voltage;Very large scale integration;Circuit synthesis;Clocks},

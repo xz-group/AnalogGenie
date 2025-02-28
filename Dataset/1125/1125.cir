@@ -1,0 +1,16 @@
+L6 (net22 IB1) inductor
+L5 (VOUT3 VDD) inductor
+L3 (VDD VOUT4) inductor
+L2 (net13 IB1) inductor
+L1 (VDD VOUT2) inductor
+L0 (VOUT1 VDD) inductor
+C6 (net22 VSS) capacitor
+C4 (VDD VOUT4) capacitor
+C3 (VDD VOUT3) capacitor
+C2 (net13 VSS) capacitor
+C1 (VDD VOUT2) capacitor
+C0 (VDD VOUT1) capacitor
+M3 (VOUT4 VOUT3 net22 VSS) nmos4
+M2 (VOUT3 VOUT4 net22 VSS) nmos4
+M1 (VOUT2 VOUT1 net13 VSS) nmos4
+M0 (VOUT1 VOUT2 net13 VSS) nmos4

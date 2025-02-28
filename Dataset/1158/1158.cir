@@ -1,0 +1,12 @@
+L1 (VDD VOUT2) inductor
+L0 (VDD VOUT1) inductor
+C3 (net26 VOUT2) capacitor
+C2 (net26 VOUT1) capacitor
+C1 (net14 VOUT2) capacitor
+C0 (net14 VOUT1) capacitor
+R1 (VB1 net13) resistor
+R0 (VCONT1 net14) resistor
+M3 (VOUT2 VB3 VSS VSS) nmos4
+M2 (VOUT1 VB2 VSS VSS) nmos4
+M1 (VOUT2 net13 VOUT2 VSS) nmos4
+M0 (VOUT1 net13 VOUT1 VSS) nmos4

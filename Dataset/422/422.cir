@@ -1,0 +1,5 @@
+M0 (net11 VB1 IB1 VSS) nmos4
+M1 (VDD net11 IB1 VSS) nmos4
+L0 (VDD net11) inductor
+R0 (VDD net11) resistor
+C0 (VDD net11) capacitor

@@ -1,0 +1,13 @@
+M3 (net15 VB2 VSS VSS) nmos4
+M2 (VDD net16 net15 VSS) nmos4
+M1 (net19 net7 net20 VSS) nmos4
+M0 (net16 VDD net19 VSS) nmos4
+R4 (net7 VB1) resistor
+R3 (net21 VIN1) resistor
+R2 (net16 net18) resistor
+R0 (net22 net16) resistor
+L1 (net20 VSS) inductor
+L0 (VDD net22) inductor
+C2 (VOUT1 net15) capacitor
+C1 (net7 net21) capacitor
+C0 (net18 net7) capacitor

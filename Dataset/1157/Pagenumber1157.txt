@@ -1,0 +1,2 @@
+Z. Kang, C. Yu and L. Wu, "19.3 An 8.9-to-21.9GHz Single-Core Oscillator with Reconfigurable Class-F−1 and Enhanced-Colpitts Dual-Mode Operation Achieving 209dBc/Hz FoMT," 2024 IEEE International Solid-State Circuits Conference (ISSCC), San Francisco, CA, USA, 2024, pp. 1-3, doi: 10.1109/ISSCC49657.2024.10454525.
+keywords: {Couplings;Q-factor;Multicore processing;Voltage-controlled oscillators;Magnetic cores;Switches;Transceivers},

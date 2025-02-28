@@ -1,0 +1,5 @@
+C1 (net28 VSS) capacitor
+C0 (VOUT1 net28) capacitor
+M0 (IIN1 net28 VSS VSS) nmos4
+M1 (VOUT1 VB1 IIN1 VSS) nmos4
+R0 (VDD VOUT1) resistor

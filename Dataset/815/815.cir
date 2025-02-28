@@ -1,0 +1,20 @@
+Q13 (VSS net28 LOGICQ1 0) npn
+Q12 (VSS net26 LOGICQ2 0) npn
+Q11 (net27 VLATCH1 IB6 0) npn
+Q10 (net23 VTRACK1 IB6 0) npn
+Q9 (net28 LOGICQ2 net27 0) npn
+Q8 (net26 LOGICQ1 net27 0) npn
+Q7 (net28 IB5 net23 0) npn
+Q6 (net26 IB4 net23 0) npn
+Q5 (VSS net19 IB5 0) npn
+Q4 (VSS net17 IB4 0) npn
+Q3 (net19 IB2 IB3 0) npn
+Q2 (net17 IB1 IB3 0) npn
+Q1 (VSS VREF1 IB2 0) npn
+Q0 (VSS VIN1 IB1 0) npn
+R5 (LOGICQ1 VDD) resistor
+R4 (LOGICQ2 VDD) resistor
+R3 (VSS net28) resistor
+R2 (VSS net26) resistor
+R1 (VSS net19) resistor
+R0 (VSS net17) resistor

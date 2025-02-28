@@ -1,0 +1,9 @@
+R0 (IB2 IB1) resistor
+Q7 (net8 VIN2 IB2 0) npn
+Q6 (net5 VIN1 IB1 0) npn
+Q5 (IOUT2 IIN2 net8 0) npn
+Q4 (IIN2 IIN2 VSS 0) npn
+Q3 (IOUT1 IIN2 net5 0) npn
+Q2 (IIN1 IIN1 VSS 0) npn
+Q1 (IOUT1 IIN1 net8 0) npn
+Q0 (IOUT2 IIN1 net5 0) npn

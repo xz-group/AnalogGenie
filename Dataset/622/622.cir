@@ -1,0 +1,5 @@
+R1 (VDD net5) resistor
+R0 (net9 VSS) resistor
+Q0 (net4 net4 VSS 0) npn
+Q2 (IOUT1 net5 net9 0) npn
+Q3 (net5 net5 net4 0) npn

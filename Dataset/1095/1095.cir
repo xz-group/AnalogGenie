@@ -1,0 +1,13 @@
+Q6 (IB1 IB1 VSS 0) npn
+Q5 (net14 IB1 VSS 0) npn
+Q4 (net10 IB1 VSS 0) npn
+Q3 (IOUT2 VLO1 net26 0) npn
+Q2 (IOUT1 VLO2 net27 0) npn
+Q1 (IOUT2 VLO2 net24 0) npn
+Q0 (IOUT1 VLO1 net25 0) npn
+R3 (net14 net26) resistor
+R2 (net14 net27) resistor
+R1 (net10 net24) resistor
+R0 (net10 net25) resistor
+C1 (net14 VRF2) capacitor
+C0 (net10 VRF1) capacitor

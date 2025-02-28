@@ -1,0 +1,35 @@
+L9 (net11 net17) inductor
+L8 (net6 net11) inductor
+L7 (net33 net17) inductor
+L6 (net34 net6) inductor
+L5 (net15 net38) inductor
+L4 (net37 net15) inductor
+L3 (net12 net16) inductor
+L2 (net9 net12) inductor
+L1 (VSS net16) inductor
+L0 (VSS net9) inductor
+C3 (net14 net17) capacitor
+C2 (net14 net6) capacitor
+C1 (VSS net16) capacitor
+C0 (VSS net9) capacitor
+R12 (net14 VDD) resistor
+R11 (VB1 net14) resistor
+R10 (VSS VB1) resistor
+R9 (net28 VDD) resistor
+R8 (net13 net28) resistor
+R7 (VSS net13) resistor
+R6 (net15 net29) resistor
+R5 (VSS net15) resistor
+R4 (VSS net4) resistor
+R3 (net31 VDD) resistor
+R2 (net32 VDD) resistor
+R1 (VSS net12) resistor
+R0 (VSS net12) resistor
+Q5 (net4 net4 net31 0) npn
+Q4 (net11 net4 net32 0) npn
+Q3 (net36 net38 net33 0) npn
+Q2 (net35 net37 net34 0) npn
+Q1 (net16 net13 net36 0) npn
+Q0 (net9 net13 net35 0) npn
+D1 (net30 VDD) diode
+D0 (net29 net30) diode

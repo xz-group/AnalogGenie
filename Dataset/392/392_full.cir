@@ -1,0 +1,33 @@
+// Library name: tutorial_test
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: tutorial_test
+// Cell name: TRANSMISSION_GATE
+// View name: schematic
+subckt TRANSMISSION_GATE A B C VDD VSS
+    M1 (A C B VSS) nmos4
+    M13 (A net9 B VDD) pmos4
+    I0 (C net9 VDD VSS) INVERTER
+ends TRANSMISSION_GATE
+// End of subcircuit definition.
+
+// Library name: tutorial_test
+// Cell name: 392
+// View name: schematic
+M3 (net014 VIN1 net015 VSS) nmos4
+M5 (net017 VIN2 net015 VSS) nmos4
+M1 (net015 net21 VSS VSS) nmos4
+M2 (VDD net017 net22 VSS) nmos4
+M4 (VDD net014 net22 VSS) nmos4
+R0 (net22 VSS) resistor
+I9 (net22 net21 VCLK1 VDD VSS) TRANSMISSION_GATE
+M8 (net014 VB1 VDD VDD) pmos4
+M9 (net017 VB1 VDD VDD) pmos4
+C0 (net014 net21) capacitor
+C1 (net21 net017) capacitor

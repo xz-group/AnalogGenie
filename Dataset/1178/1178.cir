@@ -1,0 +1,8 @@
+L0 (IB1 VOUT1) inductor
+L3 (VOUT2 net28) inductor
+L2 (VOUT1 net22) inductor
+L1 (IB1 VOUT2) inductor
+M1 (VOUT2 VOUT1 VSS VSS) nmos4
+M0 (VOUT1 VOUT2 VSS VSS) nmos4
+M3 (VCONT1 net28 VCONT1 VDD) pmos4
+M2 (VCONT1 net22 VCONT1 VDD) pmos4

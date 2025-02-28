@@ -1,0 +1,1 @@
+D. Van Maaren, J. Klijn and G. C. M. Meijer, "An integrated micropower low-voltage temperature-controlled oscillator," in IEEE Journal of Solid-State Circuits, vol. 17, no. 6, pp. 1197-1201, Dec. 1982, doi: 10.1109/JSSC.1982.1051881. keywords: {Oscillators;Temperature;Circuits;Voltage;Clocks;Frequency;Telemetry;Batteries;Electrons;Biomedical measurements},

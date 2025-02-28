@@ -1,0 +1,1 @@
+A. Mazzanti and P. Andreani, "A Push–Pull Class-C CMOS VCO," in IEEE Journal of Solid-State Circuits, vol. 48, no. 3, pp. 724-732, March 2013, doi: 10.1109/JSSC.2012.2230542. keywords: {Phase noise;MOSFETs;Voltage-controlled oscillators;Class-C;CMOS;phase noise;push–pull;voltage controlled oscillator (VCO)},

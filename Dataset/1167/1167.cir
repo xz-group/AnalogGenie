@@ -1,0 +1,39 @@
+M5 (net36 net45 VSS net49) nmos4
+M4 (net23 net26 VSS net39) nmos4
+M3 (net30 net50 net28 net51) nmos4
+M2 (net31 net52 net29 net53) nmos4
+M0 (net43 net41 VSS net47) nmos4
+M1 (net41 net43 VSS net42) nmos4
+L5 (VDD net36) inductor
+L4 (VDD net23) inductor
+L3 (net45 net43) inductor
+L2 (net26 net41) inductor
+L1 (VDD net45) inductor
+L0 (VDD net26) inductor
+R11 (net49 VSS) resistor
+R10 (net39 VSS) resistor
+R9 (net47 VSS) resistor
+R8 (net42 VSS) resistor
+R7 (net30 VSS) resistor
+R6 (net28 VSS) resistor
+R5 (net50 VB2) resistor
+R4 (VSS net51) resistor
+R3 (net31 VSS) resistor
+R2 (net29 VSS) resistor
+R1 (net52 VB1) resistor
+R0 (VSS net53) resistor
+C16 (VDD VSS) capacitor
+C15 (VOUT2 net36) capacitor
+C14 (VDD VSS) capacitor
+C13 (VOUT1 net23) capacitor
+C12 (net30 net45) capacitor
+C10 (net28 net26) capacitor
+C8 (VDD VSS) capacitor
+C7 (net31 net45) capacitor
+C6 (net31 net45) capacitor
+C5 (net29 net26) capacitor
+C4 (net29 net26) capacitor
+C3 (VCONT2 VSS) capacitor
+C2 (VCONT2 net43) capacitor
+C1 (VCONT1 VSS) capacitor
+C0 (VCONT1 net41) capacitor

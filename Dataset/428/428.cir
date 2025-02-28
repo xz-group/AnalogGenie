@@ -1,0 +1,5 @@
+M0 (net5 net3 VSS VSS) nmos4
+L0 (net5 net3) inductor
+C1 (net5 VSS) capacitor
+C0 (net3 VSS) capacitor
+R0 (VDD net5) resistor

@@ -1,0 +1,6 @@
+R0 (VDD net6) resistor
+Q4 (net6 net6 VSS 0) npn
+Q0 (IOUT1 net6 VSS 0) npn
+Q1 (net6 net6 VSS 0) npn
+Q3 (IOUT1 net6 VSS 0) npn
+Q2 (IOUT1 net6 VSS 0) npn

@@ -1,0 +1,6 @@
+Q0 (net23 VIN1 net22 0) npn
+Q3 (IB1 IB1 VSS 0) npn
+Q2 (net22 IB1 VSS 0) npn
+Q1 (VOUT1 VIN2 net22 0) npn
+Q5 (VOUT1 net23 VDD 0) pnp
+Q4 (net23 net23 VDD 0) pnp

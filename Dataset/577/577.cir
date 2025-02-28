@@ -1,0 +1,24 @@
+R6 (VDD net032) resistor
+R7 (VDD net049) resistor
+R3 (VDD LOGICQ1) resistor
+R2 (VDD LOGICQ1) resistor
+R1 (VDD net18) resistor
+R0 (VDD net028) resistor
+M23 (net033 VCLK2 IB3 VSS) nmos4
+M22 (net049 LOGICD1 net029 VSS) nmos4
+M18 (net029 VCLK1 IB3 VSS) nmos4
+M19 (net049 net032 net033 VSS) nmos4
+M20 (net032 net049 net033 VSS) nmos4
+M21 (net032 LOGICD1 net029 VSS) nmos4
+M11 (net27 VCLK1 IB2 VSS) nmos4
+M10 (net23 VCLK2 IB2 VSS) nmos4
+M9 (LOGICQ1 net032 net27 VSS) nmos4
+M8 (LOGICQ1 net028 net23 VSS) nmos4
+M7 (LOGICQ1 net049 net27 VSS) nmos4
+M6 (LOGICQ1 net18 net23 VSS) nmos4
+M5 (net19 VCLK2 IB1 VSS) nmos4
+M4 (net15 VCLK1 IB1 VSS) nmos4
+M3 (net028 net18 net19 VSS) nmos4
+M2 (net18 net028 net19 VSS) nmos4
+M1 (net18 LOGICD1 net15 VSS) nmos4
+M0 (net028 LOGICD1 net15 VSS) nmos4

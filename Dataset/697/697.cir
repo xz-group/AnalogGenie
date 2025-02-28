@@ -1,0 +1,3 @@
+M0 (VSS net2 IB1 VSS) pmos4
+C0 (net2 IB1) capacitor
+R0 (VSS net2) resistor

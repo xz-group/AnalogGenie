@@ -1,0 +1,6 @@
+M2 (net07 net07 VSS VSS) nmos4
+M1 (IOUT1 net07 VSS VSS) nmos4
+M4 (IOUT2 net07 net19 VSS) nmos4
+M5 (net19 net07 VSS VSS) nmos4
+M3 (IOUT1 net07 VSS VSS) nmos4
+R0 (VDD net07) resistor

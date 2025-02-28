@@ -1,0 +1,22 @@
+L8 (net12 VB2) inductor
+L7 (net7 VB2) inductor
+L6 (net24 net15) inductor
+L5 (net26 net5) inductor
+L4 (net15 VSS) inductor
+L3 (net5 VSS) inductor
+L2 (net13 VB3) inductor
+L1 (VB3 net8) inductor
+L0 (net9 net11) inductor
+R0 (net9 net11) resistor
+Q4 (net11 net13 net15 0) npn
+Q3 (net9 net8 net5 0) npn
+Q0 (net11 net11 net9 0) npn
+Q1 (net9 net9 net11 0) npn
+C7 (net12 net23) capacitor
+C6 (net23 net24) capacitor
+C5 (VB1 net12) capacitor
+C4 (VB1 net7) capacitor
+C3 (net7 net25) capacitor
+C2 (net25 net26) capacitor
+C1 (net11 net8) capacitor
+C0 (net9 net13) capacitor

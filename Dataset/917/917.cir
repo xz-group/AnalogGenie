@@ -1,0 +1,13 @@
+R3 (net23 VSS) resistor
+R2 (net24 VSS) resistor
+R1 (VDD VOUT1) resistor
+R0 (VDD net8) resistor
+D1 (VDD VOUT1) diode
+D0 (VDD net8) diode
+Q5 (net11 VIN1 net23 0) npn
+Q4 (net7 VIN1 net24 0) npn
+Q3 (VOUT1 IB2 net11 0) npn
+Q2 (net8 IB1 net7 0) npn
+Q1 (VDD VOUT1 IB1 0) npn
+Q0 (VDD net8 IB2 0) npn
+C0 (net11 net7) capacitor

@@ -1,0 +1,7 @@
+R3 (net8 VCM1) resistor
+R2 (VCM1 net13) resistor
+R1 (net11 VSS) resistor
+R0 (net12 VSS) resistor
+D0 (net13 net11) diode
+Q2 (VDD VB1 net8 0) npn
+Q1 (net8 net13 net12 0) npn

@@ -1,0 +1,5 @@
+R2 (VSS net7) resistor
+R1 (IIN1 net7) resistor
+R0 (VDD net6) resistor
+M1 (IOUT1 net6 net7 VSS) nmos4
+M0 (net6 IIN1 VSS VSS) nmos4

@@ -1,0 +1,7 @@
+M2 (VOUT1 net13 VDD VDD) pmos4
+M1 (net13 VB1 VDD VDD) pmos4
+M3 (VDD net17 IB1 VSS) nmos4
+M0 (net13 VIN1 IB1 VSS) nmos4
+R2 (VOUT1 VSS) resistor
+R1 (net17 VB2) resistor
+R0 (net17 VOUT1) resistor

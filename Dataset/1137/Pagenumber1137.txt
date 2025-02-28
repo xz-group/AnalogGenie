@@ -1,0 +1,1 @@
+N. H. W. Fong et al., "Design of wide-band CMOS VCO for multiband wireless LAN applications," in IEEE Journal of Solid-State Circuits, vol. 38, no. 8, pp. 1333-1342, Aug. 2003, doi: 10.1109/JSSC.2003.814440. keywords: {Wideband;Voltage-controlled oscillators;Wireless LAN;Phase noise;Tuning;Design methodology;Inductors;Varactors;Noise measurement;Phase measurement},

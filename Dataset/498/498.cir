@@ -1,0 +1,5 @@
+M2 (VIF2 VLO2 net4 VSS) nmos4
+M3 (VIF1 VLO1 net4 VSS) nmos4
+M0 (net4 VRF1 VSS VSS) nmos4
+R1 (VDD VIF2) resistor
+R0 (VDD VIF1) resistor

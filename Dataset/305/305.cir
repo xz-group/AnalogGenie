@@ -1,0 +1,10 @@
+M1 (net037 VB4 VSS VSS) nmos4
+M3 (net039 VB4 VSS VSS) nmos4
+M4 (VOUT1 VB1 net037 VSS) nmos4
+M5 (VOUT2 VB1 net039 VSS) nmos4
+R5 (VCM1 VOUT2) resistor
+R6 (VOUT1 VCM1) resistor
+M6 (VOUT1 VB2 net033 VDD) pmos4
+M7 (VOUT2 VB2 net034 VDD) pmos4
+M8 (net033 VB3 VDD VDD) pmos4
+M9 (net034 VB3 VDD VDD) pmos4

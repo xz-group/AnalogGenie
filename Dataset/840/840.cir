@@ -1,0 +1,3 @@
+Q2 (IOUT1 IIN1 net5 0) npn
+Q1 (net5 net5 VSS 0) npn
+Q0 (IIN1 net5 VSS 0) npn

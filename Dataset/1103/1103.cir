@@ -1,0 +1,14 @@
+M3 (VDD net12 net23 VSS) nmos4
+M2 (VDD net12 net22 VSS) nmos4
+M1 (net22 net15 VSS VSS) nmos4
+M0 (net23 net6 VSS VSS) nmos4
+R4 (VB1 net15) resistor
+R3 (VB1 net6) resistor
+R2 (net20 net15) resistor
+R1 (net21 net6) resistor
+R0 (VB1 net12) resistor
+C4 (VDD VDD) capacitor
+C3 (net15 VIN2) capacitor
+C2 (net6 VIN1) capacitor
+C1 (VDD net20) capacitor
+C0 (VDD net21) capacitor

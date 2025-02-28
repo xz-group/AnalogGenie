@@ -1,0 +1,7 @@
+M1 (IB1 IB1 net10 VSS) nmos4
+M0 (VOUT1 IB1 net6 VSS) nmos4
+R3 (net11 VIN1) resistor
+R2 (VDD VOUT1) resistor
+R1 (net10 VSS) resistor
+R0 (net6 VSS) resistor
+C0 (net6 net11) capacitor

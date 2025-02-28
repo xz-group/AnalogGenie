@@ -1,0 +1,9 @@
+R0 (net16 net13) resistor
+Q8 (VDD IB2 IB4 0) npn
+Q7 (IOUT2 IB4 VSS 0) npn
+Q6 (IB2 VIN2 net16 0) npn
+Q5 (net16 IB4 VSS 0) npn
+Q4 (VDD IB1 IB3 0) npn
+Q3 (IOUT1 IB3 VSS 0) npn
+Q2 (IB1 VIN1 net13 0) npn
+Q1 (net13 IB3 VSS 0) npn

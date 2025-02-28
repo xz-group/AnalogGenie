@@ -1,0 +1,12 @@
+R5 (VDD net16) resistor
+R4 (VDD net15) resistor
+R3 (VDD net9) resistor
+R2 (VDD net11) resistor
+R1 (VDD net8) resistor
+R0 (VDD net6) resistor
+M5 (net15 net9 IB3 VSS) nmos4
+M4 (net16 net11 IB3 VSS) nmos4
+M3 (net11 net6 IB2 VSS) nmos4
+M2 (net9 net8 IB2 VSS) nmos4
+M1 (net8 net15 IB1 VSS) nmos4
+M0 (net6 net16 IB1 VSS) nmos4

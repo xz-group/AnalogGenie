@@ -1,0 +1,17 @@
+L3 (net11 net13) inductor
+L2 (net11 net15) inductor
+L1 (VDD net14) inductor
+L0 (VDD net9) inductor
+Q1 (net14 net12 net13 0) npn
+Q0 (net9 net12 net15 0) npn
+C8 (VOUT3 net11) capacitor
+C7 (VOUT2 net14) capacitor
+C6 (VOUT1 net9) capacitor
+C5 (net14 net13) capacitor
+C4 (net9 net15) capacitor
+C3 (net13 VB3) capacitor
+C2 (net15 VB3) capacitor
+C1 (VB2 net13) capacitor
+C0 (VB2 net15) capacitor
+R1 (net11 VSS) resistor
+R0 (VB1 net12) resistor

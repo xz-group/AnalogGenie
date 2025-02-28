@@ -1,0 +1,12 @@
+M5 (net21 VRF2 IB1 VSS) nmos4
+M4 (net17 VRF1 IB1 VSS) nmos4
+M3 (VOUT1 VLO2 net21 VSS) nmos4
+M2 (VOUT2 VLO1 net21 VSS) nmos4
+M1 (VOUT2 VLO2 net17 VSS) nmos4
+M0 (VOUT1 VLO1 net17 VSS) nmos4
+R5 (VB1 VLO2) resistor
+R4 (VLO1 VB1) resistor
+R3 (VB2 VRF2) resistor
+R2 (VRF1 VB2) resistor
+R1 (VDD VOUT2) resistor
+R0 (VDD VOUT1) resistor

@@ -1,0 +1,8 @@
+Q5 (IOUT1 net17 VSS 0) npn
+Q4 (net19 net19 net14 0) npn
+Q0 (VDD IB1 net19 0) npn
+Q3 (net21 net21 net17 0) npn
+Q2 (IB1 net14 VSS 0) npn
+Q1 (VDD IB1 net21 0) npn
+R1 (net17 VSS) resistor
+R0 (net14 VSS) resistor

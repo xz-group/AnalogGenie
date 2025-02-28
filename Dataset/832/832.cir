@@ -1,0 +1,10 @@
+Q2 (VDD net8 VOUT1 0) npn
+Q1 (net8 net17 net7 0) npn
+Q0 (net17 net17 net16 0) npn
+M1 (net7 VIN1 VSS VSS) nmos4
+M0 (net16 net16 VSS VSS) nmos4
+R4 (VIN1 VOUT1) resistor
+R3 (VOUT1 VSS) resistor
+R2 (VDD net7) resistor
+R1 (VDD net17) resistor
+R0 (VDD net8) resistor

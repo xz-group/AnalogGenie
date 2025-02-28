@@ -1,0 +1,29 @@
+// Library name: research_schematics
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: research_schematics
+// Cell name: TRANSMISSION_GATE
+// View name: schematic
+subckt TRANSMISSION_GATE A B C VDD VSS
+    M0 (A C B VSS) nmos4
+    M1 (A net8 B VDD) pmos4
+    I1 (C net8 VDD VSS) INVERTER
+ends TRANSMISSION_GATE
+// End of subcircuit definition.
+
+// Library name: research_schematics
+// Cell name: schem576
+// View name: schematic
+M3 (net15 IREF1 VSS VSS) nmos4
+M2 (net028 IREF1 VSS VSS) nmos4
+M1 (net11 IREF1 VSS VSS) nmos4
+M0 (IREF1 IREF1 VSS VSS) nmos4
+I13 (net028 IOUT1 VCONT1 VDD VSS) TRANSMISSION_GATE
+I12 (net028 IOUT1 VCONT2 VDD VSS) TRANSMISSION_GATE
+I11 (net15 IOUT1 VCONT3 VDD VSS) TRANSMISSION_GATE

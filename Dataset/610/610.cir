@@ -1,0 +1,6 @@
+R0 (IB1 net8) resistor
+M4 (net8 net8 VSS VSS) nmos4
+M3 (net16 net8 VSS VSS) nmos4
+M2 (net15 net8 VSS VSS) nmos4
+M1 (IOUT2 IB1 net15 VSS) nmos4
+M0 (IOUT1 IB1 net16 VSS) nmos4

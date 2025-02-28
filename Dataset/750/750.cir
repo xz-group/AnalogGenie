@@ -1,0 +1,4 @@
+C0 (net3 VSS) capacitor
+M1 (VDD net3 VOUT1 VSS) nmos4
+M0 (VIN1 VCLK1 net3 VSS) nmos4
+R0 (VOUT1 VSS) resistor

@@ -1,0 +1,7 @@
+R1 (VDD VOUT2) resistor
+R0 (VDD VOUT1) resistor
+M2 (VOUT2 VIN2 net3 net13) nmos4
+M3 (VOUT1 VIN1 net3 net13) nmos4
+M1 (IB1 IB1 net13 net13) nmos4
+M0 (net3 IB1 net13 net13) nmos4
+L0 (VSS net13) inductor

@@ -1,0 +1,4 @@
+M3 (net14 VDD VSS net6) nmos4
+M2 (net6 VDD VSS net6) nmos4
+M1 (IOUT1 VB1 net14 IIN1) nmos4
+M0 (IIN1 VB1 net6 IIN1) nmos4

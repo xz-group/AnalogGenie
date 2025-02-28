@@ -1,0 +1,30 @@
+Q6 (VOUT1 IB1 VDD 0) pnp
+Q5 (VSS net18 net24 0) pnp
+Q4 (IB1 net24 VDD 0) pnp
+Q3 (VSS net19 net18 0) pnp
+Q2 (VSS net19 net19 0) pnp
+Q1 (IB2 VTRACK1 net12 0) pnp
+Q0 (IB2 VHOLD1 net11 0) pnp
+M11 (net18 net16 net20 VDD) pmos4
+M10 (net19 IB1 net20 VDD) pmos4
+M9 (net24 IB3 net33 VDD) pmos4
+M8 (net33 net15 VDD VDD) pmos4
+M7 (net34 net15 VDD VDD) pmos4
+M6 (net20 IB3 net34 VDD) pmos4
+M5 (net12 IB3 net35 VDD) pmos4
+M4 (net35 net15 VDD VDD) pmos4
+M3 (net38 net15 VDD VDD) pmos4
+M2 (net11 IB3 net38 VDD) pmos4
+M1 (IB3 IB3 net15 VDD) pmos4
+M0 (net15 net15 VDD VDD) pmos4
+D5 (net32 net11) diode
+D4 (net12 net36) diode
+D3 (net16 net12) diode
+D2 (VIN1 net12) diode
+D1 (net11 net16) diode
+D0 (net11 VIN1) diode
+C1 (net24 net18) capacitor
+C0 (net16 VSS) capacitor
+R2 (VOUT1 VSS) resistor
+R1 (net32 IB1) resistor
+R0 (net36 IB1) resistor

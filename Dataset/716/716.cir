@@ -1,0 +1,12 @@
+R3 (IB1 net020) resistor
+R2 (VDD VOUT2) resistor
+R1 (VDD VOUT1) resistor
+R0 (IB4 net013) resistor
+C1 (net020 VOUT2) capacitor
+C0 (net013 VOUT1) capacitor
+M4 (IB1 VB1 IB2 VSS) nmos4
+M1 (VOUT2 IB1 VSS VSS) nmos4
+M0 (IB4 VB2 IB3 VSS) nmos4
+M18 (VOUT1 IB4 VSS VSS) nmos4
+M3 (IB2 VIN2 IB5 VDD) pmos4
+M2 (IB3 VIN1 IB5 VDD) pmos4

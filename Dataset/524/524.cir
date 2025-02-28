@@ -1,0 +1,8 @@
+C1 (VDD net016) capacitor
+C0 (VDD net014) capacitor
+M0 (net016 net014 VSS VSS) nmos4
+M3 (net014 net016 VSS VSS) nmos4
+R0 (VDD net016) resistor
+R2 (VDD net014) resistor
+L0 (VDD net016) inductor
+L2 (VDD net014) inductor

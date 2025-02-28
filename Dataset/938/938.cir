@@ -1,0 +1,4 @@
+R2 (net6 VSS) resistor
+R1 (VREF1 net6) resistor
+R0 (VDD VREF1) resistor
+Q0 (VSS net6 VREF1 0) pnp

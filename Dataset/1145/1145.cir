@@ -1,0 +1,13 @@
+M0 (net56 net54 VDD VDD) pmos4
+M1 (net54 net56 VDD VDD) pmos4
+L2 (net48 VB1) inductor
+L1 (net53 VB2) inductor
+L0 (net54 net56) inductor
+C7 (VLO1 net53) capacitor
+C6 (VLO2 net48) capacitor
+C1 (net56 VB3) capacitor
+C0 (net54 VB3) capacitor
+M5 (VDD net56 net53 VSS) nmos4
+M4 (VDD net54 net48 VSS) nmos4
+M3 (net56 net54 VSS VSS) nmos4
+M2 (net54 net56 VSS VSS) nmos4

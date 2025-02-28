@@ -1,0 +1,8 @@
+R1 (VDD VOUT2) resistor
+R1 (VDD VOUT1) resistor
+M5 (net8 VCONT1 IB1 VSS) nmos4
+M4 (net15 VCONT2 IB1 VSS) nmos4
+M3 (VOUT1 VIN4 net15 VSS) nmos4
+M2 (VOUT2 VIN3 net15 VSS) nmos4
+M1 (VOUT2 VIN2 net8 VSS) nmos4
+M0 (VOUT1 VIN1 net8 VSS) nmos4

@@ -1,0 +1,3 @@
+M1 (net8 VB1 IB1 VDD) pmos4
+M0 (IB1 VIN1 VSS VSS) nmos4
+R0 (net8 VSS) resistor

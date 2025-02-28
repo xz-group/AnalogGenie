@@ -1,0 +1,25 @@
+M5 (VOUT4 VOUT3 net13 net51) nmos4
+M4 (VOUT3 VOUT4 net13 net53) nmos4
+M1 (VOUT2 VOUT1 net13 net52) nmos4
+M0 (VOUT1 VOUT2 net13 net54) nmos4
+C8 (net51 VOUT1) capacitor
+C5 (net53 VOUT2) capacitor
+C4 (net52 VOUT4) capacitor
+C3 (net54 VOUT3) capacitor
+C2 (net50 net13) capacitor
+C6 (VCONT2 VOUT3) capacitor
+C0 (VCONT1 VOUT1) capacitor
+C7 (VCONT2 VOUT4) capacitor
+C1 (VCONT1 VOUT2) capacitor
+M11 (VOUT4 VOUT3 net50 VDD) pmos4
+M10 (VOUT3 VOUT4 net50 VDD) pmos4
+M9 (VOUT2 VOUT1 net50 VDD) pmos4
+M8 (VOUT1 VOUT2 net50 VDD) pmos4
+R5 (net51 VSS) resistor
+R4 (net53 VSS) resistor
+R3 (net54 VSS) resistor
+R2 (net52 VSS) resistor
+R1 (net13 VSS) resistor
+R0 (VDD net50) resistor
+L1 (VOUT3 VOUT4) inductor
+L0 (VOUT1 VOUT2) inductor

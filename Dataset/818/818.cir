@@ -1,0 +1,17 @@
+Q0 (VDD VIN1 net44 0) npn
+Q9 (VDD net56 VOUT1 0) npn
+Q8 (VDD net53 VOUT1 0) npn
+Q7 (VDD VCONT4 net50 0) npn
+Q6 (net56 VIN1 net50 0) npn
+Q5 (net56 VCONT3 net48 0) npn
+Q4 (VDD VIN1 net48 0) npn
+Q3 (VOUT2 VCONT2 net47 0) npn
+Q2 (net53 VIN1 net47 0) npn
+Q1 (net53 VCONT1 net44 0) npn
+R6 (VDD VOUT2) resistor
+R5 (net50 VSS) resistor
+R4 (net48 VSS) resistor
+R3 (net47 VSS) resistor
+R2 (net44 VSS) resistor
+R1 (VDD net56) resistor
+R0 (VDD net53) resistor

@@ -1,0 +1,7 @@
+M5 (net02 net07 VSS 0) npn
+M4 (IB1 net07 VSS 0) npn
+M3 (net05 net02 net07 0) npn
+R0 (net07 VSS) resistor
+M2 (IB2 net05 VDD 0) pnp
+M1 (net02 net05 VDD 0) pnp
+M0 (net05 net05 VDD 0) pnp

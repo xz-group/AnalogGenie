@@ -1,0 +1,8 @@
+R0 (net019 net015) resistor
+M3 (net03 net03 net011 VSS) nmos4
+M1 (net014 net03 net019 VSS) nmos4
+Q1 (VSS VSS net015 0) pnp
+Q0 (VSS VSS net011 0) pnp
+M4 (net014 net014 VDD VDD) pmos4
+M6 (IOUT1 net014 VDD VDD) pmos4
+M5 (net03 net014 VDD VDD) pmos4

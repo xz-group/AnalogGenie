@@ -1,0 +1,16 @@
+C1 (net07 net06) capacitor
+C0 (VOUT1 net045) capacitor
+M3 (net06 VCLK1 VSS VSS) nmos4
+M2 (net045 VCLK2 net06 VSS) nmos4
+M1 (net07 VCLK1 VIN1 VSS) nmos4
+M0 (VOUT1 VCLK2 net07 VSS) nmos4
+M14 (net041 net045 IB1 net046) nmos4
+M15 (net042 VSS IB1 net046) nmos4
+M20 (VOUT1 VB1 net043 VSS) nmos4
+M16 (net038 VB1 net047 VSS) nmos4
+M18 (net043 net038 VSS VSS) nmos4
+M17 (net047 net038 VSS VSS) nmos4
+M23 (net042 VB3 VDD VDD) pmos4
+M21 (net041 VB3 VDD VDD) pmos4
+M22 (net038 VB2 net042 VDD) pmos4
+M19 (VOUT1 VB2 net041 VDD) pmos4

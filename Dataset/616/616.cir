@@ -1,0 +1,5 @@
+Q0 (VOUT1 VIN1 net1 0) npn
+Q1 (VOUT2 VIN2 net1 0) npn
+R3 (net1 VSS) resistor
+R2 (VDD VOUT2) resistor
+R1 (VDD VOUT1) resistor

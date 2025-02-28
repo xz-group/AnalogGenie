@@ -1,0 +1,3 @@
+L0 (VDD VOUT1) inductor
+M1 (VOUT1 VB1 net9 VSS) nmos4
+M0 (net9 VIN1 VSS VSS) nmos4

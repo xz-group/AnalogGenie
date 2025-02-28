@@ -1,0 +1,11 @@
+L0 (net13 net25) inductor
+M9 (net24 net13 VSS VSS) nmos4
+M8 (net9 net25 VSS VSS) nmos4
+M7 (net25 VCONT4 net24 VSS) nmos4
+M6 (net9 VCONT3 net13 VSS) nmos4
+M3 (VCONT2 net25 VCONT2 VSS) nmos4
+M2 (VCONT2 net13 VCONT2 VSS) nmos4
+M1 (VCONT1 net25 VCONT1 VSS) nmos4
+M0 (VCONT1 net13 VCONT1 VSS) nmos4
+M5 (net24 net13 IB1 VDD) pmos4
+M4 (net9 net25 IB1 VDD) pmos4

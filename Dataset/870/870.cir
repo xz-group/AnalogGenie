@@ -1,0 +1,5 @@
+R3 (net8 VCM1) resistor
+D1 (net010 VB1) diode
+D0 (IB1 net010) diode
+Q2 (VDD IB1 net8 0) npn
+Q0 (VSS VB1 net8 0) pnp

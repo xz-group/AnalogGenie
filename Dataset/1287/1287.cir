@@ -1,0 +1,35 @@
+MM8 (net9 net9 VSS VSS) nmos4
+MM7 (net38 net9 VSS VSS) nmos4
+MM3 (net20 VREF1 net16 VSS) nmos4
+MM0 (net11 net35 net16 VSS) nmos4
+MM4 (net16 net1005 VSS VSS) nmos4
+MM6 (net9 net11 VDD VDD) pmos4
+MM5 (net38 net20 VDD VDD) pmos4
+MM1 (net20 net20 VDD VDD) pmos4
+MM2 (net11 net11 VDD VDD) pmos4
+MM1 (net1005 net1005 VSS VSS) nmos4
+MM0 (VB1 net6 VSS VSS) nmos4
+MM8 (net6 net6 VSS VSS) nmos4
+MM2 (net1005 VB1 VDD VDD) pmos4
+MM3 (VB1 VB1 VDD VDD) pmos4
+MM10 (net6 net1006 VDD VDD) pmos4
+RR1 (net1006 VSS) resistor
+MM2 (net1006 net1006 VDD VDD) pmos4
+M16 (net33 net18 net014 net014) pmos4
+M15 (net18 net18 net014 net014) pmos4
+M11 (net27 net38 net014 net014) pmos4
+M4 (net20 VCONT5 VOUT1 VOUT1) pmos4
+M2 (net15 VCONT3 VIN1 VIN1) pmos4
+M1 (net33 VCONT2 VIN1 VIN1) pmos4
+M0 (net014 VCONT1 VIN1 VIN1) pmos4
+C2 (VOUT1 VSS) capacitor
+C1 (VOUT1 net36) capacitor
+C0 (net33 net15) capacitor
+L0 (net33 net20) inductor
+M14 (net27 VB2 VSS VSS) nmos4
+M13 (net18 net27 VSS VSS) nmos4
+M12 (net27 net27 VSS VSS) nmos4
+M3 (net20 VCONT4 VSS VSS) nmos4
+R1 (net35 VSS) resistor
+R0 (VOUT1 net35) resistor
+D0 (net36 net15) diode

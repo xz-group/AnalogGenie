@@ -1,0 +1,13 @@
+M7 (net36 net18 net31 VSS) nmos4
+M6 (net18 net18 net33 VSS) nmos4
+M5 (VREF1 net27 net32 VDD) pmos4
+M4 (net32 net36 VDD VDD) pmos4
+M0 (net37 net36 VDD VDD) pmos4
+M3 (net18 net27 net37 VDD) pmos4
+M1 (net35 net36 VDD VDD) pmos4
+M2 (net36 net27 net35 VDD) pmos4
+R1 (VREF1 net30) resistor
+R0 (net31 net34) resistor
+D2 (net30 VSS) diode
+D1 (net33 VSS) diode
+D0 (net34 VSS) diode

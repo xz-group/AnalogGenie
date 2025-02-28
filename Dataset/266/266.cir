@@ -1,0 +1,7 @@
+M1 (VOUT1 net18 net16 VSS) nmos4
+M0 (net18 net14 VSS VSS) nmos4
+R4 (net16 VSS) resistor
+R1 (VIN1 net14) resistor
+R2 (net14 net16) resistor
+R3 (VDD VOUT1) resistor
+R0 (VDD net18) resistor

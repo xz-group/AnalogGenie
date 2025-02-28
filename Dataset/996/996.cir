@@ -1,0 +1,40 @@
+M37 (net85 VSS net31 VDD) pmos4
+M20 (net43 net9 net62 VDD) pmos4
+M19 (net82 net39 net62 VDD) pmos4
+M13 (net79 net31 VDD VDD) pmos4
+M11 (VOUT1 net31 VDD VDD) pmos4
+M10 (net25 net31 VDD VDD) pmos4
+M9 (net51 net54 VDD VDD) pmos4
+M8 (net31 net29 VDD VDD) pmos4
+M7 (net20 net20 VDD VDD) pmos4
+M6 (net31 net20 VDD VDD) pmos4
+M5 (net88 VIN1 VDD VDD) pmos4
+M4 (net62 VB2 VDD VDD) pmos4
+M3 (net54 VB2 VDD VDD) pmos4
+M2 (net29 VB2 VDD VDD) pmos4
+M1 (net20 VB2 VDD VDD) pmos4
+M0 (net31 VB2 VDD VDD) pmos4
+C2 (VOUT1 net84) capacitor
+C1 (net85 VOUT1) capacitor
+C0 (VIN1 net88) capacitor
+M38 (net84 VDD net43 VSS) nmos4
+M36 (net43 VB1 VSS VSS) nmos4
+M35 (net82 VB1 VSS VSS) nmos4
+M34 (net51 VB1 VSS VSS) nmos4
+M33 (net39 VB1 VSS VSS) nmos4
+M32 (net25 VB1 VSS VSS) nmos4
+M31 (net19 VB1 VSS VSS) nmos4
+M30 (net9 VB1 VSS VSS) nmos4
+M29 (net43 net82 VSS VSS) nmos4
+M28 (net82 net82 VSS VSS) nmos4
+M27 (net43 net51 VSS VSS) nmos4
+M26 (net39 net44 VSS VSS) nmos4
+M25 (net44 net44 VSS VSS) nmos4
+M24 (net29 net25 VSS VSS) nmos4
+M23 (net88 net88 net9 VSS) nmos4
+M22 (net54 net43 VSS VSS) nmos4
+M21 (VOUT1 net43 VSS VSS) nmos4
+M18 (net20 VOUT1 net19 VSS) nmos4
+M17 (net31 net88 net19 VSS) nmos4
+M16 (net79 net79 net44 VSS) nmos4
+M14 (VDD VOUT1 net39 VSS) nmos4

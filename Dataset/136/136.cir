@@ -1,0 +1,7 @@
+R3 (net24 VIN1) resistor
+R2 (VDD VOUT1) resistor
+M3 (IB1 VB1 net23 VSS) nmos4
+M0 (net19 IB1 VSS VSS) nmos4
+M1 (net23 IB1 VSS VSS) nmos4
+M2 (VOUT1 VB1 net19 VSS) nmos4
+C0 (net19 net24) capacitor

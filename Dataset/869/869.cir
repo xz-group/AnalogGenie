@@ -1,0 +1,3 @@
+R3 (net8 VCM1) resistor
+Q2 (VDD VB1 net8 0) npn
+Q0 (VSS VB1 net8 0) pnp

@@ -1,0 +1,7 @@
+R3 (VDD VOUT1) resistor
+R2 (VOUT1 net7) resistor
+R1 (net8 VSS) resistor
+R0 (VOUT1 net6) resistor
+Q2 (VOUT1 net7 VSS 0) npn
+Q1 (net7 net6 net8 0) npn
+Q0 (net6 net6 VSS 0) npn

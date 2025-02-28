@@ -1,0 +1,5 @@
+M2 (VIN1 VCLK2 net014 VSS) nmos4
+M0 (VIN1 VCLK1 net014 VSS) nmos4
+M1 (VDD net014 VOUT1 net02) nmos4
+C0 (net014 net02) capacitor
+R0 (VOUT1 net02) resistor

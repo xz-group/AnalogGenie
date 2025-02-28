@@ -1,0 +1,15 @@
+L5 (net27 VOUT2) inductor
+L4 (net11 VOUT1) inductor
+L3 (VDD net17) inductor
+L2 (VDD net6) inductor
+L1 (VDD net27) inductor
+L0 (VDD net11) inductor
+M7 (net17 net6 VSS VSS) nmos4
+M6 (net17 VIN2 VSS VSS) nmos4
+M5 (net6 net17 VSS VSS) nmos4
+M4 (net6 VIN1 VSS VSS) nmos4
+M3 (net27 net11 VSS VSS) nmos4
+M2 (net27 net17 VIN2 VSS) nmos4
+M1 (net11 net27 VSS VSS) nmos4
+M0 (net11 net6 VSS VSS) nmos4
+C0 (VOUT1 VOUT2) capacitor

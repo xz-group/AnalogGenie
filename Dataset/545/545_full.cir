@@ -1,0 +1,25 @@
+// Library name: tutorial_test
+// Cell name: XOR
+// View name: schematic
+subckt XOR A B VDD VSS Y
+    M4 (Y B net06 VSS) nmos4
+    M0 (net06 A VSS VSS) nmos4
+    M6 (Y net06 B VSS) nmos4
+    M5 (Y B A VDD) pmos4
+    M1 (net06 A VDD VDD) pmos4
+    M13 (Y A B VDD) pmos4
+ends XOR
+// End of subcircuit definition.
+
+// Library name: tutorial_test
+// Cell name: 545
+// View name: schematic
+M1 (net8 VOUT1 net8 VSS) nmos4
+M4 (net8 VOUT2 net8 VSS) nmos4
+M3 (VOUT1 VOUT2 VSS VSS) nmos4
+M0 (VOUT2 VOUT1 VSS VSS) nmos4
+L1 (VIN1 VOUT2) inductor
+L0 (VIN1 VOUT1) inductor
+C0 (net8 VSS) capacitor
+R0 (net017 net8) resistor
+I4 (VIN1 VOUT2 VDD VSS net017) XOR

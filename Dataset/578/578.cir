@@ -1,0 +1,4 @@
+R0 (net6 VSS) resistor
+L0 (VDD net4) inductor
+M0 (net4 VIN1 VSS VSS) nmos4
+C0 (net4 net6) capacitor

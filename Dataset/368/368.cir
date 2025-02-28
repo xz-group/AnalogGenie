@@ -1,0 +1,4 @@
+M4 (net10 net7 VSS VSS) nmos4
+M0 (net7 net7 VSS VSS) nmos4
+M13 (net10 net10 VDD VDD) pmos4
+M1 (net7 net10 VDD VDD) pmos4

@@ -1,0 +1,9 @@
+M8 (net15 VCONT1 net12 VSS) nmos4
+M7 (IOUT2 IB2 VSS VSS) nmos4
+M6 (IOUT1 IB2 VSS VSS) nmos4
+M5 (net15 IB2 VSS VSS) nmos4
+M4 (net12 IB2 VSS VSS) nmos4
+M3 (IB1 VIN2 net15 VSS) nmos4
+M2 (IB1 VIN1 net12 VSS) nmos4
+M1 (VDD IB1 IB2 VSS) nmos4
+M0 (VDD IB1 IB2 VSS) nmos4

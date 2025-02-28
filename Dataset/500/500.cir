@@ -1,0 +1,8 @@
+M11 (net09 VRF2 VSS VSS) nmos4
+M10 (net08 VRF1 VSS VSS) nmos4
+M9 (VIF2 VLO2 net09 VSS) nmos4
+M8 (VIF2 VLO1 net08 VSS) nmos4
+M7 (VIF1 VLO2 net08 VSS) nmos4
+M6 (VIF1 VLO1 net09 VSS) nmos4
+R3 (VDD VIF2) resistor
+R2 (VDD VIF1) resistor

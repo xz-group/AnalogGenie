@@ -1,0 +1,1 @@
+Chan-Hong Park and Beomsup Kim, "A low-noise, 900-MHz VCO in 0.6-/spl mu/m CMOS," in IEEE Journal of Solid-State Circuits, vol. 34, no. 5, pp. 586-591, May 1999, doi: 10.1109/4.760367. keywords: {Voltage-controlled oscillators;CMOS technology;Tuning;Frequency measurement;Noise measurement;Phase measurement;Phase noise;Delay;Power supplies;Prototypes},

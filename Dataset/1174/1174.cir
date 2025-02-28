@@ -1,0 +1,15 @@
+L8 (net16 VDD) inductor
+L7 (VSS net18) inductor
+L6 (net16 net20) inductor
+L5 (net14 VDD) inductor
+L4 (VSS net15) inductor
+L3 (net14 net21) inductor
+L2 (VSS net13) inductor
+L1 (net19 net22) inductor
+L0 (net19 VDD) inductor
+M2 (net19 net20 net18 VSS) nmos4
+M1 (net16 net21 net15 VSS) nmos4
+M0 (net14 net22 net13 VSS) nmos4
+C2 (net18 VCONT3) capacitor
+C1 (net15 VCONT2) capacitor
+C0 (net13 VCONT1) capacitor

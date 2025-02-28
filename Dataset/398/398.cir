@@ -1,0 +1,5 @@
+M0 (IB3 VIN1 IB1 VSS) nmos4
+M10 (IB4 VIN2 IB2 VSS) nmos4
+R3 (IB1 IB2) resistor
+M2 (IB1 IB3 VDD VDD) pmos4
+M1 (IB2 IB4 VDD VDD) pmos4

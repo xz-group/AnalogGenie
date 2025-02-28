@@ -1,0 +1,5 @@
+R2 (net1 VB2) resistor
+R1 (VDD VB2) resistor
+R0 (VDD net1) resistor
+M1 (VB2 net1 VSS VSS) nmos4
+M0 (net1 VB1 VSS VSS) nmos4

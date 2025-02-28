@@ -1,0 +1,5 @@
+Q2 (net11 VIN1 net8 0) pnp
+Q1 (net6 VIN2 net8 0) pnp
+Q0 (net8 VB1 VDD 0) pnp
+Q4 (net11 net6 VSS 0) npn
+Q3 (net6 net6 VSS 0) npn

@@ -1,0 +1,10 @@
+R3 (net023 VB1) resistor
+R1 (net01 VB1) resistor
+C3 (net021 net023) capacitor
+C2 (net04 net01) capacitor
+M0 (net04 net021 IB1 VSS) nmos4
+M3 (net021 net04 IB1 VSS) nmos4
+M1 (VCONT1 net01 VCONT1 VSS) nmos4
+M4 (VCONT1 net023 VCONT1 VSS) nmos4
+L2 (VDD net021) inductor
+L0 (VDD net04) inductor

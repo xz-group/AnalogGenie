@@ -1,0 +1,5 @@
+M4 (VIF2 VLO2 net01 VSS) nmos4
+M5 (VIF1 VLO1 net01 VSS) nmos4
+M0 (net01 VRF1 VSS VSS) nmos4
+L0 (VIF1 VDD) inductor
+L2 (VIF2 VDD) inductor

@@ -1,0 +1,58 @@
+// Library name: Dataset
+// Cell name: NAND
+// View name: schematic
+subckt NAND A B Q VDD VSS
+    M1 (Q B VDD VDD) pmos4
+    M0 (Q A VDD VDD) pmos4
+    M3 (net10 B VSS VSS) nmos4
+    M2 (Q A net10 VSS) nmos4
+ends NAND
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: NOR
+// View name: schematic
+subckt NOR A B Q VDD VSS
+    M1 (Q A net5 VDD) pmos4
+    M0 (net5 B VDD VDD) pmos4
+    M3 (Q B VSS VSS) nmos4
+    M2 (Q A VSS VSS) nmos4
+ends NOR
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: PFD
+// View name: schematic
+subckt PFD A B QA QB VDD VSS
+    I0 (QA QB net65 VDD VSS) NAND
+    I1 (net65 net50 VDD VSS) INVERTER
+    I9 (net61 net63 QB VDD VSS) NOR
+    I8 (B QB net61 VDD VSS) NOR
+    I7 (net63 net50 net62 VDD VSS) NOR
+    I6 (net61 net62 net63 VDD VSS) NOR
+    I5 (net48 net50 net55 VDD VSS) NOR
+    I4 (net47 net55 net48 VDD VSS) NOR
+    I3 (net47 net48 QA VDD VSS) NOR
+    I2 (A QA net47 VDD VSS) NOR
+ends PFD
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 439
+// View name: schematic
+I0 (LOGICA1 LOGICB1 net7 net3 VDD VSS) PFD
+I1 (net7 net4 VDD VSS) INVERTER
+M1 (VCONT1 net4 net6 VDD) pmos4
+M0 (net6 VB2 VDD VDD) pmos4
+M3 (net5 VB1 VSS VSS) nmos4
+M2 (VCONT1 net3 net5 VSS) nmos4
+C0 (VCONT1 VSS) capacitor

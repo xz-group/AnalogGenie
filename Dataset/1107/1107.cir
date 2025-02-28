@@ -1,0 +1,69 @@
+R14 (net51 net50) resistor
+R13 (net35 VB4) resistor
+R12 (net49 net35) resistor
+R11 (net12 VB1) resistor
+R10 (net25 VB1) resistor
+R9 (net30 VB1) resistor
+R8 (net20 VB1) resistor
+R7 (net13 VB2) resistor
+R6 (net26 VB2) resistor
+R5 (net31 VB2) resistor
+R4 (net21 VB2) resistor
+R3 (net27 VB3) resistor
+R2 (net32 VB3) resistor
+R1 (net22 VB3) resistor
+R0 (net14 VB3) resistor
+C14 (net50 VSS) capacitor
+C13 (VOUT1 net36) capacitor
+C12 (net49 VSS) capacitor
+C11 (net30 VSS) capacitor
+C10 (net25 VSS) capacitor
+C9 (net20 VSS) capacitor
+C8 (net12 VSS) capacitor
+C7 (net31 VSS) capacitor
+C6 (net26 VSS) capacitor
+C5 (net21 VSS) capacitor
+C4 (net13 VSS) capacitor
+C3 (net32 VSS) capacitor
+C2 (net27 VSS) capacitor
+C1 (net22 VSS) capacitor
+C0 (net14 VSS) capacitor
+M15 (net52 net76 VSS VSS) nmos4
+M14 (net54 net28 VSS VSS) nmos4
+M13 (net56 net23 VSS VSS) nmos4
+M12 (net58 net15 VSS VSS) nmos4
+M11 (net60 net30 net53 VSS) nmos4
+M10 (net62 net25 net55 VSS) nmos4
+M9 (net64 net20 net57 VSS) nmos4
+M8 (net66 net12 net59 VSS) nmos4
+M7 (net68 net31 net61 VSS) nmos4
+M6 (net70 net26 net63 VSS) nmos4
+M5 (net72 net21 net65 VSS) nmos4
+M4 (net74 net13 net67 VSS) nmos4
+M3 (net34 net32 net69 VSS) nmos4
+M2 (net29 net27 net71 VSS) nmos4
+M1 (net24 net22 net73 VSS) nmos4
+M0 (net16 net14 net75 VSS) nmos4
+L22 (VDD net36) inductor
+L21 (net34 net36) inductor
+L20 (net29 net34) inductor
+L19 (net24 net29) inductor
+L18 (net16 net24) inductor
+L17 (net51 net16) inductor
+L16 (net76 net35) inductor
+L15 (net28 net76) inductor
+L14 (net23 net28) inductor
+L13 (net15 net23) inductor
+L12 (VIN1 net15) inductor
+L11 (net53 net52) inductor
+L10 (net55 net54) inductor
+L9 (net57 net56) inductor
+L8 (net59 net58) inductor
+L7 (net61 net60) inductor
+L6 (net63 net62) inductor
+L5 (net65 net64) inductor
+L4 (net67 net66) inductor
+L3 (net69 net68) inductor
+L2 (net71 net70) inductor
+L1 (net73 net72) inductor
+L0 (net75 net74) inductor

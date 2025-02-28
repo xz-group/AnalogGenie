@@ -1,0 +1,12 @@
+L3 (net22 VSS) inductor
+L2 (net11 net10) inductor
+L1 (VDD net18) inductor
+L0 (VDD net8) inductor
+C3 (VDD net22) capacitor
+C2 (net10 VSS) capacitor
+C1 (net11 net10) capacitor
+C0 (net18 net8) capacitor
+M3 (IB1 IB1 VSS VSS) nmos4
+M2 (net10 IB1 VSS VSS) nmos4
+M1 (net18 net8 net11 VSS) nmos4
+M0 (net8 net18 net11 VSS) nmos4

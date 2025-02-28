@@ -1,0 +1,16 @@
+M9 (net22 net22 VOUT3 VDD) pmos4
+M8 (net25 net22 VIN1 VDD) pmos4
+M7 (net25 net22 VIN1 VDD) pmos4
+M3 (VOUT2 VOUT1 VOUT3 VDD) pmos4
+M2 (VOUT1 net10 VOUT3 VDD) pmos4
+M1 (VOUT1 net10 VOUT3 VDD) pmos4
+M0 (net10 net10 VIN1 VDD) pmos4
+M11 (net22 net22 VIN2 VSS) nmos4
+M10 (net25 net22 VSS VSS) nmos4
+M6 (VOUT2 VOUT1 VSS VSS) nmos4
+M5 (VOUT1 net10 VIN2 VSS) nmos4
+M4 (net10 net10 VSS VSS) nmos4
+C3 (VOUT1 net22) capacitor
+C2 (net22 VOUT1) capacitor
+C1 (net25 net10) capacitor
+C0 (net10 net25) capacitor

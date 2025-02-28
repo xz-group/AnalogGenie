@@ -1,0 +1,8 @@
+L3 (VOUT2 net19) inductor
+L2 (VOUT1 net13) inductor
+L1 (IB1 VOUT2) inductor
+L0 (IB1 VOUT1) inductor
+M1 (VOUT2 VOUT1 VSS VSS) nmos4
+M0 (VOUT1 VOUT2 VSS VSS) nmos4
+M3 (VCONT1 net19 VCONT1 VCONT1) pmos4
+M2 (VCONT1 net13 VCONT1 VCONT1) pmos4

@@ -1,0 +1,4 @@
+R0 (VIF1 VSS) resistor
+M0 (VIF1 VLO1 VRF1 VSS) nmos4
+C0 (VIF1 VLO1) capacitor
+C1 (VLO1 VRF1) capacitor

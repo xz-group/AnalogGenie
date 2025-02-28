@@ -1,0 +1,1 @@
+C. E. Woodward, K. H. Konkle and M. L. Naiman, "A monolithic voltage-comparator array for A/D converters," in IEEE Journal of Solid-State Circuits, vol. 10, no. 6, pp. 392-399, Dec. 1975, doi: 10.1109/JSSC.1975.1050632. keywords: {Voltage;Logic arrays;Logic circuits;Latches;Power system modeling;Encoding;History;Solid state circuits;Impedance;Sampling methods},

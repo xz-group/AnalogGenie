@@ -1,0 +1,1 @@
+In-Chul Hwang, Chulwoo Kim and Sung-Mo Kang, "A CMOS self-regulating VCO with low supply sensitivity," in IEEE Journal of Solid-State Circuits, vol. 39, no. 1, pp. 42-48, Jan. 2004, doi: 10.1109/JSSC.2003.820881. keywords: {Voltage-controlled oscillators;Low-frequency noise;Delay;Circuit noise;Phase noise;Voltage;Active noise reduction;Clocks;Noise shaping;System-on-a-chip},

@@ -1,0 +1,9 @@
+Q5 (net24 VIN1 net04 0) npn
+Q4 (net22 VIN2 net04 0) npn
+Q0 (VOUT1 net24 IB1 0) npn
+Q1 (VDD VB1 net24 0) npn
+Q2 (VOUT2 net22 IB1 0) npn
+Q3 (VDD VB1 net22 0) npn
+R2 (net04 VSS) resistor
+R0 (VDD VOUT1) resistor
+R1 (VDD VOUT2) resistor

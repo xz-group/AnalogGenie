@@ -1,0 +1,5 @@
+R0 (VDD net24) resistor
+R2 (VIN1 net26) resistor
+R1 (VDD VOUT1) resistor
+M0 (net24 VB1 net26 VSS) nmos4
+M1 (VOUT1 net24 VSS VSS) nmos4

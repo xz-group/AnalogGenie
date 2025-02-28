@@ -1,0 +1,26 @@
+M4 (net33 net31 net15 VDD) pmos4
+M3 (net33 net31 VDD VDD) pmos4
+M2 (net31 net33 VDD VDD) pmos4
+M1 (net31 net33 net15 VDD) pmos4
+M0 (net15 VB1 VDD VDD) pmos4
+C1 (net32 net30) capacitor
+C0 (net33 net31) capacitor
+L6 (net18 net32) inductor
+L5 (net35 net30) inductor
+L4 (net35 net18) inductor
+L3 (net19 net37) inductor
+L2 (net31 net37) inductor
+L1 (net33 net19) inductor
+M21 (net14 VB1 VSS VSS) nmos4
+M20 (net32 net30 net14 VSS) nmos4
+M19 (net30 net32 net14 VSS) nmos4
+M18 (net32 net30 VSS VSS) nmos4
+M17 (net30 net32 VSS VSS) nmos4
+M16 (net24 VB2 VSS VSS) nmos4
+M15 (net18 net19 net24 VSS) nmos4
+M14 (net19 net18 net24 VSS) nmos4
+M13 (net19 VB1 net18 VSS) nmos4
+M12 (net6 VB2 VSS VSS) nmos4
+M11 (net35 net37 net6 VSS) nmos4
+M10 (net37 net35 net6 VSS) nmos4
+M9 (net37 VB1 net35 VSS) nmos4

@@ -1,0 +1,6 @@
+M5 (IB2 net021 VSS VSS) nmos4
+M3 (net021 IIN1 VSS VSS) nmos4
+M2 (IIN1 IB2 net021 VSS) nmos4
+M4 (IB1 net027 VSS VSS) nmos4
+M0 (net027 IIN1 VSS VSS) nmos4
+M1 (IOUT1 IB1 net027 VSS) nmos4

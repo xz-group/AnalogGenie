@@ -1,0 +1,18 @@
+M6 (net70 net70 VDD VDD) pmos4
+M0 (VOUT2 VB1 VDD VDD) pmos4
+M4 (net57 VIN2 net55 VDD) pmos4
+M3 (net52 VIN1 net55 VDD) pmos4
+M2 (VOUT1 VB1 VDD VDD) pmos4
+M1 (net55 net70 VDD VDD) pmos4
+M15 (net67 VB3 VSS VSS) nmos4
+M14 (net70 VOUT2 net67 VSS) nmos4
+M13 (VDD VCM1 net67 VSS) nmos4
+M12 (net64 VB3 VSS VSS) nmos4
+M11 (VDD VCM1 net64 VSS) nmos4
+M10 (net70 VOUT1 net64 VSS) nmos4
+M9 (VOUT1 net57 VSS VSS) nmos4
+M8 (net57 VB2 VSS VSS) nmos4
+M7 (net52 VB2 VSS VSS) nmos4
+M5 (VOUT2 net52 VSS VSS) nmos4
+C1 (net57 VOUT1) capacitor
+C0 (net52 VOUT2) capacitor

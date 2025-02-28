@@ -1,0 +1,6 @@
+R1 (VDD VOUT1) resistor
+R0 (VDD net21) resistor
+C1 (VOUT1 VSS) capacitor
+C0 (net21 VSS) capacitor
+M1 (VOUT1 net21 VSS VSS) nmos4
+M0 (net21 VOUT1 VSS VSS) nmos4

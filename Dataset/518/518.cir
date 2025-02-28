@@ -1,0 +1,6 @@
+R2 (VDD VOUT1) resistor
+R3 (VDD VOUT2) resistor
+M3 (VOUT1 VLO1 IB1 VSS) nmos4
+M5 (VOUT2 VLO2 IB1 VSS) nmos4
+L2 (VDD VOUT1) inductor
+L3 (VDD VOUT2) inductor

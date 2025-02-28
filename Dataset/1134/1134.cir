@@ -1,0 +1,17 @@
+M6 (net49 VOUT3 net36 VSS) nmos4
+M5 (net50 VOUT4 net36 VSS) nmos4
+M3 (net48 VOUT2 net36 VSS) nmos4
+M1 (net47 VOUT1 net36 VSS) nmos4
+M8 (net36 VB1 VSS VSS) nmos4
+M2 (VOUT4 VOUT3 net48 VSS) nmos4
+M4 (VOUT1 VOUT2 net50 VSS) nmos4
+M7 (VOUT2 VOUT1 net49 VSS) nmos4
+M0 (VOUT3 VOUT4 net47 VSS) nmos4
+L1 (VDD VOUT4) inductor
+L0 (VOUT3 VDD) inductor
+L2 (VOUT1 VDD) inductor
+L3 (VDD VOUT2) inductor
+C1 (VOUT4 VSS) capacitor
+C0 (VOUT3 VSS) capacitor
+C2 (VOUT1 VSS) capacitor
+C3 (VOUT2 VSS) capacitor

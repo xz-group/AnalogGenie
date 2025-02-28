@@ -1,0 +1,13 @@
+Q1 (net13 net8 net28 0) pnp
+Q0 (IB1 net8 net29 0) pnp
+Q4 (VOUT1 net15 VSS 0) npn
+Q3 (net13 net21 VIN1 0) npn
+Q2 (VDD net13 VOUT1 0) npn
+M2 (net15 VIN1 VOUT1 VOUT1) pmos4
+M1 (net21 net21 net13 net13) pmos4
+M0 (VSS IB1 net8 net8) pmos4
+R4 (net21 VIN1) resistor
+R3 (VDD net28) resistor
+R2 (VDD net29) resistor
+R1 (VOUT1 VSS) resistor
+R0 (net15 VSS) resistor

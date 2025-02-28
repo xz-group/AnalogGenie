@@ -1,0 +1,12 @@
+L5 (VDD net025) inductor
+L4 (VDD net013) inductor
+L2 (VDD net018) inductor
+L0 (VDD net016) inductor
+M9 (net025 net013 IB3 VSS) nmos4
+M8 (net013 net025 IB3 VSS) nmos4
+M7 (net013 net018 IB4 VSS) nmos4
+M6 (net025 net016 IB4 VSS) nmos4
+M5 (net018 net013 IB2 VSS) nmos4
+M4 (net016 net025 IB2 VSS) nmos4
+M0 (net016 net018 IB1 VSS) nmos4
+M3 (net018 net016 IB1 VSS) nmos4

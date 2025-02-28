@@ -1,0 +1,4 @@
+L0 (net4 VIN1) inductor
+C1 (net3 net4) capacitor
+C0 (VIN1 VSS) capacitor
+R0 (net3 VSS) resistor

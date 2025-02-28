@@ -1,0 +1,7 @@
+R3 (net30 VSS) resistor
+R2 (net28 VSS) resistor
+R1 (net29 VSS) resistor
+Q3 (IOUT2 net24 net30 0) npn
+Q2 (IOUT1 net24 net28 0) npn
+Q0 (VDD IB1 net24 0) npn
+Q1 (IB1 net24 net29 0) npn

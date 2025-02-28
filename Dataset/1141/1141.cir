@@ -1,0 +1,12 @@
+L5 (net6 VSS) inductor
+L4 (net3 VSS) inductor
+L3 (net12 net5) inductor
+L2 (net5 net11) inductor
+L1 (VDD net13) inductor
+L0 (VDD net14) inductor
+Q1 (net13 net12 net6 0) npn
+Q0 (net14 net11 net3 0) npn
+R1 (net4 VDD) resistor
+R0 (VDD net5) resistor
+C1 (net4 net6) capacitor
+C0 (net4 net3) capacitor

@@ -1,0 +1,9 @@
+R1 (VDD net1) resistor
+R0 (VDD VOUT1) resistor
+R2 (VDD VOUT2) resistor
+R3 (net019 VIN1) resistor
+R4 (VOUT2 IB1) resistor
+M1 (net1 IB1 VSS VSS) nmos4
+M0 (VOUT1 net1 VSS VSS) nmos4
+M2 (VOUT2 VOUT1 VSS VSS) nmos4
+C0 (IB1 net019) capacitor

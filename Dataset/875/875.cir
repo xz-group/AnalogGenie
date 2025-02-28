@@ -1,0 +1,10 @@
+D0 (net19 net27) diode
+D1 (net27 net14) diode
+D3 (VDD net13) diode
+R1 (VOUT1 VSS) resistor
+R0 (net13 VSS) resistor
+Q1 (net23 net14 VOUT1 0) pnp
+Q2 (net19 net13 VDD 0) pnp
+Q4 (net14 VIN1 VSS 0) npn
+Q3 (VOUT1 net23 VSS 0) npn
+Q0 (VDD net19 VOUT1 0) npn

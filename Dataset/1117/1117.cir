@@ -1,0 +1,12 @@
+Q1 (net28 net27 net27 0) npn
+Q0 (net33 net31 net30 0) npn
+R5 (VB1 net27) resistor
+R3 (net30 VDD) resistor
+R2 (net31 VDD) resistor
+R1 (VSS net31) resistor
+R0 (VSS net33) resistor
+C3 (net30 VDD) capacitor
+C2 (net31 net30) capacitor
+C1 (net27 VDD) capacitor
+L1 (net33 VOUT1) inductor
+L0 (net28 net31) inductor

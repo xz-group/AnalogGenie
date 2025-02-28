@@ -1,0 +1,5 @@
+Q2 (VDD IB1 net02 0) npn
+Q1 (IB1 net02 net04 0) npn
+Q0 (IOUT1 net02 net05 0) npn
+R0 (net04 VSS) resistor
+R1 (net05 VSS) resistor

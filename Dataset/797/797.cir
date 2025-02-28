@@ -1,0 +1,40 @@
+C7 (VOUT1 net161) capacitor
+C0 (net161 VIN1) capacitor
+C6 (net173 net171) capacitor
+C3 (net172 net170) capacitor
+C2 (net160 net159) capacitor
+C4 (VCONT1 net161) capacitor
+C5 (VOUT1 net174) capacitor
+C1 (net174 VIN1) capacitor
+M17 (net173 VCLK2 VOUT1 VSS) nmos4
+M16 (net161 VCLK1 net171 VSS) nmos4
+M15 (net172 VCLK2 net174 VSS) nmos4
+M14 (VCONT1 VCLK1 net170 VSS) nmos4
+M11 (net160 VCLK2 net161 VSS) nmos4
+M10 (VIN1 VCLK1 net159 VSS) nmos4
+M35 (net173 VCLK1 VSS VSS) nmos4
+M34 (net171 VCLK2 VSS VSS) nmos4
+M9 (net166 net161 IB1 VSS) nmos4
+M8 (net184 VSS IB1 VSS) nmos4
+M5 (VCONT1 VB2 net190 VSS) nmos4
+M4 (net162 VB2 net191 VSS) nmos4
+M21 (net172 VCLK1 VSS VSS) nmos4
+M20 (net170 VCLK2 VSS VSS) nmos4
+M27 (net179 net174 IB2 VSS) nmos4
+M26 (net188 VSS IB2 VSS) nmos4
+M13 (net160 VCLK1 VSS VSS) nmos4
+M12 (net159 VCLK2 VSS VSS) nmos4
+M7 (net190 net162 VSS VSS) nmos4
+M6 (net191 net162 VSS VSS) nmos4
+M25 (VOUT1 VB5 net192 VSS) nmos4
+M24 (net175 VB5 net193 VSS) nmos4
+M23 (net192 net175 VSS VSS) nmos4
+M22 (net193 net175 VSS VSS) nmos4
+M1 (net166 VB3 VDD VDD) pmos4
+M0 (net184 VB3 VDD VDD) pmos4
+M3 (VCONT1 VB1 net166 VDD) pmos4
+M2 (net162 VB1 net184 VDD) pmos4
+M31 (net179 VB6 VDD VDD) pmos4
+M30 (net188 VB6 VDD VDD) pmos4
+M29 (VOUT1 VB4 net179 VDD) pmos4
+M28 (net175 VB4 net188 VDD) pmos4

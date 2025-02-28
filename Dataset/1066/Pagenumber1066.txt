@@ -1,0 +1,1 @@
+G. Palmisano and G. Palumbo, "High performance CMOS current comparator design," in IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing, vol. 43, no. 12, pp. 785-790, Dec. 1996, doi: 10.1109/82.553392. keywords: {Voltage control;Time factors;Feedback;Signal processing;Power dissipation;Mirrors;Circuits;Switches;Topology;SPICE},

@@ -1,0 +1,5 @@
+R0 (net2 net1) resistor
+C1 (net3 net1) capacitor
+C0 (net2 net3) capacitor
+M0 (net2 net1 net3 VSS) nmos4
+L0 (net2 net1) inductor

@@ -1,0 +1,46 @@
+// Library name: Dataset
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: TRANSMISSION_GATE
+// View name: schematic
+subckt TRANSMISSION_GATE A B C VDD VSS
+    M0 (A net8 B VDD) pmos4
+    M1 (A C B VSS) nmos4
+    I0 (C net8 VDD VSS) INVERTER
+ends TRANSMISSION_GATE
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 1001
+// View name: schematic
+M5 (net34 net34 net30 VSS) nmos4
+M4 (VOUT1 net34 net53 VSS) nmos4
+M7 (net53 net46 VSS VSS) nmos4
+M6 (net30 net30 VSS VSS) nmos4
+I11 (net39 net45 VCLK2 VDD VSS) TRANSMISSION_GATE
+I10 (net32 net39 VCLK1 VDD VSS) TRANSMISSION_GATE
+I9 (VIN1 net50 VCLK2 VDD VSS) TRANSMISSION_GATE
+I8 (VIN2 net50 VCLK1 VDD VSS) TRANSMISSION_GATE
+I7 (net40 net46 VCLK1 VDD VSS) TRANSMISSION_GATE
+I3 (net30 net40 VCLK2 VDD VSS) TRANSMISSION_GATE
+I1 (net42 net45 VCLK1 VDD VSS) TRANSMISSION_GATE
+I0 (net32 net42 VCLK2 VDD VSS) TRANSMISSION_GATE
+I2 (VIN2 net49 VCLK2 VDD VSS) TRANSMISSION_GATE
+I6 (VIN1 net49 VCLK1 VDD VSS) TRANSMISSION_GATE
+I5 (net37 net46 VCLK2 VDD VSS) TRANSMISSION_GATE
+I4 (net30 net37 VCLK1 VDD VSS) TRANSMISSION_GATE
+C3 (net50 net40) capacitor
+C2 (net42 net50) capacitor
+C0 (net39 net49) capacitor
+C1 (net49 net37) capacitor
+M3 (VOUT1 net34 net54 VDD) pmos4
+M2 (net34 net34 net32 VDD) pmos4
+M1 (net54 net45 VDD VDD) pmos4
+M0 (net32 net32 VDD VDD) pmos4

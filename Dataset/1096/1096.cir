@@ -1,0 +1,26 @@
+Q13 (IOUT1 VLO1 net57 0) npn
+Q12 (IOUT2 VLO1 net54 0) npn
+Q11 (IOUT1 VLO2 net55 0) npn
+Q10 (IOUT2 VLO2 net56 0) npn
+Q9 (IB1 IB1 VSS 0) npn
+Q8 (net25 IB1 VSS 0) npn
+Q7 (net29 IB1 VSS 0) npn
+Q0 (IOUT2 VLO1 net59 0) npn
+Q6 (IB2 IB2 VSS 0) npn
+Q5 (net39 IB2 VSS 0) npn
+Q4 (net35 IB2 VSS 0) npn
+Q3 (IOUT1 VLO1 net60 0) npn
+Q2 (IOUT2 VLO2 net61 0) npn
+Q1 (IOUT1 VLO2 net58 0) npn
+R7 (net25 net54) resistor
+R6 (net25 net55) resistor
+R5 (net29 net56) resistor
+R4 (net29 net57) resistor
+R3 (net39 net60) resistor
+R2 (net39 net61) resistor
+R1 (net35 net58) resistor
+R0 (net35 net59) resistor
+C3 (net25 VRF1) capacitor
+C2 (net29 VRF2) capacitor
+C1 (net39 VRF2) capacitor
+C0 (net35 VRF1) capacitor

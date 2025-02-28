@@ -1,0 +1,13 @@
+M5 (VRF2 VLO2 net015 VSS) nmos4
+M4 (VRF2 VLO1 net014 VSS) nmos4
+M3 (VRF1 VLO1 net015 VSS) nmos4
+M2 (VRF1 VLO2 net014 VSS) nmos4
+L3 (VDD VRF2) inductor
+L2 (VDD VRF1) inductor
+R3 (VDD VRF2) resistor
+R2 (VDD VRF1) resistor
+R0 (net014 VSS) resistor
+R1 (net015 VSS) resistor
+R4 (IB1 IB2) resistor
+M0 (net014 VIN1 IB1 VDD) pmos4
+M1 (net015 VIN2 IB2 VDD) pmos4

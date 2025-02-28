@@ -1,0 +1,16 @@
+M5 (VOUT2 VB1 net016 VSS) nmos4
+M4 (VOUT1 VB1 net018 VSS) nmos4
+M3 (net016 VB4 VSS VSS) nmos4
+M1 (net018 VB4 VSS VSS) nmos4
+M10 (net019 VIN1 IB1 VSS) nmos4
+M11 (net017 VIN2 IB1 VSS) nmos4
+R3 (VOUT1 VIN1) resistor
+R2 (VIN2 VOUT2) resistor
+R1 (VIN2 net013) resistor
+R0 (VIN1 net014) resistor
+M9 (net017 VB3 VDD VDD) pmos4
+M8 (net019 VB3 VDD VDD) pmos4
+M7 (VOUT2 VB2 net017 VDD) pmos4
+M6 (VOUT1 VB2 net019 VDD) pmos4
+C1 (net013 VDD) capacitor
+C0 (net014 VDD) capacitor

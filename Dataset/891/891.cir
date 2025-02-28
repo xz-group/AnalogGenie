@@ -1,0 +1,16 @@
+R5 (net43 VSS) resistor
+R0 (VDD net44) resistor
+R4 (net40 VSS) resistor
+R3 (net38 VSS) resistor
+R2 (VDD net37) resistor
+R1 (VDD net36) resistor
+Q4 (net40 VIN1 net29 0) pnp
+Q3 (net38 VIN2 net29 0) pnp
+Q2 (VOUT2 VB1 net37 0) pnp
+Q1 (VOUT1 VB1 net36 0) pnp
+Q0 (net29 VB1 net44 0) pnp
+Q9 (net28 VB3 net43 0) npn
+Q8 (net36 VIN4 net28 0) npn
+Q7 (net37 VIN3 net28 0) npn
+Q6 (VOUT2 VB2 net40 0) npn
+Q5 (VOUT1 VB2 net38 0) npn

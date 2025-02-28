@@ -1,0 +1,10 @@
+M2 (IOUT1 net12 VDD VDD) pmos4
+M1 (net12 net12 VDD VDD) pmos4
+M0 (net21 net12 VDD VDD) pmos4
+M7 (net6 net6 VSS VSS) nmos4
+M6 (IOUT2 net22 VSS VSS) nmos4
+M5 (net21 net22 VSS VSS) nmos4
+M4 (VDD net6 net21 VSS) nmos4
+M3 (net12 net21 net22 VSS) nmos4
+R1 (VDD net6) resistor
+R0 (net22 VSS) resistor

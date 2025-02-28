@@ -1,0 +1,2 @@
+Masaya Miyahara, Yusuke Asada, Daehwa Paik and Akira Matsuzawa, "A low-noise self-calibrating dynamic comparator for high-speed ADCs," 2008 IEEE Asian Solid-State Circuits Conference, Fukuoka, Japan, 2008, pp. 269-272, doi: 10.1109/ASSCC.2008.4708780.
+keywords: {Calibration;Circuit noise;Noise cancellation;Clocks;Dynamic voltage scaling;Low voltage;Energy consumption;Charge pumps;Signal resolution;CMOS technology},

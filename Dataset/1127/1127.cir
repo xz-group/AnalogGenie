@@ -1,0 +1,30 @@
+Q15 (net28 net28 net40 0) npn
+Q14 (net12 net12 net41 0) npn
+Q13 (VDD VOUT3 VOUT4 0) npn
+Q12 (VDD VOUT2 VOUT1 0) npn
+Q11 (VDD net34 VOUT3 0) npn
+Q10 (VDD net24 VOUT2 0) npn
+Q9 (net17 net28 net44 0) npn
+Q8 (net17 net28 net43 0) npn
+Q7 (net17 net12 net45 0) npn
+Q6 (net17 net12 net42 0) npn
+Q5 (net24 VIN2 net17 0) npn
+Q4 (net34 VIN1 net17 0) npn
+Q3 (net24 VOUT3 net17 0) npn
+Q2 (net34 VOUT2 net17 0) npn
+Q1 (VB2 VB2 net34 0) npn
+Q0 (VB2 VB2 net24 0) npn
+L1 (VDD net24) inductor
+L0 (VDD net34) inductor
+R11 (VB1 net28) resistor
+R10 (VDD net12) resistor
+R9 (net40 VSS) resistor
+R8 (net41 VSS) resistor
+R7 (VOUT4 VSS) resistor
+R6 (VOUT1 VSS) resistor
+R5 (VOUT3 VSS) resistor
+R4 (VOUT2 VSS) resistor
+R3 (net44 VSS) resistor
+R2 (net43 VSS) resistor
+R1 (net42 VSS) resistor
+R0 (net45 VSS) resistor

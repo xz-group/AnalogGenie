@@ -1,0 +1,12 @@
+M3 (IB2 VIN1 IB1 VDD) pmos4
+M2 (IB2 VIN2 IB1 VDD) pmos4
+M1 (IB2 VIN3 IB1 VDD) pmos4
+M0 (IB2 VIN4 IB1 VDD) pmos4
+M5 (VOUT1 IB2 VSS VSS) nmos4
+M4 (VOUT2 IB2 VSS VSS) nmos4
+R3 (VDD VOUT1) resistor
+R2 (VDD VOUT2) resistor
+R1 (net22 IB2) resistor
+R0 (IB2 net23) resistor
+C1 (net22 VOUT1) capacitor
+C0 (net23 VOUT2) capacitor

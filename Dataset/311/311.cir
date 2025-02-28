@@ -1,0 +1,17 @@
+M16 (net048 VREF1 VSS VSS) nmos4
+M15 (net07 IB1 net048 VSS) nmos4
+M1 (net050 VB3 VSS VSS) nmos4
+M3 (net051 VREF1 VSS VSS) nmos4
+M4 (VOUT1 VB1 net050 VSS) nmos4
+M5 (VOUT2 VB1 net051 VSS) nmos4
+M12 (net11 IB1 net039 VSS) nmos4
+M6 (net043 VIN2 net11 VSS) nmos4
+M11 (net039 VOUT2 VSS VSS) nmos4
+M10 (net039 VOUT1 VSS VSS) nmos4
+M7 (net045 VIN1 net11 VSS) nmos4
+M2 (IB1 IB1 VSS VSS) nmos4
+M8 (VOUT1 VB2 net045 VDD) pmos4
+M9 (VOUT2 VB2 net043 VDD) pmos4
+M13 (net045 net07 VDD VDD) pmos4
+M14 (net043 net07 VDD VDD) pmos4
+M0 (net07 net07 VDD VDD) pmos4

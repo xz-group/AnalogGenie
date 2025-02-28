@@ -1,0 +1,7 @@
+M3 (VOUT1 IB1 VDD VDD) pmos4
+M2 (net22 IB1 VDD VDD) pmos4
+M1 (net20 IB1 VDD VDD) pmos4
+M0 (IB1 IB1 VDD VDD) pmos4
+M6 (net20 net20 VSS VSS) nmos4
+M5 (net22 VIN1 VSS VSS) nmos4
+M4 (VOUT1 net20 net22 VSS) nmos4

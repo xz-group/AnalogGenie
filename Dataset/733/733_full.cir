@@ -1,0 +1,60 @@
+// Library name: tutorial_test
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: tutorial_test
+// Cell name: TRANSMISSION_GATE
+// View name: schematic
+subckt TRANSMISSION_GATE A B C VDD VSS
+    M1 (A C B VSS) nmos4
+    M13 (A net9 B VDD) pmos4
+    I0 (C net9 VDD VSS) INVERTER
+ends TRANSMISSION_GATE
+// End of subcircuit definition.
+
+// Library name: tutorial_test
+// Cell name: 733
+// View name: schematic
+M21 (net26 VDD VSS VSS) nmos4
+M20 (VSS VSS net19 VSS) nmos4
+M18 (net19 net19 VSS VSS) nmos4
+M17 (net31 net19 VSS VSS) nmos4
+M15 (VREF1 VSS net31 VSS) nmos4
+M14 (net17 net7 VSS VSS) nmos4
+M13 (net18 net32 net17 VSS) nmos4
+M12 (net14 VSS net17 VSS) nmos4
+M11 (net34 net6 net18 VSS) nmos4
+M10 (net35 net6 net14 VSS) nmos4
+M7 (net5 VSS net36 VSS) nmos4
+M5 (net36 net7 VSS VSS) nmos4
+M2 (VSS VSS net7 VSS) nmos4
+M3 (net7 net7 VSS VSS) nmos4
+M22 (VSS VSS net26 VDD) pmos4
+M19 (VSS net11 net14 VDD) pmos4
+M16 (VREF1 net11 net18 VDD) pmos4
+M9 (net18 net34 VDD VDD) pmos4
+M8 (net14 net35 VDD VDD) pmos4
+M6 (net5 net5 net6 VDD) pmos4
+M4 (net6 net6 VDD VDD) pmos4
+M1 (VSS net5 net11 VDD) pmos4
+M0 (net11 net6 VDD VDD) pmos4
+C4 (net046 net32) capacitor
+C3 (VREF1 net08) capacitor
+C2 (net32 net049) capacitor
+C1 (net32 net03) capacitor
+C0 (VREF1 net26) capacitor
+Q1 (VSS VSS IB2 0) pnp
+Q0 (VSS VSS IB1 0) pnp
+I11 (VSS net046 VCLK1 VDD VSS) TRANSMISSION_GATE
+I10 (net046 VREF1 VCLK2 VDD VSS) TRANSMISSION_GATE
+I9 (net08 VSS VCLK2 VDD VSS) TRANSMISSION_GATE
+I8 (net32 net08 VCLK1 VDD VSS) TRANSMISSION_GATE
+I7 (net03 VSS VCLK2 VDD VSS) TRANSMISSION_GATE
+I6 (IB1 net03 VCLK1 VDD VSS) TRANSMISSION_GATE
+I5 (net049 IB2 VCLK2 VDD VSS) TRANSMISSION_GATE
+I4 (IB1 net049 VCLK1 VDD VSS) TRANSMISSION_GATE

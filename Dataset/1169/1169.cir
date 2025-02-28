@@ -1,0 +1,43 @@
+M7 (net68 net69 VSS net88) nmos4
+M3 (net76 net74 VSS net90) nmos4
+M5 (net86 net91 VSS net95) nmos4
+M4 (net70 net73 VSS net89) nmos4
+M0 (net76 net68 VSS net98) nmos4
+M2 (net82 net99 net77 net100) nmos4
+M1 (net68 net76 VSS net92) nmos4
+L3 (net91 net76) inductor
+L5 (net101 net86) inductor
+L4 (net101 net70) inductor
+L2 (net73 net68) inductor
+L1 (net101 net91) inductor
+L0 (net101 net73) inductor
+C22 (net76 net69) capacitor
+C21 (net68 net74) capacitor
+C11 (VDD VSS) capacitor
+C9 (VDD net101) capacitor
+C12 (net78 net91) capacitor
+C16 (net101 VSS) capacitor
+C15 (VOUT2 net86) capacitor
+C14 (net101 VSS) capacitor
+C13 (VOUT1 net70) capacitor
+C10 (net78 net73) capacitor
+C8 (net101 VSS) capacitor
+C7 (net82 net91) capacitor
+C6 (net82 net91) capacitor
+C5 (net77 net73) capacitor
+C4 (net77 net73) capacitor
+R13 (net71 VB4) resistor
+R12 (net74 net71) resistor
+R7 (net69 net71) resistor
+R6 (net88 VSS) resistor
+R4 (net90 VSS) resistor
+R5 (net78 VB2) resistor
+R11 (net95 VSS) resistor
+R10 (net89 VSS) resistor
+R9 (net98 VSS) resistor
+R8 (net92 VSS) resistor
+R3 (net82 VSS) resistor
+R2 (net77 VSS) resistor
+R1 (net99 VB1) resistor
+R0 (VSS net100) resistor
+M6 (net101 VB3 VDD VDD) pmos4

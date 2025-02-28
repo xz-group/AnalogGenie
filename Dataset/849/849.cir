@@ -1,0 +1,3 @@
+Q1 (IOUT1 net4 VSS 0) npn
+Q0 (net4 IIN1 VSS 0) npn
+R0 (IIN1 net4) resistor

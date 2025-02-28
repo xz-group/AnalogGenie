@@ -1,0 +1,4 @@
+M0 (VOUT1 VIN1 net5 VSS) nmos4
+R2 (VOUT1 net5) resistor
+R1 (net5 VSS) resistor
+R0 (VDD VOUT1) resistor

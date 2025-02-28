@@ -1,0 +1,4 @@
+C0 (net6 VSS) capacitor
+M1 (net6 net6 VSS VSS) nmos4
+M0 (IB1 net6 VSS VSS) nmos4
+R0 (VDD net6) resistor

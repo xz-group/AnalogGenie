@@ -1,0 +1,8 @@
+M0 (net010 IIN1 VSS VSS) nmos4
+M1 (VDD net010 VOUT1 VSS) nmos4
+R0 (VDD net010) resistor
+R3 (VOUT1 IIN1) resistor
+R2 (VOUT1 VSS) resistor
+C1 (net010 VSS) capacitor
+C0 (IIN1 VSS) capacitor
+C2 (VOUT1 VSS) capacitor

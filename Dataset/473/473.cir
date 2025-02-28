@@ -1,0 +1,10 @@
+L0 (VDD VOUT1) inductor
+L1 (net9 VSS) inductor
+C3 (VOUT1 VSS) capacitor
+C2 (net9 VSS) capacitor
+C1 (IB1 VSS) capacitor
+R2 (VDD VOUT1) resistor
+R0 (VIN1 net9) resistor
+M1 (IB1 IB1 VSS VSS) nmos4
+M2 (VOUT1 VDD net016 VSS) nmos4
+M0 (net016 IB1 net9 VSS) nmos4

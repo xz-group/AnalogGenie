@@ -1,0 +1,10 @@
+M11 (net013 VIN2 VSS VSS) nmos4
+M10 (net012 VIN1 VSS VSS) nmos4
+M9 (VRF2 VLO2 net013 VSS) nmos4
+M8 (VRF2 VLO1 net012 VSS) nmos4
+M6 (VRF1 VLO1 net013 VSS) nmos4
+M7 (VRF1 VLO2 net012 VSS) nmos4
+R3 (VDD VRF2) resistor
+R2 (VDD VRF1) resistor
+L1 (VDD VRF2) inductor
+L0 (VDD VRF1) inductor

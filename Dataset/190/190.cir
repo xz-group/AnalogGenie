@@ -1,0 +1,5 @@
+M1 (net12 net12 VSS VSS) nmos4
+M0 (IB1 net14 VSS VSS) nmos4
+R1 (net12 net14) resistor
+R0 (VDD net12) resistor
+C0 (net14 VSS) capacitor

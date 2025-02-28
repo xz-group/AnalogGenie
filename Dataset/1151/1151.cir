@@ -1,0 +1,12 @@
+Q5 (net10 net3 net18 0) npn
+Q4 (net5 net13 net17 0) npn
+Q3 (VDD net10 net13 0) npn
+Q2 (VDD net5 net3 0) npn
+Q1 (VDD net8 net10 0) npn
+Q0 (VDD net7 net5 0) npn
+L0 (net7 net8) inductor
+C0 (net8 net7) capacitor
+R3 (net13 VSS) resistor
+R2 (net18 VSS) resistor
+R1 (net17 VSS) resistor
+R0 (net3 VSS) resistor

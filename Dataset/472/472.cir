@@ -1,0 +1,9 @@
+M1 (IB1 IB1 VSS VSS) nmos4
+M2 (net02 VDD net07 VSS) nmos4
+M0 (net07 IB1 net2 VSS) nmos4
+C0 (VDD net02) capacitor
+C1 (IB1 VSS) capacitor
+L0 (VDD net02) inductor
+L1 (net2 VSS) inductor
+R1 (VDD net02) resistor
+R0 (VIN1 net2) resistor

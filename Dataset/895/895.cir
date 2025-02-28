@@ -1,0 +1,26 @@
+Q14 (VSS VB2 net23 0) pnp
+Q13 (VSS VB2 net9 0) pnp
+Q11 (VSS net23 net31 0) pnp
+Q10 (VSS net9 net10 0) pnp
+Q5 (VB3 VB1 net37 0) pnp
+Q4 (net31 VB1 net38 0) pnp
+Q3 (net35 VB1 net39 0) pnp
+Q2 (net36 VB1 net40 0) pnp
+Q1 (net10 VB1 net41 0) pnp
+Q0 (VB4 VB1 net42 0) pnp
+R6 (net34 VSS) resistor
+R5 (VDD net37) resistor
+R4 (VDD net38) resistor
+R3 (VDD net39) resistor
+R2 (VDD net40) resistor
+R1 (VDD net41) resistor
+R0 (VDD net42) resistor
+Q15 (VB3 VB3 VSS 0) npn
+Q12 (net15 VB3 net34 0) npn
+Q9 (VDD net31 net15 0) npn
+Q8 (VDD net31 net15 0) npn
+Q7 (net35 net10 net15 0) npn
+Q6 (net36 net10 net15 0) npn
+C1 (VOUT1 net23) capacitor
+C0 (net9 VSS) capacitor
+D0 (VB4 net15) diode

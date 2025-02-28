@@ -1,0 +1,22 @@
+M11 (net055 VB1 net059 VSS) nmos4
+M6 (VOUT2 IB2 VSS VSS) nmos4
+M1 (VOUT1 IB2 VSS VSS) nmos4
+M3 (net059 VIN1 IB1 VSS) nmos4
+M10 (net060 VIN2 IB1 VSS) nmos4
+M4 (net052 VB1 net060 VSS) nmos4
+M5 (VOUT1 net055 VDD VDD) pmos4
+M7 (VOUT2 net052 VDD VDD) pmos4
+M12 (net055 VB2 net42 net42) pmos4
+M13 (net052 VB2 net35 net35) pmos4
+M14 (net42 VB3 VDD VDD) pmos4
+M15 (net35 VB3 VDD VDD) pmos4
+R5 (net030 VOUT2) resistor
+R4 (VOUT1 net031) resistor
+R1 (IB2 VOUT2) resistor
+R0 (VOUT1 IB2) resistor
+R2 (net061 VOUT2) resistor
+R3 (VOUT1 net058) resistor
+C3 (net060 net030) capacitor
+C2 (net031 net059) capacitor
+C0 (net052 net061) capacitor
+C1 (net058 net055) capacitor

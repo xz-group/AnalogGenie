@@ -1,0 +1,6 @@
+M1 (net12 net9 IB1 VDD) pmos4
+M0 (net9 net12 IB1 VDD) pmos4
+L1 (net12 VSS) inductor
+L0 (net9 VSS) inductor
+D1 (net12 VCONT1) diode
+D0 (net9 VCONT1) diode

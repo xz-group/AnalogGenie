@@ -1,0 +1,21 @@
+M0 (net85 VB1 VDD VDD) pmos4
+M6 (net92 VCM1 net81 VDD) pmos4
+M5 (VSS VOUT1 net81 VDD) pmos4
+M4 (net78 VB2 net86 VDD) pmos4
+M3 (net75 VB2 net85 VDD) pmos4
+M2 (net81 VB1 VDD VDD) pmos4
+M1 (net86 VB1 VDD VDD) pmos4
+R1 (net78 VOUT1) resistor
+R0 (VOUT1 net75) resistor
+M18 (net96 net92 VSS VSS) nmos4
+M17 (net75 VB5 net96 VSS) nmos4
+M16 (net95 net92 VSS VSS) nmos4
+M11 (net78 VB5 net95 VSS) nmos4
+M15 (net74 VB3 VSS VSS) nmos4
+M14 (net85 VIN1 net74 VSS) nmos4
+M13 (net86 VIN2 net74 VSS) nmos4
+M12 (net92 net92 VSS VSS) nmos4
+M10 (net97 VB6 VSS VSS) nmos4
+M9 (net98 VB6 VSS VSS) nmos4
+M8 (net75 VB4 net98 VSS) nmos4
+M7 (net78 VB4 net97 VSS) nmos4

@@ -1,0 +1,8 @@
+M1 (net16 net6 net15 VSS) nmos4
+M0 (VOUT1 VB1 net16 VSS) nmos4
+L4 (VIN1 net6) inductor
+L3 (net12 VSS) inductor
+L2 (net15 net12) inductor
+L1 (VDD VB1) inductor
+L0 (VB1 VOUT1) inductor
+C0 (net6 net12) capacitor

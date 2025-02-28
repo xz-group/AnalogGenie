@@ -1,0 +1,5 @@
+Q0 (net7 net6 VSS 0) npn
+L1 (net6 VB1) inductor
+L0 (net7 VDD) inductor
+C1 (net6 VIN1) capacitor
+C0 (VOUT1 net7) capacitor

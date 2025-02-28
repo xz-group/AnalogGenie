@@ -1,0 +1,5 @@
+C0 (net5 VSS) capacitor
+R0 (net5 VOUT1) resistor
+L0 (VDD VOUT1) inductor
+M1 (VOUT1 net5 net7 VSS) nmos4
+M0 (net7 VIN1 VSS VSS) nmos4

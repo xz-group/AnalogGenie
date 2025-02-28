@@ -1,0 +1,5 @@
+R0 (net03 net015) resistor
+M5 (IOUT1 VB1 net35 VSS) nmos4
+M4 (net015 net03 VSS VSS) nmos4
+M3 (net35 net03 VSS VSS) nmos4
+R1 (VDD net03) resistor

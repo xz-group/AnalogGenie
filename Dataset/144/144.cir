@@ -1,0 +1,5 @@
+R2 (net21 net22) resistor
+R0 (VDD net21) resistor
+R1 (VDD net22) resistor
+M1 (net22 net21 VSS VSS) nmos4
+M0 (net21 net21 VSS VSS) nmos4

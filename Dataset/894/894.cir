@@ -1,0 +1,23 @@
+R8 (net36 VSS) resistor
+R7 (net35 VSS) resistor
+R6 (net34 VSS) resistor
+R5 (net33 VSS) resistor
+R4 (net32 VSS) resistor
+R3 (VDD net40) resistor
+R2 (VDD net37) resistor
+R1 (VDD net38) resistor
+R0 (VDD net39) resistor
+Q13 (net36 net15 net13 0) pnp
+Q12 (net13 VIN3 VOUT2 0) pnp
+Q11 (net13 VIN4 VOUT1 0) pnp
+Q6 (VOUT3 VIN2 net22 0) pnp
+Q5 (net15 net19 net22 0) pnp
+Q4 (VOUT4 VIN1 net22 0) pnp
+Q3 (net30 VB1 net37 0) pnp
+Q2 (net31 VB1 net38 0) pnp
+Q1 (net19 VB1 net39 0) pnp
+Q0 (net22 VB1 net40 0) pnp
+Q10 (net15 net15 net35 0) npn
+Q9 (net19 net19 net34 0) npn
+Q8 (net31 VB2 net33 0) npn
+Q7 (net30 VB2 net32 0) npn

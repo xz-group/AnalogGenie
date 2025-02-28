@@ -1,0 +1,6 @@
+C0 (net22 VSS) capacitor
+M3 (net18 net19 net22 VSS) nmos4
+M2 (net19 net19 net18 VSS) nmos4
+M1 (net18 net18 VSS VSS) nmos4
+M0 (IB1 net22 VSS VSS) nmos4
+R0 (VDD net19) resistor

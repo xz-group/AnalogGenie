@@ -1,0 +1,8 @@
+M3 (VOUT1 VIN1 IB1 VSS) nmos4
+M5 (VOUT2 VIN2 IB1 VSS) nmos4
+R2 (VDD VOUT1) resistor
+R3 (VDD VOUT2) resistor
+L2 (VDD VOUT1) inductor
+L3 (VDD VOUT2) inductor
+C1 (VDD VOUT2) capacitor
+C0 (VDD VOUT1) capacitor

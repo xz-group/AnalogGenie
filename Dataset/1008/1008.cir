@@ -1,0 +1,30 @@
+M18 (VOUT2 net38 net80 VDD) pmos4
+M15 (net33 net33 net81 VDD) pmos4
+M14 (net28 net33 net57 VDD) pmos4
+M13 (net18 net19 net60 VDD) pmos4
+M12 (net19 net19 net82 VDD) pmos4
+M7 (VOUT1 net38 net83 VDD) pmos4
+M6 (net55 net38 net71 VDD) pmos4
+M5 (net71 net55 VDD VDD) pmos4
+M4 (net46 net55 VDD VDD) pmos4
+M3 (net80 net34 VDD VDD) pmos4
+M2 (net34 net34 VDD VDD) pmos4
+M1 (net17 net17 VDD VDD) pmos4
+M0 (net83 net17 VDD VDD) pmos4
+R1 (net46 net45) resistor
+R0 (net55 net38) resistor
+M27 (net78 net18 VSS VSS) nmos4
+M26 (net77 net28 VSS VSS) nmos4
+M25 (net28 net28 VSS VSS) nmos4
+M24 (net18 net18 VSS VSS) nmos4
+M23 (net79 net45 VSS VSS) nmos4
+M22 (net38 VB1 VSS VSS) nmos4
+M21 (net33 VB1 VSS VSS) nmos4
+M20 (net19 VB1 VSS VSS) nmos4
+M19 (VOUT2 net46 net77 VSS) nmos4
+M17 (net45 net46 net79 VSS) nmos4
+M16 (VOUT1 net46 net78 VSS) nmos4
+M11 (VDD VIN2 net81 VSS) nmos4
+M10 (VDD VIN1 net82 VSS) nmos4
+M9 (net34 VIN2 net60 VSS) nmos4
+M8 (net17 VIN1 net57 VSS) nmos4

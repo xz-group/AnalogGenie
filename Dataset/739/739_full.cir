@@ -1,0 +1,39 @@
+// Library name: Dataset
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 739
+// View name: schematic
+M24 (net042 net30 VSS VSS) nmos4
+M23 (net038 net16 VSS VSS) nmos4
+M22 (net042 net038 VSS VSS) nmos4
+M21 (net038 net042 VSS VSS) nmos4
+M20 (net043 VLATCH1 net042 VSS) nmos4
+M19 (net039 VLATCH1 net038 VSS) nmos4
+M14 (net18 net6 VSS VSS) nmos4
+M13 (net18 net11 VSS VSS) nmos4
+M12 (net30 VIN2 net18 VSS) nmos4
+M11 (net16 VIN1 net18 VSS) nmos4
+M10 (net16 net16 net30 VSS) nmos4
+M9 (net30 net30 net16 VSS) nmos4
+M5 (net11 net11 VSS VSS) nmos4
+M4 (net6 net6 VSS VSS) nmos4
+M3 (net33 VDD net11 VSS) nmos4
+M2 (net34 VDD net6 VSS) nmos4
+M1 (VDD net16 net33 VSS) nmos4
+M0 (VDD net30 net34 VSS) nmos4
+M18 (net043 VLATCH1 VDD VDD) pmos4
+M17 (net043 net039 VDD VDD) pmos4
+M16 (net039 net043 VDD VDD) pmos4
+M15 (net039 VLATCH1 VDD VDD) pmos4
+M8 (net30 net14 VDD VDD) pmos4
+M7 (net16 net14 VDD VDD) pmos4
+M6 (IB1 net14 VDD VDD) pmos4
+I1 (net039 VOUT2 VDD VSS) INVERTER
+I0 (net043 VOUT1 VDD VSS) INVERTER

@@ -1,0 +1,2 @@
+A. Paidimarri, D. Griffith, A. Wang, A. P. Chandrakasan and G. Burra, "A 120nW 18.5kHz RC oscillator with comparator offset cancellation for ±0.25% temperature stability," 2013 IEEE International Solid-State Circuits Conference Digest of Technical Papers, San Francisco, CA, USA, 2013, pp. 184-185, doi: 10.1109/ISSCC.2013.6487692.
+keywords: {Oscillators;Thermal stability;Temperature measurement;Circuit stability;Delays;Temperature sensors;Capacitors},

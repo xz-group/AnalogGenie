@@ -1,0 +1,15 @@
+L3 (IB1 VOUT2) inductor
+L2 (IB1 VOUT1) inductor
+L0 (IB2 net14) inductor
+L1 (IB2 net26) inductor
+C3 (VCONT2 VOUT1) capacitor
+C2 (VCONT2 VOUT2) capacitor
+C1 (VCONT1 net26) capacitor
+C0 (VCONT1 net14) capacitor
+M6 (net16 VCONT3 VSS VSS) nmos4
+M5 (VOUT2 VOUT1 net16 VSS) nmos4
+M4 (VOUT1 VOUT2 net16 VSS) nmos4
+M3 (VOUT2 net26 VSS VSS) nmos4
+M2 (VOUT1 net14 VSS VSS) nmos4
+M1 (net26 net14 VSS VSS) nmos4
+M0 (net14 net26 VSS VSS) nmos4

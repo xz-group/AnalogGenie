@@ -1,0 +1,13 @@
+Q11 (net8 net15 net07 0) npn
+Q10 (net07 net07 VSS 0) npn
+Q9 (net15 net07 VSS 0) npn
+Q8 (net14 net02 VSS 0) npn
+Q7 (net02 net02 VSS 0) npn
+Q6 (VOUT1 net14 net02 0) npn
+Q5 (net8 net8 net9 0) pnp
+Q4 (VOUT1 net8 net4 0) pnp
+Q3 (net4 net4 VDD 0) pnp
+Q2 (net14 VIN1 IB1 0) pnp
+Q1 (net15 VIN2 IB1 0) pnp
+Q0 (net9 net4 VDD 0) pnp
+R0 (VOUT1 VSS) resistor

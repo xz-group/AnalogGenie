@@ -1,0 +1,5 @@
+M3 (net12 net4 VSS VSS) nmos4
+M2 (net13 net4 VSS VSS) nmos4
+M1 (IOUT1 IREF1 net12 VSS) nmos4
+M0 (net4 IREF1 net13 VSS) nmos4
+R0 (IREF1 net4) resistor

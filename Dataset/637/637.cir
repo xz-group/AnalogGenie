@@ -1,0 +1,22 @@
+Q16 (net42 net42 net15 0) npn
+Q15 (net19 net19 VSS 0) npn
+Q14 (net15 net19 VSS 0) npn
+Q13 (VOUT1 net42 net19 0) npn
+Q12 (VDD IB1 net34 0) npn
+Q11 (net29 VIN2 IB2 0) npn
+Q10 (IB1 net34 VIN2 0) npn
+Q8 (IB1 net34 VIN1 0) npn
+Q9 (net35 VIN1 IB2 0) npn
+Q0 (net13 net3 VDD 0) pnp
+Q1 (net35 net35 net13 0) pnp
+Q2 (net3 net3 VDD 0) pnp
+Q3 (VOUT1 net35 net3 0) pnp
+Q4 (net42 net29 net6 0) pnp
+Q5 (net6 net6 VDD 0) pnp
+Q6 (net29 net29 net12 0) pnp
+Q7 (net12 net6 VDD 0) pnp
+R4 (VIN2 VSS) resistor
+R3 (VIN1 VSS) resistor
+R2 (VOUT1 VSS) resistor
+R1 (VIN2 VSS) resistor
+R0 (VIN1 VB1) resistor

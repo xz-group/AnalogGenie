@@ -1,0 +1,5 @@
+L0 (net8 net5) inductor
+R2 (VIN1 net8) resistor
+R1 (net5 VSS) resistor
+R0 (VDD VOUT1) resistor
+M1 (VOUT1 net5 VSS VSS) nmos4

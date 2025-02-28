@@ -1,0 +1,5 @@
+R0 (VOUT1 VSS) resistor
+C0 (VOUT1 VSS) capacitor
+M0 (net9 VIN1 VSS VSS) nmos4
+M2 (VOUT1 net9 VDD VDD) pmos4
+M1 (net9 net9 VDD VDD) pmos4

@@ -1,0 +1,4 @@
+R0 (VOUT1 VDD) resistor
+R1 (VOUT2 VDD) resistor
+M2 (VOUT2 VIN2 IB1 VSS) nmos4
+M0 (VOUT1 VIN1 IB1 VSS) nmos4

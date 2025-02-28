@@ -1,0 +1,9 @@
+M1 (net013 net013 VSS VSS) nmos4
+M4 (net015 net013 net018 VSS) nmos4
+M0 (net015 net012 VSS VSS) nmos4
+M2 (net012 net016 VSS VSS) nmos4
+R0 (net018 VSS) resistor
+R2 (VDD net016) resistor
+R1 (net016 net012) resistor
+M3 (net013 net015 VDD VDD) pmos4
+M13 (net015 net015 VDD VDD) pmos4

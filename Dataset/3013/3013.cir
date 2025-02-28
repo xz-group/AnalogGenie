@@ -1,0 +1,17 @@
+MM13 (VOUT1 net38 VSS VSS) nmos4
+MM9 (net38 net35 VSS VSS) nmos4
+MM8 (net35 net35 VSS VSS) nmos4
+MM12 (VOUT1 net1004 VDD VDD) pmos4
+MM11 (net33 net1004 VDD VDD) pmos4
+MM10 (net38 net12 net33 net39) pmos4
+MM7 (net35 VSS net33 net39) pmos4
+CC2 (VOUT1 net38) capacitor
+MM10 (net1004 net1007 VSS VSS) nmos4
+MM3 (net1004 net1004 VDD VDD) pmos4
+RR1 (net05 VSS) resistor
+RRF (VDD net1007) resistor
+MM0 (net1007 net1007 net05 VSS) nmos4
+M12 (VIN1 VCLK1 net11 VSS) nmos4
+M13 (net11 VCLK2 net12 VSS) nmos4
+C1 (net12 VOUT1) capacitor
+C0 (net11 VSS) capacitor

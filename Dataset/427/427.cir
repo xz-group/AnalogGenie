@@ -1,0 +1,4 @@
+M0 (net6 VB1 IB1 VSS) nmos4
+C1 (net6 IB1) capacitor
+C0 (IB1 VSS) capacitor
+L0 (VDD net6) inductor

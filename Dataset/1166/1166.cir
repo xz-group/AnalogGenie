@@ -1,0 +1,10 @@
+M1 (net12 net13 VSS VSS) nmos4
+M0 (net13 net12 VSS VSS) nmos4
+L1 (net15 net13) inductor
+L0 (net16 net12) inductor
+R1 (VOUT2 net15) resistor
+R0 (VOUT1 net16) resistor
+C3 (VCONT2 VSS) capacitor
+C2 (VCONT2 net13) capacitor
+C1 (VCONT1 VSS) capacitor
+C0 (VCONT1 net12) capacitor

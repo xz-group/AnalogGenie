@@ -1,0 +1,25 @@
+// Library name: Dataset
+// Cell name: XOR
+// View name: schematic
+subckt XOR A B VDD VSS Y
+    M4 (Y A B VDD) pmos4
+    M2 (Y B A VDD) pmos4
+    M0 (net8 A VDD VDD) pmos4
+    M5 (Y net8 B VSS) nmos4
+    M3 (Y B net8 VSS) nmos4
+    M1 (net8 A VSS VSS) nmos4
+ends XOR
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 438
+// View name: schematic
+I0 (VIN1 VOUT2 VDD VSS net20) XOR
+R0 (net20 net7) resistor
+C0 (net7 VSS) capacitor
+M1 (VOUT2 VOUT1 IB1 VSS) nmos4
+M0 (VOUT1 VOUT2 IB1 VSS) nmos4
+L1 (VDD VOUT2) inductor
+L0 (VDD VOUT1) inductor
+D1 (net7 VOUT2) diode
+D0 (net7 VOUT1) diode

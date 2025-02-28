@@ -1,0 +1,11 @@
+Q3 (VSS net032 net019 0) pnp
+Q0 (VSS VSS net02 0) pnp
+Q2 (VSS VSS net032 0) pnp
+Q1 (VSS net02 net022 0) pnp
+M2 (net028 net028 net021 VSS) nmos4
+M0 (net033 net028 net019 VSS) nmos4
+R0 (net021 net022) resistor
+M7 (net032 net033 VDD VDD) pmos4
+M6 (net033 net033 VDD VDD) pmos4
+M3 (net02 net033 VDD VDD) pmos4
+M1 (net028 net033 VDD VDD) pmos4

@@ -1,0 +1,7 @@
+Q0 (VB1 VB1 net14 0) pnp
+Q3 (net15 VB1 VB2 0) npn
+Q2 (VB2 VB2 VSS 0) npn
+Q1 (VB1 VB2 net16 0) npn
+R2 (net16 VSS) resistor
+R1 (VDD net15) resistor
+R0 (VDD net14) resistor

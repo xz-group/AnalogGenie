@@ -1,0 +1,5 @@
+M1 (VOUT1 VB1 net4 VDD) pmos4
+M0 (net4 net6 VSS VSS) nmos4
+R0 (net6 VIN1) resistor
+L1 (VOUT1 VSS) inductor
+L0 (VDD net4) inductor

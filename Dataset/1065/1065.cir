@@ -1,0 +1,13 @@
+M1 (VOUT2 VCLK1 VDD VB2) pmos4
+M0 (VOUT1 VCLK1 VDD VB2) pmos4
+M10 (net12 VCLK2 VSS VSS) nmos4
+M9 (net19 VCLK2 VSS VSS) nmos4
+M8 (VOUT2 VOUT1 net19 VSS) nmos4
+M7 (VOUT1 VOUT2 net19 VSS) nmos4
+M6 (net36 VOUT1 net12 VSS) nmos4
+M5 (net37 VOUT2 net12 VSS) nmos4
+M4 (VOUT2 VIN1 net36 VSS) nmos4
+M3 (VOUT1 VIN2 net37 VSS) nmos4
+M2 (VCLK1 VB1 VCLK2 VSS) nmos4
+C1 (VOUT1 VSS) capacitor
+C0 (VOUT2 VSS) capacitor

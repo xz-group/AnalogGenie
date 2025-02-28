@@ -1,0 +1,37 @@
+// Library name: Dataset
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 1068
+// View name: schematic
+M15 (VOUT1 VCLK7 net38 VSS) nmos4
+M14 (net41 net39 VSS VSS) nmos4
+M13 (net38 net40 VSS VSS) nmos4
+M12 (VOUT1 VCLK8 net41 VSS) nmos4
+M11 (VOUT1 VCLK6 net42 VSS) nmos4
+M10 (net45 net43 VSS VSS) nmos4
+M9 (net42 net44 VSS VSS) nmos4
+M8 (VOUT1 VCLK5 net45 VSS) nmos4
+M7 (VOUT1 VCLK3 net46 VSS) nmos4
+M6 (net49 net47 VSS VSS) nmos4
+M5 (net46 net48 VSS VSS) nmos4
+M4 (VOUT1 VCLK4 net49 VSS) nmos4
+M3 (net52 net50 VSS VSS) nmos4
+M2 (net53 net51 VSS VSS) nmos4
+M1 (VOUT1 VCLK2 net52 VSS) nmos4
+M0 (VOUT1 VCLK1 net53 VSS) nmos4
+I7 (VCLK8 net39 VDD VSS) INVERTER
+I6 (VCLK7 net40 VDD VSS) INVERTER
+I5 (VCLK5 net43 VDD VSS) INVERTER
+I4 (VCLK6 net44 VDD VSS) INVERTER
+I3 (VCLK4 net47 VDD VSS) INVERTER
+I2 (VCLK3 net48 VDD VSS) INVERTER
+I1 (VCLK2 net50 VDD VSS) INVERTER
+I0 (VCLK1 net51 VDD VSS) INVERTER
+M16 (VOUT1 VSS VDD VDD) pmos4

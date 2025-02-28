@@ -1,0 +1,8 @@
+M3 (net38 net39 net37 VSS) nmos4
+M6 (net39 net39 net36 VSS) nmos4
+R0 (net37 net35) resistor
+M2 (IOUT1 net38 VDD VDD) pmos4
+M1 (net38 net38 VDD VDD) pmos4
+M0 (net39 net38 VDD VDD) pmos4
+D1 (net35 VSS) diode
+D0 (net36 VSS) diode

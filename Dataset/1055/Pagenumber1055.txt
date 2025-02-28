@@ -1,0 +1,2 @@
+H. S. Bindra, C. E. Lokin, A. -J. Annema and B. Nauta, "A 30fJ/comparison dynamic bias comparator," ESSCIRC 2017 - 43rd IEEE European Solid State Circuits Conference, Leuven, Belgium, 2017, pp. 71-74, doi: 10.1109/ESSCIRC.2017.8094528.
+keywords: {Latches;Energy consumption;Delays;Signal to noise ratio;Transistors;Noise measurement;Voltage measurement;Dynamic bias;charge steering;StrongARM latch;double-tail latch-type comparator;Noise;SAR;Offset},

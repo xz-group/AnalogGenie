@@ -1,0 +1,8 @@
+M7 (IOUT1 net9 IB1 VSS) nmos4
+M6 (IOUT2 VIN2 IB1 VSS) nmos4
+M5 (net9 VB1 VSS VSS) nmos4
+M4 (VDD VIN2 net9 VSS) nmos4
+M3 (net3 VB1 VSS VSS) nmos4
+M2 (IOUT2 net3 IB1 VSS) nmos4
+M1 (IOUT1 VIN1 IB1 VSS) nmos4
+M0 (VDD VIN1 net3 VSS) nmos4

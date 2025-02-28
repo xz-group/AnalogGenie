@@ -1,0 +1,6 @@
+M1 (IOUT1 net12 VDD VDD) pmos4
+M0 (net12 net12 VDD VDD) pmos4
+M5 (IIN2 VB1 VSS VSS) nmos4
+M4 (IIN1 VB1 VSS VSS) nmos4
+M3 (IOUT1 VB2 IIN2 VSS) nmos4
+M2 (net12 VB2 IIN1 VSS) nmos4

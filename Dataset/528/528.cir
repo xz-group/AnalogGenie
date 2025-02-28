@@ -1,0 +1,6 @@
+M3 (net021 net023 VSS VSS) nmos4
+M0 (net023 net021 VSS VSS) nmos4
+M1 (VCONT1 net021 VCONT1 VSS) nmos4
+M4 (VCONT1 net023 VCONT1 VSS) nmos4
+L1 (IB1 net021) inductor
+L0 (IB1 net023) inductor

@@ -1,0 +1,17 @@
+M12 (VOUT1 net41 net48 VDD) pmos4
+M11 (VOUT2 net38 net49 VDD) pmos4
+M10 (net48 VOUT2 net18 VDD) pmos4
+M9 (net49 VOUT1 net18 VDD) pmos4
+M8 (net18 VCLK3 VDD VDD) pmos4
+M2 (net41 VIN2 net24 VDD) pmos4
+M1 (net38 VIN1 net24 VDD) pmos4
+M0 (net24 VCLK1 VDD VDD) pmos4
+M16 (VOUT1 VCLK2 VSS VSS) nmos4
+M15 (VOUT1 VOUT2 VSS VSS) nmos4
+M14 (VOUT2 VOUT1 VSS VSS) nmos4
+M13 (VOUT2 VCLK2 VSS VSS) nmos4
+M7 (net41 VCLK2 VSS VSS) nmos4
+M6 (net38 VCLK2 VSS VSS) nmos4
+M5 (net23 VDD VSS VSS) nmos4
+M4 (net38 net41 net23 VSS) nmos4
+M3 (net41 net38 net23 VSS) nmos4

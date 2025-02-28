@@ -1,0 +1,2 @@
+A. Franceschin, D. Riccardi and A. Mazzanti, "Series-Resonance BiCMOS VCO with Phase Noise of -138dBc/Hz at 1MHz Offset from 10GHz and -190dBc/Hz FoM," 2022 IEEE International Solid-State Circuits Conference (ISSCC), San Francisco, CA, USA, 2022, pp. 1-3, doi: 10.1109/ISSCC42614.2022.9731738.
+keywords: {Phase noise;Wireless communication;Power demand;Multicore processing;Phase modulation;Voltage-controlled oscillators;Voltage},

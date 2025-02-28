@@ -1,0 +1,10 @@
+M2 (VSS net2 VOUT1 VDD) pmos4
+M1 (net2 net7 IB1 VDD) pmos4
+M9 (net2 net7 VSS VSS) nmos4
+C2 (net11 VOUT1) capacitor
+C0 (VSS IB1) capacitor
+C1 (net12 net7) capacitor
+R3 (VDD VOUT1) resistor
+R2 (net7 net11) resistor
+R1 (net7 net2) resistor
+R0 (VIN1 net12) resistor

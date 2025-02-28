@@ -1,0 +1,4 @@
+R0 (VDD VREF1) resistor
+R2 (net15 VSS) resistor
+R1 (VREF1 net15) resistor
+M0 (VREF1 net15 VSS VSS) nmos4

@@ -1,0 +1,3 @@
+R0 (VDD net7) resistor
+M1 (net5 net5 VSS VSS) nmos4
+M0 (net7 VB1 net5 VSS) nmos4

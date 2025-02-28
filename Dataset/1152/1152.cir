@@ -1,0 +1,40 @@
+Q15 (VDD net65 net63 0) npn
+Q14 (VDD net67 net69 0) npn
+Q13 (VDD net69 net76 0) npn
+Q12 (VDD net63 net79 0) npn
+Q11 (net69 net79 net87 0) npn
+Q10 (net63 net76 net88 0) npn
+Q9 (net76 net81 net71 0) npn
+Q8 (net79 net75 net77 0) npn
+Q7 (net81 net79 net73 0) npn
+Q6 (net75 net76 net78 0) npn
+Q0 (VDD net66 net64 0) npn
+Q5 (net70 net75 net102 0) npn
+Q4 (net64 net81 net101 0) npn
+Q3 (VDD net70 net81 0) npn
+Q2 (VDD net64 net75 0) npn
+Q1 (VDD net68 net70 0) npn
+L1 (net65 net67) inductor
+L0 (net66 net68) inductor
+C5 (net67 net65) capacitor
+C4 (net91 net90) capacitor
+C3 (net94 net93) capacitor
+C2 (net97 net96) capacitor
+C1 (net100 net99) capacitor
+C0 (net68 net66) capacitor
+R15 (net71 VSS) resistor
+R14 (net87 VSS) resistor
+R13 (net88 VSS) resistor
+R12 (net77 VSS) resistor
+R11 (net90 VSS) resistor
+R10 (net71 net91) resistor
+R9 (net93 VSS) resistor
+R8 (net77 net94) resistor
+R7 (net96 VSS) resistor
+R6 (net73 net97) resistor
+R5 (net99 VSS) resistor
+R4 (net78 net100) resistor
+R3 (net73 VSS) resistor
+R2 (net102 VSS) resistor
+R1 (net101 VSS) resistor
+R0 (net78 VSS) resistor

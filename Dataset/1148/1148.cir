@@ -1,0 +1,6 @@
+L0 (VOUT1 VOUT2) inductor
+C1 (VOUT2 VCONT1) capacitor
+C0 (VOUT1 VCONT1) capacitor
+M0 (VOUT1 VOUT2 net17 VSS) nmos4
+R0 (net17 VSS) resistor
+M1 (VDD VOUT1 VOUT2 VDD) pmos4

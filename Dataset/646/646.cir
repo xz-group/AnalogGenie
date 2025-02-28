@@ -1,0 +1,10 @@
+R2 (net016 net010) resistor
+R0 (net016 net1) resistor
+R1 (net016 net015) resistor
+C3 (net1 net09) capacitor
+C2 (net1 net016) capacitor
+C1 (net016 VSS) capacitor
+C0 (net1 VSS) capacitor
+M3 (net015 net1 VSS VSS) nmos4
+M0 (net015 net1 VDD VDD) pmos4
+L0 (net09 net010) inductor

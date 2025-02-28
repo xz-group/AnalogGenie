@@ -1,0 +1,10 @@
+L0 (net4 net9) inductor
+C4 (IB1 VSS) capacitor
+C3 (net6 net9) capacitor
+C2 (net5 net4) capacitor
+C1 (net15 net9) capacitor
+C0 (net15 net4) capacitor
+M1 (net9 net5 IB1 VSS) nmos4
+M0 (net4 net6 IB1 VSS) nmos4
+R1 (VB1 net6) resistor
+R0 (VB1 net5) resistor

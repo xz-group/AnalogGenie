@@ -1,0 +1,26 @@
+M13 (IOUT2 net080 net079 VSS) nmos4
+M12 (net079 VIN2 VSS VSS) nmos4
+M9 (net082 VCONT1 IB2 net089) nmos4
+M8 (net091 net083 VSS VSS) nmos4
+M7 (net088 net079 IB2 net089) nmos4
+M6 (net080 VB1 net090 VSS) nmos4
+M5 (net090 net083 VSS VSS) nmos4
+M4 (net083 VB1 net091 VSS) nmos4
+M1 (IOUT1 net077 net078 VSS) nmos4
+M0 (net078 VIN1 VSS VSS) nmos4
+M16 (net073 VB1 net094 VSS) nmos4
+M18 (net092 net073 VSS VSS) nmos4
+M20 (net077 VB1 net092 VSS) nmos4
+M14 (net076 net078 IB2 net093) nmos4
+M17 (net094 net073 VSS VSS) nmos4
+M15 (net085 VCONT1 IB2 net093) nmos4
+M11 (net080 VB2 net088 VDD) pmos4
+M10 (net083 VB2 net082 VDD) pmos4
+M3 (net088 VB3 VDD VDD) pmos4
+M2 (net082 VB3 VDD VDD) pmos4
+M23 (net085 VB3 VDD VDD) pmos4
+M19 (net077 VB2 net076 VDD) pmos4
+M22 (net073 VB2 net085 VDD) pmos4
+M21 (net076 VB3 VDD VDD) pmos4
+R1 (VDD IOUT2) resistor
+R0 (VDD IOUT1) resistor

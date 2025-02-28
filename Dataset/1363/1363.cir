@@ -1,0 +1,29 @@
+MM14 (net025 net012 VDD VDD) pmos4
+MM13 (net024 net012 VDD VDD) pmos4
+MM3 (net20 VB1 net025 VDD) pmos4
+MM2 (net012 VB1 net024 VDD) pmos4
+MM7 (net11 net13 net14 net27) pmos4
+MM6 (net16 net20 net14 net27) pmos4
+MM5 (net14 VB2 VDD VDD) pmos4
+MM12 (net29 net11 VSS VSS) nmos4
+MM11 (net32 net16 VSS VSS) nmos4
+MM10 (net33 net11 VSS VSS) nmos4
+MM4 (net26 net16 VSS VSS) nmos4
+MM1 (net20 net1003 net29 VSS) nmos4
+MM0 (net012 net1003 net32 VSS) nmos4
+MM9 (net11 net1003 net33 VSS) nmos4
+MM8 (net16 net1003 net26 VSS) nmos4
+MM13 (net9 net1003 VSS VSS) nmos4
+MM15 (net1003 net1003 net9 VSS) nmos4
+MM14 (net1003 net1006 VDD VDD) pmos4
+MM2 (net1006 VB3 VSS VSS) nmos4
+MM0 (VB3 VB3 VSS VSS) nmos4
+MM3 (net1006 net1006 VDD VDD) pmos4
+MM1 (VB3 net1006 VDD VDD) pmos4
+C1 (VOUT1 VSS) capacitor
+C0 (VIN1 VSS) capacitor
+M1 (net13 net20 VOUT1 VOUT1) pmos4
+M0 (net10 VCONT1 VIN1 VIN1) pmos4
+M3 (net13 VCONT3 VSS VSS) nmos4
+M2 (net10 VCONT2 VSS VSS) nmos4
+L0 (net10 net13) inductor

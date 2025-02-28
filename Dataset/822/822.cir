@@ -1,0 +1,20 @@
+Q2 (VDD net15 net16 0) npn
+Q1 (net13 net10 net12 0) npn
+Q0 (net8 net5 net7 0) npn
+R10 (net16 VSS) resistor
+R9 (net15 VSS) resistor
+R8 (VDD net15) resistor
+R7 (net12 VSS) resistor
+R6 (VDD net13) resistor
+R5 (net10 VSS) resistor
+R4 (VDD net10) resistor
+R3 (net7 VSS) resistor
+R2 (net5 VSS) resistor
+R1 (VDD net8) resistor
+R0 (VDD net5) resistor
+C5 (VOUT1 net16) capacitor
+C4 (net12 VSS) capacitor
+C3 (net15 net13) capacitor
+C2 (net7 VSS) capacitor
+C1 (net10 net8) capacitor
+C0 (net5 VIN1) capacitor

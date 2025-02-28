@@ -1,0 +1,14 @@
+M6 (IB1 IB1 VSS VSS) nmos4
+M5 (net18 IB1 VSS VSS) nmos4
+M4 (net12 net21 net18 VSS) nmos4
+M3 (net21 net12 net18 VSS) nmos4
+M2 (net13 VCONT3 net25 VSS) nmos4
+M1 (net13 VCONT2 VSS VSS) nmos4
+M0 (VDD net13 IB1 VSS) nmos4
+R1 (VDD net18) resistor
+R0 (VB1 net13) resistor
+C2 (VCONT1 net21) capacitor
+C1 (VCONT1 net12) capacitor
+C0 (net18 net25) capacitor
+L1 (VDD net21) inductor
+L0 (VDD net12) inductor

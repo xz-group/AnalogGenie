@@ -1,0 +1,37 @@
+Q21 (net34 VSS VSS 0) npn
+Q20 (net034 VSS VSS 0) npn
+Q19 (net15 net18 VSS 0) npn
+Q18 (net19 net15 net17 0) npn
+Q17 (net19 net17 net18 0) npn
+Q15 (net23 net11 net28 0) npn
+Q14 (net11 net11 VSS 0) npn
+Q11 (net15 net4 VB2 0) npn
+Q10 (net3 net4 VB1 0) npn
+Q9 (VDD net3 net4 0) npn
+Q6 (net9 net33 net29 0) npn
+Q5 (net9 net34 net30 0) npn
+Q4 (net24 net16 net19 0) npn
+Q2 (net24 net22 VREF1 0) npn
+Q1 (VDD net24 net22 0) npn
+Q16 (net14 net14 VDD 0) pnp
+Q13 (net9 net9 VDD 0) pnp
+Q12 (net23 net9 VDD 0) pnp
+Q8 (net15 net23 net29 0) pnp
+Q7 (net3 net23 net30 0) pnp
+Q3 (net24 net14 VDD 0) pnp
+Q0 (VSS net19 net27 0) pnp
+R16 (VREF1 net34) resistor
+R15 (VREF1 net33) resistor
+R14 (net33 net034) resistor
+R13 (net17 VSS) resistor
+R12 (net18 VSS) resistor
+R11 (net14 net11) resistor
+R10 (net28 VSS) resistor
+R9 (net4 VSS) resistor
+R8 (VB2 VSS) resistor
+R7 (VB1 VSS) resistor
+R6 (net24 net16) resistor
+R5 (net19 net16) resistor
+R4 (VREF1 net27) resistor
+R3 (net22 VREF1) resistor
+C0 (net24 net15) capacitor

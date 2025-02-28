@@ -1,0 +1,9 @@
+M1 (net13 net8 VSS VSS) nmos4
+M0 (net13 net7 VSS VSS) nmos4
+C2 (VIN1 net7) capacitor
+C1 (VIN1 net8) capacitor
+C0 (net13 net18) capacitor
+R2 (net7 VB1) resistor
+R1 (net8 VSS) resistor
+R0 (net18 VSS) resistor
+L0 (VDD net13) inductor

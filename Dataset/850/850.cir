@@ -1,0 +1,3 @@
+M1 (IOUT1 net10 VSS VSS) nmos4
+M0 (net10 IIN1 VSS VSS) nmos4
+R0 (IIN1 net10) resistor

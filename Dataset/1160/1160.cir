@@ -1,0 +1,16 @@
+L3 (net36 net35) inductor
+L2 (net24 net23) inductor
+L0 (VDD VOUT1) inductor
+L1 (VDD VOUT2) inductor
+C1 (VOUT2 net36) capacitor
+C0 (VOUT1 net24) capacitor
+R3 (VB2 net40) resistor
+R2 (net39 VB3) resistor
+R0 (net28 VCONT1) resistor
+R1 (VB1 net27) resistor
+M7 (net35 net23 VSS net39) nmos4
+M6 (net23 net35 VSS net40) nmos4
+M5 (net28 net36 net28 VSS) nmos4
+M4 (net28 net24 net28 VSS) nmos4
+M1 (VOUT2 net27 net36 VSS) nmos4
+M0 (VOUT1 net27 net24 VSS) nmos4

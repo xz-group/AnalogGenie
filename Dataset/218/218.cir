@@ -1,0 +1,3 @@
+M2 (VOUT1 VIN1 VSS VSS) nmos4
+R1 (VOUT1 VDD) resistor
+C0 (VOUT1 VSS) capacitor

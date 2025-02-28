@@ -1,0 +1,2 @@
+B. Goll and H. Zimmermann, "A 65nm CMOS comparator with modified latch to achieve 7GHz/1.3mW at 1.2V and 700MHz/47µW at 0.6V," 2009 IEEE International Solid-State Circuits Conference - Digest of Technical Papers, San Francisco, CA, USA, 2009, pp. 328-329,329a, doi: 10.1109/ISSCC.2009.4977441.
+keywords: {Voltage;Variable structure systems;Delay effects;Clocks;Bit error rate;Latches;Semiconductor device measurement;Inverters;Time measurement;Circuits},

@@ -1,0 +1,2 @@
+HongMo Wang, "A 50 GHz VCO in 0.25 /spl mu/m CMOS," 2001 IEEE International Solid-State Circuits Conference. Digest of Technical Papers. ISSCC (Cat. No.01CH37177), San Francisco, CA, USA, 2001, pp. 372-373, doi: 10.1109/ISSCC.2001.912679.
+keywords: {Voltage-controlled oscillators;CMOS technology;Millimeter wave technology;Frequency;Millimeter wave communication;III-V semiconductor materials;Transmission lines;Broadband communication;Transceivers;Signal design},

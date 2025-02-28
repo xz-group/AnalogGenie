@@ -1,0 +1,7 @@
+M1 (VCONT1 net019 VCONT1 VSS) nmos4
+M4 (VCONT1 net020 VCONT1 VSS) nmos4
+M3 (net019 net020 IB1 VSS) nmos4
+M0 (net020 net019 IB1 VSS) nmos4
+L1 (net03 net020) inductor
+L0 (net03 net019) inductor
+R0 (VDD net03) resistor

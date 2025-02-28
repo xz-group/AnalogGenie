@@ -1,0 +1,6 @@
+C0 (net18 net17) capacitor
+R1 (VDD net17) resistor
+R0 (VDD net18) resistor
+M0 (net17 VIN1 VSS VSS) nmos4
+M2 (VDD net18 VOUT1 VSS) nmos4
+M1 (VOUT1 VB1 VSS VSS) nmos4

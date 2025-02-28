@@ -1,0 +1,14 @@
+D4 (net01 net02) diode
+D3 (net016 VSS) diode
+D2 (net015 net016) diode
+D1 (net014 net015) diode
+D0 (net01 net014) diode
+Q5 (net03 net07 VSS 0) npn
+Q4 (IB1 net07 VSS 0) npn
+Q3 (net05 net03 net07 0) npn
+R2 (VDD net01) resistor
+R1 (net02 net03) resistor
+R0 (net07 VSS) resistor
+Q2 (IB2 net05 VDD 0) pnp
+Q1 (net02 net05 VDD 0) pnp
+Q0 (net05 net05 VDD 0) pnp

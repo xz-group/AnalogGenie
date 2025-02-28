@@ -1,0 +1,6 @@
+L1 (VDD net12) inductor
+L0 (VDD net10) inductor
+M1 (net12 net10 IB1 VSS) nmos4
+M0 (net10 net12 IB1 VSS) nmos4
+D1 (VCONT1 net12) diode
+D0 (VCONT1 net10) diode

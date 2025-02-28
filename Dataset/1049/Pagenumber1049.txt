@@ -1,0 +1,1 @@
+D. J. Allstot, "A precision variable-supply CMOS comparator," in IEEE Journal of Solid-State Circuits, vol. 17, no. 6, pp. 1080-1087, Dec. 1982, doi: 10.1109/JSSC.1982.1051864. keywords: {Power supplies;CMOS technology;Codecs;Solid state circuits;MOS devices;Voltage control;Control systems;Analog circuits;Signal resolution;Switches},

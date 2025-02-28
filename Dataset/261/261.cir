@@ -1,0 +1,5 @@
+R0 (VDD net18) resistor
+R1 (IIN1 net20) resistor
+R2 (IOUT1 net20) resistor
+M1 (VDD net18 net20 VSS) nmos4
+M0 (net18 IIN1 VSS VSS) nmos4

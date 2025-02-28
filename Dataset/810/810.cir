@@ -1,0 +1,14 @@
+M11 (VIN1 VCLK1 net29 VSS) nmos4
+M10 (net29 VCLK2 net41 VSS) nmos4
+M9 (net35 net41 IB1 VSS) nmos4
+M8 (net36 VSS IB1 VSS) nmos4
+M5 (VOUT1 VB2 net39 VSS) nmos4
+M4 (net31 VB2 net40 VSS) nmos4
+M7 (net39 net31 VSS VSS) nmos4
+M6 (net40 net31 VSS VSS) nmos4
+C0 (net41 net29) capacitor
+C4 (net41 VOUT1) capacitor
+M1 (net35 VB3 VDD VDD) pmos4
+M0 (net36 VB3 VDD VDD) pmos4
+M3 (VOUT1 VB1 net35 VDD) pmos4
+M2 (net31 VB1 net36 VDD) pmos4

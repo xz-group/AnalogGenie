@@ -1,0 +1,2 @@
+P. Kinget, "A fully integrated 2.7 V 0.35 /spl mu/m CMOS VCO for 5 GHz wireless applications," 1998 IEEE International Solid-State Circuits Conference. Digest of Technical Papers, ISSCC. First Edition (Cat. No.98CH36156), San Francisco, CA, USA, 1998, pp. 226-227, doi: 10.1109/ISSCC.1998.672446.
+keywords: {Voltage-controlled oscillators;Q factor;Capacitors;CMOS technology;Inductors;Frequency estimation;Resistors;Voltage;Integrated circuit technology;Phase noise},

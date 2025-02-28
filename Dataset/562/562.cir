@@ -1,0 +1,12 @@
+R0 (VDD net51) resistor
+R3 (VDD net54) resistor
+R2 (VDD net015) resistor
+R1 (VDD net46) resistor
+M7 (net54 net015 IB4 VSS) nmos4
+M6 (net015 net54 IB4 VSS) nmos4
+M5 (net015 net46 IB3 VSS) nmos4
+M4 (net54 net51 IB3 VSS) nmos4
+M3 (net51 net46 IB2 VSS) nmos4
+M2 (net46 net51 IB2 VSS) nmos4
+M1 (net46 net54 IB1 VSS) nmos4
+M0 (net51 net015 IB1 VSS) nmos4

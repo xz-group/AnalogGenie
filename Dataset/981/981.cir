@@ -1,0 +1,40 @@
+M25 (VOUT1 VOUT2 net147 VDD) pmos4
+M24 (net147 VOUT1 VDD VDD) pmos4
+M23 (VOUT3 VB4 net148 VDD) pmos4
+M22 (net148 net162 VDD VDD) pmos4
+M21 (net149 VB4 net150 VDD) pmos4
+M20 (net150 net162 VDD VDD) pmos4
+M19 (net132 VB3 VDD VDD) pmos4
+M18 (net116 VB3 VDD VDD) pmos4
+M17 (net162 VB2 net116 VDD) pmos4
+M16 (VSS VB2 net132 VDD) pmos4
+M5 (net113 net107 net159 VDD) pmos4
+M4 (net104 net107 net160 VDD) pmos4
+M3 (net101 net107 net161 VDD) pmos4
+M2 (net159 net104 VDD VDD) pmos4
+M1 (net160 net104 VDD VDD) pmos4
+M0 (net161 net104 VDD VDD) pmos4
+R6 (VOUT3 VOUT4) resistor
+R5 (VOUT1 VOUT2) resistor
+R4 (net149 VSS) resistor
+R3 (net113 net153) resistor
+R2 (net154 net155) resistor
+R1 (net104 net107) resistor
+R0 (net101 net100) resistor
+M29 (net145 VOUT4 VSS VSS) nmos4
+M28 (net146 VOUT4 VSS VSS) nmos4
+M27 (VOUT2 VOUT3 net145 VSS) nmos4
+M26 (VOUT4 VOUT3 net146 VSS) nmos4
+M15 (net132 net149 VSS VSS) nmos4
+M14 (net116 net113 VSS VSS) nmos4
+M13 (net162 VB1 net151 VSS) nmos4
+M12 (VSS VB1 net152 VSS) nmos4
+M11 (net151 VSS VSS VSS) nmos4
+M10 (net152 VSS VSS VSS) nmos4
+M9 (net158 net100 net156 VSS) nmos4
+M8 (net157 net100 net154 VSS) nmos4
+M7 (net107 net101 net157 VSS) nmos4
+M6 (net100 net101 net158 VSS) nmos4
+Q2 (VSS VSS net153 0) pnp
+Q1 (VSS VSS net156 0) pnp
+Q0 (VSS VSS net155 0) pnp

@@ -1,0 +1,4 @@
+M1 (net03 VIN1 VSS VSS) nmos4
+M0 (IB1 net03 VSS VSS) nmos4
+M2 (VOUT1 IB1 net03 VSS) nmos4
+R0 (VOUT1 VDD) resistor

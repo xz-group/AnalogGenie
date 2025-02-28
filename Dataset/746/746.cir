@@ -1,0 +1,18 @@
+Q9 (net15 VLATCH1 net14 0) npn
+Q8 (net10 VTRACK1 net14 0) npn
+Q7 (net11 VOUT1 net15 0) npn
+Q6 (net8 VOUT2 net15 0) npn
+Q1 (net5 VIN2 net4 0) npn
+Q2 (net8 net5 net10 0) npn
+Q0 (net3 VIN1 net4 0) npn
+Q3 (net11 net3 net10 0) npn
+Q4 (VDD net8 VOUT1 0) npn
+Q5 (VDD net11 VOUT2 0) npn
+R7 (net14 VSS) resistor
+R6 (VOUT2 VSS) resistor
+R5 (VOUT1 VSS) resistor
+R4 (net4 VSS) resistor
+R0 (VDD net3) resistor
+R1 (VDD net5) resistor
+R2 (VDD net8) resistor
+R3 (VDD net11) resistor

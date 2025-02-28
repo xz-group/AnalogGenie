@@ -1,0 +1,20 @@
+R3 (VDD net19) resistor
+R2 (VDD net011) resistor
+R1 (VDD net6) resistor
+R0 (VDD net1) resistor
+M11 (net17 VCLK2 IB2 VSS) nmos4
+M10 (net11 VCLK1 IB2 VSS) nmos4
+M9 (net25 net011 net17 VSS) nmos4
+M8 (net011 net25 net17 VSS) nmos4
+M7 (net011 net6 net11 VSS) nmos4
+M6 (net19 net1 net11 VSS) nmos4
+M5 (net8 VCLK2 IB1 VSS) nmos4
+M4 (net2 VCLK1 IB1 VSS) nmos4
+M3 (net21 net6 net8 VSS) nmos4
+M2 (net6 net21 net8 VSS) nmos4
+M1 (net6 net19 net2 VSS) nmos4
+M0 (net1 net011 net2 VSS) nmos4
+C3 (VSS net25) capacitor
+C2 (VSS net011) capacitor
+C1 (VSS net21) capacitor
+C0 (VSS net6) capacitor

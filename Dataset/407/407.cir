@@ -1,0 +1,10 @@
+R0 (VDD net22) resistor
+R3 (VDD net28) resistor
+R2 (VDD net29) resistor
+R1 (VDD net24) resistor
+M5 (net25 VB1 VSS VSS) nmos4
+M4 (net23 VB1 VSS VSS) nmos4
+M3 (net29 net22 net25 VSS) nmos4
+M2 (net28 net24 net25 VSS) nmos4
+M1 (net24 VIN2 net23 VSS) nmos4
+M0 (net22 VIN1 net23 VSS) nmos4

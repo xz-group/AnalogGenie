@@ -1,0 +1,48 @@
+// Library name: Dataset
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 1052
+// View name: schematic
+M26 (net112 net106 VDD VDD) pmos4
+M21 (net104 net99 VDD VDD) pmos4
+M3 (net93 net93 VDD VDD) pmos4
+M15 (net88 net88 VDD VDD) pmos4
+M8 (net83 VB5 VDD VDD) pmos4
+M7 (net82 VB5 VDD VDD) pmos4
+M27 (net112 net108 VSS VSS) nmos4
+M25 (net108 VB4 VSS VSS) nmos4
+M24 (net123 net123 net108 VSS) nmos4
+M23 (VDD net106 net123 VSS) nmos4
+M22 (net104 net100 VSS VSS) nmos4
+M20 (net100 VB4 VSS VSS) nmos4
+M19 (net122 net122 net100 VSS) nmos4
+M13 (VDD net99 net122 VSS) nmos4
+M6 (net99 net95 net97 VSS) nmos4
+M5 (net106 net91 net97 VSS) nmos4
+M4 (net97 VB3 VSS VSS) nmos4
+M2 (net95 net90 net92 VSS) nmos4
+M1 (net91 net86 net92 VSS) nmos4
+M0 (net92 VB2 VSS VSS) nmos4
+M18 (net87 VB1 VSS VSS) nmos4
+M17 (net90 net83 net87 VSS) nmos4
+M16 (net86 net82 net87 VSS) nmos4
+M14 (net84 VCM1 VSS VSS) nmos4
+M12 (net83 VIN2 net84 VSS) nmos4
+M11 (net82 VIN1 net84 VSS) nmos4
+M10 (net82 net82 net83 VSS) nmos4
+M9 (net83 net83 net82 VSS) nmos4
+R5 (VDD net99) resistor
+R4 (VDD net106) resistor
+R3 (net93 net95) resistor
+R2 (net93 net91) resistor
+R1 (net88 net90) resistor
+R0 (net88 net86) resistor
+I1 (net112 LOGICQ1 VDD VSS) INVERTER
+I0 (net104 LOGICQ2 VDD VSS) INVERTER

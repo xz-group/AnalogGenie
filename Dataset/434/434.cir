@@ -1,0 +1,19 @@
+M12 (net26 net26 VSS VSS) nmos4
+M11 (net38 net38 VSS VSS) nmos4
+M10 (net11 net38 VSS VSS) nmos4
+M9 (VOUT2 VOUT1 net11 VSS) nmos4
+M8 (VOUT1 VOUT2 net11 VSS) nmos4
+M7 (net8 net38 VSS VSS) nmos4
+M6 (VOUT2 net5 net8 VSS) nmos4
+M5 (VOUT1 net3 net8 VSS) nmos4
+M4 (net6 net26 VSS VSS) nmos4
+M3 (VOUT2 VIN1 net6 VSS) nmos4
+M2 (VOUT1 VIN2 net6 VSS) nmos4
+M1 (net5 VIN2 IB1 VSS) nmos4
+M0 (net3 VIN1 IB1 VSS) nmos4
+R3 (VDD VOUT2) resistor
+R2 (VDD VOUT1) resistor
+R1 (VDD net5) resistor
+R0 (VDD net3) resistor
+M14 (net26 VCONT1 IB2 VDD) pmos4
+M13 (net38 VCONT2 IB2 VDD) pmos4

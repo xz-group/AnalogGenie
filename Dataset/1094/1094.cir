@@ -1,0 +1,16 @@
+M3 (VOUT2 net22 VRF1 VSS) nmos4
+M2 (VOUT2 net17 VRF1 VSS) nmos4
+M1 (VOUT1 net16 VRF1 VSS) nmos4
+M0 (VOUT1 net11 VRF1 VSS) nmos4
+R5 (net17 VB3) resistor
+R4 (net16 VB2) resistor
+R3 (net22 VB4) resistor
+R2 (net11 VB1) resistor
+R1 (VSS VOUT2) resistor
+R0 (VSS VOUT1) resistor
+C5 (VLO2 net22) capacitor
+C4 (VLO2 net16) capacitor
+C3 (VLO1 net17) capacitor
+C2 (VLO1 net11) capacitor
+C1 (VSS VOUT2) capacitor
+C0 (VSS VOUT1) capacitor

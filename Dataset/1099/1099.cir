@@ -1,0 +1,21 @@
+L3 (net11 net15) inductor
+L2 (net14 net11) inductor
+L1 (VLO1 net11) inductor
+L0 (VRF1 net14) inductor
+C7 (net28 net16) capacitor
+C6 (net29 net17) capacitor
+C5 (net15 VSS) capacitor
+C4 (net11 VSS) capacitor
+C3 (net11 VSS) capacitor
+C2 (net14 VSS) capacitor
+C1 (VLO1 net11) capacitor
+C0 (VRF1 net14) capacitor
+Q3 (VIF2 net28 net20 0) npn
+Q2 (VIF1 net29 net20 0) npn
+Q1 (net17 net15 VSS 0) npn
+Q0 (net16 net14 VSS 0) npn
+R4 (net20 VSS) resistor
+R3 (VDD VIF2) resistor
+R2 (VDD VIF1) resistor
+R1 (VDD net17) resistor
+R0 (VDD net16) resistor

@@ -1,0 +1,1 @@
+F. Svelto and R. Castello, "A bond-wire inductor-MOS varactor VCO tunable from 1.8 to 2.4 GHz," in IEEE Transactions on Microwave Theory and Techniques, vol. 50, no. 1, pp. 403-407, Jan. 2002, doi: 10.1109/22.981292. keywords: {Bonding;Varactors;Voltage-controlled oscillators;Voltage;Phase noise;Energy consumption;Q factor;Noise level;Signal to noise ratio;Prototypes},

@@ -1,0 +1,6 @@
+C2 (VOUT1 VSS) capacitor
+C1 (net05 VOUT1) capacitor
+C0 (VDD net05) capacitor
+R1 (net05 VIN1) resistor
+R0 (VOUT1 VSS) resistor
+M2 (VOUT1 net05 VDD VDD) pmos4

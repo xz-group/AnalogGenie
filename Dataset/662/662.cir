@@ -1,0 +1,10 @@
+C0 (IB4 net025) capacitor
+M8 (VDD IB4 VOUT1 VSS) nmos4
+M7 (VOUT1 net025 VSS VSS) nmos4
+M2 (net026 net026 VSS VSS) nmos4
+M3 (net025 net026 VSS VSS) nmos4
+M4 (IB4 net025 VSS VSS) nmos4
+M6 (VSS VIN1 IB2 VDD) pmos4
+M5 (VSS VOUT1 IB3 VDD) pmos4
+M0 (net025 IB2 IB1 VDD) pmos4
+M1 (net026 IB3 IB1 VDD) pmos4

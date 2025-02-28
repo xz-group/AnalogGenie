@@ -1,0 +1,7 @@
+C0 (IB1 net09) capacitor
+M1 (net09 VRF1 net06 net06) nmos4
+M3 (VIF1 VLO1 IB1 VSS) nmos4
+M2 (VIF2 VLO2 IB1 VSS) nmos4
+L0 (net09 VDD) inductor
+R0 (VDD VIF1) resistor
+R1 (VDD VIF2) resistor

@@ -1,0 +1,37 @@
+Q0 (VSS net040 net056 0) pnp
+Q3 (net049 net035 VDD 0) pnp
+Q7 (net026 net048 net053 0) pnp
+Q8 (net036 net048 net054 0) pnp
+Q12 (net048 net030 VDD 0) pnp
+Q13 (net030 net030 VDD 0) pnp
+Q16 (net035 net035 VDD 0) pnp
+Q23 (VDD VREF1 net052 0) npn
+Q22 (VDD VREF1 net024 0) npn
+Q1 (VDD net049 net043 0) npn
+Q2 (net049 net043 VREF1 0) npn
+Q4 (net049 net037 net040 0) npn
+Q5 (net030 net024 net053 0) npn
+Q6 (net030 net025 net054 0) npn
+Q9 (VDD net026 net027 0) npn
+Q10 (net026 net027 VB1 0) npn
+Q11 (net036 net027 VB2 0) npn
+Q14 (net032 net032 VSS 0) npn
+Q15 (net048 net032 net055 0) npn
+Q17 (net040 net038 net039 0) npn
+Q18 (net040 net036 net038 0) npn
+Q19 (net036 net039 VSS 0) npn
+R2 (net052 net025) resistor
+R1 (net024 VSS) resistor
+R0 (net025 VSS) resistor
+R3 (net043 VREF1) resistor
+R4 (VREF1 net056) resistor
+R5 (net040 net037) resistor
+R6 (net049 net037) resistor
+R7 (VB1 VSS) resistor
+R8 (VB2 VSS) resistor
+R9 (net027 VSS) resistor
+R10 (net055 VSS) resistor
+R11 (net035 net032) resistor
+R12 (net039 VSS) resistor
+R13 (net038 VSS) resistor
+C0 (net049 net036) capacitor

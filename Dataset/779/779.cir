@@ -1,0 +1,3 @@
+R7 (VSS VOUT1) resistor
+Q9 (net6 net6 VOUT1 0) npn
+Q8 (VDD VIN1 net6 0) npn

@@ -1,0 +1,13 @@
+L3 (net7 net10) inductor
+L2 (net14 net8) inductor
+L1 (VSS net14) inductor
+L0 (VSS net7) inductor
+M2 (net14 net10 VSS VSS) nmos4
+M1 (net7 net8 VSS VSS) nmos4
+M0 (net7 VCONT1 net14 VSS) nmos4
+C5 (net10 VCONT4) capacitor
+C4 (net8 VCONT4) capacitor
+C3 (net14 VCONT3) capacitor
+C2 (net7 VCONT3) capacitor
+C1 (net14 VCONT2) capacitor
+C0 (net7 VCONT2) capacitor

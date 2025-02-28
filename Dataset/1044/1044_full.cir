@@ -1,0 +1,17 @@
+// Library name: Dataset
+// Cell name: INVERTER
+// View name: schematic
+subckt INVERTER A Q VDD VSS
+    M0 (Q A VDD VDD) pmos4
+    M1 (Q A VSS VSS) nmos4
+ends INVERTER
+// End of subcircuit definition.
+
+// Library name: Dataset
+// Cell name: 1044
+// View name: schematic
+I0 (VCONT1 net7 VDD VSS) INVERTER
+M3 (VCLK3 net7 VCLK2 VSS) nmos4
+M2 (VCLK4 VCONT1 VCLK2 VSS) nmos4
+M1 (VCLK3 VCONT1 VCLK1 VSS) nmos4
+M0 (VCLK4 net7 VCLK1 VSS) nmos4

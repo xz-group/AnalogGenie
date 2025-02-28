@@ -1,0 +1,2 @@
+W. L. Chan, H. Veenstra and J. R. Long, "A 32 GHz quadrature LC-VCO in 0.25 /spl mu/m SiGe BiCMOS technology," ISSCC. 2005 IEEE International Digest of Technical Papers. Solid-State Circuits Conference, 2005., San Francisco, CA, USA, 2005, pp. 538-616 Vol. 1, doi: 10.1109/ISSCC.2005.1494107.
+keywords: {Silicon germanium;Germanium silicon alloys;BiCMOS integrated circuits;Voltage-controlled oscillators;Topology;Parasitic capacitance;Electrical resistance measurement;Noise measurement;Phase measurement;Phase noise},

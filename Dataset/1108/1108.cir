@@ -1,0 +1,26 @@
+M5 (VOUT2 net30 net22 VSS) nmos4
+M4 (VOUT1 net11 net14 VSS) nmos4
+M3 (net22 net31 net21 VSS) nmos4
+M2 (net14 net10 net13 VSS) nmos4
+M1 (net21 VIN2 VSS VSS) nmos4
+M0 (net13 VIN1 VSS VSS) nmos4
+R7 (VOUT2 net33) resistor
+R6 (VOUT1 net34) resistor
+R5 (VB3 net30) resistor
+R4 (VB2 net31) resistor
+R3 (net11 VB3) resistor
+R2 (net10 VB2) resistor
+R1 (VB1 VIN2) resistor
+R0 (VIN1 VB1) resistor
+C11 (net11 VOUT2) capacitor
+C10 (net30 VOUT1) capacitor
+C9 (net33 VIN2) capacitor
+C8 (net34 VIN1) capacitor
+C7 (net10 net22) capacitor
+C6 (net31 net14) capacitor
+C5 (VIN1 net21) capacitor
+C4 (VIN2 net13) capacitor
+C3 (net31 VSS) capacitor
+C2 (net30 VSS) capacitor
+C1 (net11 VSS) capacitor
+C0 (net10 VSS) capacitor

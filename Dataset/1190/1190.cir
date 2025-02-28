@@ -1,0 +1,16 @@
+L4 (net17 net16) inductor
+L3 (net21 VSS) inductor
+L2 (net13 net22) inductor
+L1 (net8 net22) inductor
+L0 (net23 VDD) inductor
+M0 (net8 net13 net23 VDD) pmos4
+M3 (net17 net13 VSS VSS) nmos4
+M2 (net16 net8 VSS VSS) nmos4
+M1 (net13 net8 net21 VSS) nmos4
+C5 (net16 VOUT2) capacitor
+C4 (net17 VOUT1) capacitor
+C3 (net6 net13) capacitor
+C2 (net6 net8) capacitor
+C1 (VSS net13) capacitor
+C0 (net8 VSS) capacitor
+R0 (VCONT1 net6) resistor

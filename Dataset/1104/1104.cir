@@ -1,0 +1,13 @@
+M2 (net14 net8 VSS VSS) nmos4
+M1 (net15 net9 net14 VSS) nmos4
+M0 (net1 net10 net15 VSS) nmos4
+R3 (net8 VSS) resistor
+R2 (net9 net8) resistor
+R1 (net10 net9) resistor
+R0 (net1 net10) resistor
+C4 (VOUT1 net1) capacitor
+C3 (net1 VIN1) capacitor
+C2 (net8 net1) capacitor
+C1 (net9 VSS) capacitor
+C0 (net10 VSS) capacitor
+L0 (VDD net1) inductor

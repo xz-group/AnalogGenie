@@ -1,0 +1,7 @@
+Q3 (IOUT2 net7 net11 0) npn
+Q2 (IOUT1 net7 net12 0) npn
+Q1 (IIN1 net7 net13 0) npn
+Q0 (VDD IIN1 net7 0) npn
+R2 (net11 VSS) resistor
+R1 (net12 VSS) resistor
+R0 (net13 VSS) resistor

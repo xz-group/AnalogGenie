@@ -1,0 +1,6 @@
+M8 (IB2 IB2 VSS VSS) nmos4
+M3 (net060 IIN1 VSS VSS) nmos4
+M2 (IIN1 VB1 net060 VSS) nmos4
+M0 (net059 IIN1 VSS VSS) nmos4
+M1 (IOUT1 IB1 net059 VSS) nmos4
+M4 (IB1 IB2 VSS VSS) nmos4

@@ -1,0 +1,16 @@
+R9 (VOUT1 VSS) resistor
+R8 (VOUT2 VSS) resistor
+R7 (IB1 net23) resistor
+R6 (net24 IB2) resistor
+R5 (IB1 net25) resistor
+R4 (net26 IB2) resistor
+R3 (IB1 net27) resistor
+R2 (net28 IB2) resistor
+R1 (net29 IB2) resistor
+R0 (IB1 net30) resistor
+M5 (net24 VCONT1 net23 VDD) pmos4
+M4 (net26 VCONT2 net25 VDD) pmos4
+M3 (net28 VCONT3 net27 VDD) pmos4
+M2 (net29 VCONT4 net30 VDD) pmos4
+M1 (VOUT2 VIN2 IB2 IB2) pmos4
+M0 (VOUT1 VIN1 IB1 IB1) pmos4

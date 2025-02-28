@@ -1,0 +1,1 @@
+A. Dec and K. Suyama, "Microwave MEMS-based voltage-controlled oscillators," in IEEE Transactions on Microwave Theory and Techniques, vol. 48, no. 11, pp. 1943-1949, Nov. 2000, doi: 10.1109/22.883875. keywords: {Voltage-controlled oscillators;Capacitors;Tuning;Bonding;Capacitance;CMOS technology;Wire;Inductors;Microelectromechanical systems;Frequency},

@@ -1,0 +1,9 @@
+M2 (VOUT1 net31 VSS VSS) nmos4
+M0 (net29 VOUT1 VSS VSS) nmos4
+M1 (net31 net29 VSS VSS) nmos4
+C2 (VOUT1 VSS) capacitor
+C0 (net29 VSS) capacitor
+C1 (net31 VSS) capacitor
+R2 (VDD VOUT1) resistor
+R0 (VDD net29) resistor
+R1 (VDD net31) resistor

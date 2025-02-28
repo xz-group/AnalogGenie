@@ -1,0 +1,2 @@
+Y. Tao, M. Gu, B. Chi, Y. Zhong, L. Jie and N. Sun, "22.4 A 4.8GS/s 7-ENoB Time-Interleaved SAR ADC with Dither-Based Background Timing-Skew Calibration and Bit-Distribution-Based Background Ping-Pong Comparator Offset Calibration," 2024 IEEE International Solid-State Circuits Conference (ISSCC), San Francisco, CA, USA, 2024, pp. 394-396, doi: 10.1109/ISSCC49657.2024.10454299.
+keywords: {Image edge detection;Switches;Routing;Calibration;Solid state circuits;Impedance;High frequency},

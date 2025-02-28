@@ -1,0 +1,9 @@
+I1 (net36 net35 VDD VSS) INVERTER
+M5 (net31 VSS net34 VDD) pmos4
+M1 (VCONT1 net35 net38 VDD) pmos4
+M0 (net38 VB2 VDD VDD) pmos4
+M6 (net34 VDD net31 VSS) nmos4
+M3 (net37 VB1 VSS VSS) nmos4
+M2 (VCONT1 net31 net37 VSS) nmos4
+C0 (VCONT1 VSS) capacitor
+I0 (LOGICA1 LOGICB1 net36 net34 VDD VSS) PFD

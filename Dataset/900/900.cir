@@ -1,0 +1,16 @@
+Q10 (VSS VSS net28 0) pnp
+Q6 (VSS IB1 net31 0) pnp
+Q4 (VSS IB2 net22 0) pnp
+Q1 (net11 net22 net32 0) pnp
+Q0 (VOUT1 net22 VDD 0) pnp
+Q9 (IB4 IB4 net28 0) npn
+Q8 (net19 IB4 net29 0) npn
+Q7 (net20 net11 net30 0) npn
+Q5 (VOUT1 IB1 VSS 0) npn
+Q3 (VDD net19 IB2 0) npn
+Q2 (VDD net20 IB1 0) npn
+R4 (net29 IB3) resistor
+R3 (net30 IB3) resistor
+R2 (net11 net31) resistor
+R1 (VDD net22) resistor
+R0 (VDD net32) resistor

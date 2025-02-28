@@ -1,0 +1,21 @@
+M15 (net36 net36 VDD VDD) pmos4
+M8 (net42 IB1 VDD VDD) pmos4
+M7 (net43 IB1 VDD VDD) pmos4
+M0 (IB1 IB1 VDD VDD) pmos4
+M18 (net35 VB1 VSS VSS) nmos4
+M17 (VOUT2 net42 net35 VSS) nmos4
+M16 (VOUT1 net43 net35 VSS) nmos4
+M14 (net27 net12 VSS VSS) nmos4
+M13 (net27 net20 VSS VSS) nmos4
+M12 (net42 VIN2 net27 VSS) nmos4
+M11 (net43 VIN1 net27 VSS) nmos4
+M10 (net43 net43 net42 VSS) nmos4
+M9 (net42 net42 net43 VSS) nmos4
+M6 (net20 net20 VSS VSS) nmos4
+M5 (net12 net12 VSS VSS) nmos4
+M4 (net49 VDD net20 VSS) nmos4
+M3 (net50 VDD net12 VSS) nmos4
+M2 (VDD net43 net49 VSS) nmos4
+M1 (VDD net42 net50 VSS) nmos4
+R1 (net36 VOUT2) resistor
+R0 (net36 VOUT1) resistor

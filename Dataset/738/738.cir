@@ -1,0 +1,8 @@
+M1 (net13 VIN1 IB1 VDD) pmos4
+M0 (net9 VIN2 IB1 VDD) pmos4
+M5 (net18 VCONT1 net13 VSS) nmos4
+M4 (VOUT1 net13 VSS VSS) nmos4
+M3 (net13 net9 VSS VSS) nmos4
+M2 (net9 net9 VSS VSS) nmos4
+C0 (VOUT1 net18) capacitor
+R0 (VDD VOUT1) resistor

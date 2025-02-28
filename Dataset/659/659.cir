@@ -1,0 +1,19 @@
+R8 (VDD net02) resistor
+R7 (net015 IB2) resistor
+R6 (net014 IB1) resistor
+R5 (IB2 IB1) resistor
+R4 (IB4 IB3) resistor
+R3 (net018 IB4) resistor
+R0 (net024 IB3) resistor
+R1 (VDD VOUT2) resistor
+R2 (VDD VOUT1) resistor
+Q9 (net02 net02 net04 0) npn
+Q8 (net02 net02 net09 0) npn
+Q7 (net09 VSS net015 0) npn
+Q6 (net04 VIN1 net014 0) npn
+Q5 (net022 VSS net018 0) npn
+Q0 (net019 VIN2 net024 0) npn
+Q2 (VOUT2 net04 net019 0) npn
+Q1 (VOUT1 net09 net019 0) npn
+Q3 (VOUT1 net04 net022 0) npn
+Q4 (VOUT2 net09 net022 0) npn

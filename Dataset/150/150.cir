@@ -1,0 +1,4 @@
+R2 (IB1 net41) resistor
+R1 (VDD net41) resistor
+M0 (IB1 IB1 VSS VSS) nmos4
+M1 (net41 IB1 VSS VSS) nmos4

@@ -1,0 +1,4 @@
+R1 (net13 VB1) resistor
+R0 (VDD VOUT1) resistor
+M0 (VOUT1 net13 VSS VSS) nmos4
+C0 (net13 VIN1) capacitor

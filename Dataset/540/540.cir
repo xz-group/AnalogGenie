@@ -1,0 +1,7 @@
+L0 (VDD net011) inductor
+L2 (VDD net08) inductor
+L1 (net09 IB1) inductor
+M3 (net08 net011 net09 VSS) nmos4
+M0 (net011 net08 net09 VSS) nmos4
+C2 (VDD net09) capacitor
+C1 (IB1 VSS) capacitor

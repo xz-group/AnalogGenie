@@ -1,0 +1,15 @@
+M7 (net30 LOGICF1 IB2 VSS) nmos4
+M4 (net26 LOGICF2 IB2 VSS) nmos4
+M5 (VOUT1 net22 net016 VSS) nmos4
+M2 (net22 LOGICG2 IB3 VSS) nmos4
+M3 (net012 LOGICG1 IB3 VSS) nmos4
+M1 (net016 net26 IB1 VSS) nmos4
+M0 (VOUT2 net30 IB1 VSS) nmos4
+M6 (VOUT2 net012 net016 VSS) nmos4
+R6 (VDD net27) resistor
+R5 (net27 net26) resistor
+R4 (net27 net30) resistor
+R3 (VDD net012) resistor
+R2 (VDD net22) resistor
+R0 (VDD VOUT1) resistor
+R1 (VDD VOUT2) resistor

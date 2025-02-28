@@ -1,0 +1,22 @@
+M17 (VOUT2 net44 VDD VDD) pmos4
+M15 (VOUT1 net46 VDD VDD) pmos4
+M9 (net27 net46 net27 VDD) pmos4
+M8 (net27 net46 net27 VDD) pmos4
+M7 (net27 net46 net27 VDD) pmos4
+M6 (net27 net46 net27 VDD) pmos4
+M5 (net27 net44 net27 VDD) pmos4
+M4 (net27 net44 net27 VDD) pmos4
+M3 (net27 net44 net27 VDD) pmos4
+M2 (net27 net44 net27 VDD) pmos4
+M1 (net46 net44 VDD VDD) pmos4
+M0 (net44 net46 VDD VDD) pmos4
+R0 (net27 VB1) resistor
+L1 (net51 net46) inductor
+L0 (net44 net51) inductor
+M18 (VOUT2 net44 net40 VSS) nmos4
+M16 (VOUT1 net46 net40 VSS) nmos4
+M14 (net40 IB1 VSS VSS) nmos4
+M13 (IB1 IB1 VSS VSS) nmos4
+M12 (net25 IB1 VSS VSS) nmos4
+M11 (net44 net46 net25 VSS) nmos4
+M10 (net46 net44 net25 VSS) nmos4

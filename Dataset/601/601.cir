@@ -1,0 +1,9 @@
+M4 (net20 VCLK1 net28 VSS) nmos4
+M5 (net28 LOGICA1 net27 VSS) nmos4
+M6 (net27 LOGICB1 VSS VSS) nmos4
+M7 (net15 VCLK1 VSS VSS) nmos4
+M8 (LOGICQ2 net15 VSS VSS) nmos4
+M0 (net20 LOGICB1 VDD VDD) pmos4
+M1 (net20 LOGICA1 VDD VDD) pmos4
+M2 (net15 net20 VDD VDD) pmos4
+M3 (LOGICQ2 VCLK1 VDD VDD) pmos4

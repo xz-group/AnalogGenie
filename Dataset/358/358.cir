@@ -1,0 +1,5 @@
+M1 (IOUT1 VIN1 net06 VSS) nmos4
+M10 (net06 IB1 VSS VSS) nmos4
+M11 (net07 IB1 VSS VSS) nmos4
+M3 (IOUT2 VIN2 net06 VSS) nmos4
+R0 (IB1 net07) resistor

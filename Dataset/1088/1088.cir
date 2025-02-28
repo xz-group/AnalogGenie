@@ -1,0 +1,4 @@
+M2 (net7 VIN1 VSS VSS) nmos4
+M1 (VOUT1 VIN1 VSS VSS) nmos4
+M0 (VDD net7 VOUT1 VSS) nmos4
+R0 (net7 VIN1) resistor

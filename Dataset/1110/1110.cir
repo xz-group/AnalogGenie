@@ -1,0 +1,17 @@
+L3 (VDD net20) inductor
+L2 (VDD net21) inductor
+L1 (VDD net11) inductor
+L0 (VDD net9) inductor
+C5 (net16 VSS) capacitor
+C4 (net13 VSS) capacitor
+C3 (VOUT2 net20) capacitor
+C2 (VOUT1 net9) capacitor
+C1 (net21 VB1) capacitor
+C0 (net11 VB1) capacitor
+M5 (IB1 net24 VSS VSS) nmos4
+M4 (net16 net13 VSS VSS) nmos4
+M3 (net21 net11 net16 VSS) nmos4
+M2 (net11 net21 net16 VSS) nmos4
+M1 (net20 net21 VSS VSS) nmos4
+M0 (net9 net11 VSS VSS) nmos4
+R0 (net24 net13) resistor

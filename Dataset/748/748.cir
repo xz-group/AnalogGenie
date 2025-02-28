@@ -1,0 +1,14 @@
+R5 (net07 VSS) resistor
+R1 (net5 net6) resistor
+R0 (net01 net8) resistor
+R2 (net5 net01) resistor
+R3 (VDD VOUT1) resistor
+R4 (VDD VOUT2) resistor
+Q7 (net019 VTRACK2 IB1 0) npn
+Q6 (net8 net6 net019 0) npn
+Q5 (net6 net8 net019 0) npn
+Q2 (net6 VIN2 net07 0) npn
+Q1 (VOUT1 VB1 net01 0) npn
+Q3 (VOUT2 VB1 net5 0) npn
+Q0 (net8 VIN1 net07 0) npn
+Q4 (net07 VTRACK1 IB1 0) npn

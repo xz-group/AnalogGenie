@@ -1,0 +1,9 @@
+L1 (VDD VOUT1) inductor
+L0 (VOUT2 VDD) inductor
+M5 (IB1 IB1 net7 net7) nmos4
+M4 (net15 IB1 VSS VSS) nmos4
+M3 (VOUT2 VOUT1 net15 VSS) nmos4
+M2 (VOUT1 VOUT2 net15 VSS) nmos4
+M1 (VB1 VOUT1 VB1 VSS) nmos4
+M0 (VB1 VOUT2 VB1 VSS) nmos4
+C0 (net15 net7) capacitor

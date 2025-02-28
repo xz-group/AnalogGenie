@@ -1,0 +1,2 @@
+H. S. Bindra, J. Ponte and B. Nauta, "A 174μVRMS Input Noise, 1 GS/s Comparator in 22nm FDSOI with a Dynamic-Bias Preamplifier Using Tail Charge Pump and Capacitive Neutralization Across the Latch," 2022 IEEE International Solid-State Circuits Conference (ISSCC), San Francisco, CA, USA, 2022, pp. 1-3, doi: 10.1109/ISSCC42614.2022.9731728.
+keywords: {Baseband;Silicon-on-insulator;Voltage;Tail;Throughput;Energy efficiency;Delays;System-on-chip;Analog-digital conversion;Noise level},

@@ -1,0 +1,1 @@
+G. M. Yin, F. O. Eynde and W. Sansen, "A high-speed CMOS comparator with 8-b resolution," in IEEE Journal of Solid-State Circuits, vol. 27, no. 2, pp. 208-211, Feb. 1992, doi: 10.1109/4.127344. keywords: {Flip-flops;Latches;Circuits;Switches;Voltage;Energy consumption;Clocks;Power supplies;CMOS technology;Dynamic range},

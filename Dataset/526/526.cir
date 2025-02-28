@@ -1,0 +1,9 @@
+C5 (IB2 net013) capacitor
+C4 (net08 IB1) capacitor
+C3 (IB2 VSS) capacitor
+C2 (IB1 VSS) capacitor
+R1 (VDD net02) resistor
+M3 (VDD net08 IB1 VSS) nmos4
+M0 (VDD net013 IB2 VSS) nmos4
+L3 (net013 net02) inductor
+L1 (net02 net08) inductor

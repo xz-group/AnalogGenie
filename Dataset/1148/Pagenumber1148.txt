@@ -1,0 +1,2 @@
+Seok-Ju Yun, So-Bong Shin, Hyung-Chul Choi and Sang-Gug Lee, "A 1mW current-reuse CMOS differential LC-VCO with low phase noise," ISSCC. 2005 IEEE International Digest of Technical Papers. Solid-State Circuits Conference, 2005., San Francisco, CA, USA, 2005, pp. 540-616 Vol. 1, doi: 10.1109/ISSCC.2005.1494108.
+keywords: {Phase noise;Voltage;Voltage-controlled oscillators;Switches;MOSFET circuits;Resistors;Topology;CMOS technology;Inductors;Power dissipation},

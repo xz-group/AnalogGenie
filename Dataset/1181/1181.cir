@@ -1,0 +1,9 @@
+L0 (net4 net11) inductor
+C3 (VB1 VSS) capacitor
+C2 (VB1 VSS) capacitor
+C1 (VCONT1 net11) capacitor
+C0 (VCONT1 net4) capacitor
+M3 (net11 net4 VSS VB1) nmos4
+M2 (net4 net11 VSS VB1) nmos4
+M1 (net4 net11 VB1 VB1) nmos4
+M0 (net11 net4 VB1 VB1) nmos4

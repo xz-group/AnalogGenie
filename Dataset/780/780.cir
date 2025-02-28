@@ -1,0 +1,12 @@
+Q3 (VDD VIN1 net013 0) npn
+Q2 (VDD VIN2 net012 0) npn
+Q1 (net030 net030 net02 0) npn
+Q0 (net036 net036 net02 0) npn
+Q4 (IOUT2 net036 net033 0) npn
+Q5 (IOUT1 net030 net033 0) npn
+R2 (VSS net02) resistor
+R1 (net036 net012) resistor
+R0 (net030 net013) resistor
+R3 (IOUT1 VDD) resistor
+R4 (IOUT2 VDD) resistor
+R5 (VSS net033) resistor

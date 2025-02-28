@@ -1,0 +1,6 @@
+M5 (IOUT1 net13 net16 VSS) nmos4
+M4 (net16 net7 VSS VSS) nmos4
+M3 (net13 net7 VSS VSS) nmos4
+M2 (net7 net7 VSS VSS) nmos4
+M1 (VDD IIN1 net13 VSS) nmos4
+M0 (IIN1 IIN1 net7 VSS) nmos4

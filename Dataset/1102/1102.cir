@@ -1,0 +1,6 @@
+M5 (VOUT1 VIN1 net14 VB1) pmos4
+M1 (VOUT1 VDD net16 VB1) pmos4
+M0 (net16 VB1 VB1 VB1) pmos4
+M4 (VDD VB1 net14 VSS) nmos4
+M3 (net15 VIN1 VSS VSS) nmos4
+M2 (VOUT1 VDD net15 VSS) nmos4

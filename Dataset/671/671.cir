@@ -1,0 +1,4 @@
+R0 (net9 VSS) resistor
+R1 (net8 VSS) resistor
+M0 (IOUT1 IIN1 net8 VSS) nmos4
+M1 (IIN1 IIN1 net9 VSS) nmos4

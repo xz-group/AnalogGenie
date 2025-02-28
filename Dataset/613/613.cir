@@ -1,0 +1,5 @@
+M3 (IOUT1 IB1 net018 VSS) nmos4
+M4 (net03 IB1 net017 VSS) nmos4
+M0 (net017 net03 VSS VSS) nmos4
+M1 (net018 net03 VSS VSS) nmos4
+R0 (IB1 net03) resistor

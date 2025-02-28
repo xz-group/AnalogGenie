@@ -1,0 +1,8 @@
+R4 (VDD net19) resistor
+R5 (VDD net9) resistor
+M4 (net9 LOGICD1 net16 VSS) nmos4
+M7 (net19 LOGICD2 net16 VSS) nmos4
+M0 (net16 VCLK1 IB1 VSS) nmos4
+M1 (net011 VCLK2 IB1 VSS) nmos4
+M2 (net19 net9 net011 VSS) nmos4
+M3 (net9 net19 net011 VSS) nmos4

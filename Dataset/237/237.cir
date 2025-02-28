@@ -1,0 +1,4 @@
+R0 (VSS VOUT1) resistor
+R1 (net06 VDD) resistor
+M2 (VDD net06 VOUT1 VSS) nmos4
+M0 (net06 VIN1 VOUT1 VSS) nmos4

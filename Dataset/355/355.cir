@@ -1,0 +1,14 @@
+M14 (net020 VIN2 IB2 VSS) nmos4
+M13 (net019 VIN1 IB2 VSS) nmos4
+M6 (VOUT2 VB1 net034 VSS) nmos4
+M5 (VOUT1 VB1 net035 VSS) nmos4
+M4 (net034 VB3 VSS VSS) nmos4
+M3 (net035 VB3 VSS VSS) nmos4
+M10 (net031 VIN2 IB1 VSS) nmos4
+M11 (net030 VIN1 IB1 VSS) nmos4
+R1 (VDD net019) resistor
+R0 (VDD net020) resistor
+M12 (net031 VB3 VDD VDD) pmos4
+M9 (net030 VB3 VDD VDD) pmos4
+M8 (VOUT2 VB2 net031 VDD) pmos4
+M7 (VOUT1 VB2 net030 VDD) pmos4

@@ -1,0 +1,10 @@
+R3 (VDD VOUT1) resistor
+R2 (net30 net32) resistor
+R1 (net30 net25) resistor
+R0 (VIN1 net33) resistor
+C2 (net32 VOUT1) capacitor
+C0 (VSS IB1) capacitor
+C1 (net33 net30) capacitor
+M2 (VSS net25 VOUT1 VOUT1) pmos4
+M1 (net25 net30 IB1 IIN1) pmos4
+M0 (net25 net30 VSS VSS) nmos4

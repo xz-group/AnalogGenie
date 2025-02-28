@@ -1,0 +1,3 @@
+Q0 (VOUT1 VIN1 VSS 0) npn
+Q2 (IB1 IB1 VDD 0) pnp
+Q1 (VOUT1 IB1 VDD 0) pnp

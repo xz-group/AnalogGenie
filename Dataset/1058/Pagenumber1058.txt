@@ -1,0 +1,1 @@
+K. . -L. J. Wong and C. . -K. K. Yang, "Offset compensation in comparators with minimum input-referred supply noise," in IEEE Journal of Solid-State Circuits, vol. 39, no. 5, pp. 837-840, May 2004, doi: 10.1109/JSSC.2004.826317. keywords: {Noise reduction;Noise cancellation;Circuit noise;Bandwidth;Testing;CMOS technology;Feedback;Threshold voltage;Random variables;Quantization},

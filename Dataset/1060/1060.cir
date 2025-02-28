@@ -1,0 +1,27 @@
+R5 (net32 net39) resistor
+R4 (net44 net32) resistor
+R3 (net46 VSS) resistor
+R2 (net45 VSS) resistor
+R1 (VDD net37) resistor
+R0 (VDD net15) resistor
+Q24 (net39 net39 VSS 0) npn
+Q23 (net26 net26 net44 0) npn
+Q22 (net42 net42 net26 0) npn
+Q21 (VDD VDD net42 0) npn
+Q20 (net9 net32 net45 0) npn
+Q19 (net14 net32 net46 0) npn
+Q18 (net19 net39 VSS 0) npn
+Q17 (net22 net9 net19 0) npn
+Q16 (net17 net14 net19 0) npn
+Q15 (net11 VIN2 net9 0) npn
+Q14 (net11 VIN1 net14 0) npn
+Q13 (LOGICQ1 net26 net11 0) npn
+Q12 (LOGICQ2 net26 net11 0) npn
+Q11 (net21 VIN3 net22 0) npn
+Q10 (net21 VIN3 net17 0) npn
+Q9 (net37 LOGICQ2 net21 0) npn
+Q8 (net15 LOGICQ1 net21 0) npn
+Q5 (net15 VIN4 net17 0) npn
+Q4 (net37 VIN4 net22 0) npn
+Q1 (VDD net15 LOGICQ2 0) npn
+Q0 (VDD net37 LOGICQ1 0) npn

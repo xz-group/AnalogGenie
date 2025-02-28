@@ -1,0 +1,20 @@
+C1 (net105 net94) capacitor
+C0 (net101 VIN1) capacitor
+C2 (net105 net92) capacitor
+C4 (net101 VOUT1) capacitor
+M18 (net94 VCLK2 VOUT1 VSS) nmos4
+M17 (net105 VCLK2 net101 VSS) nmos4
+M16 (VIN1 VCLK1 net92 VSS) nmos4
+M15 (net94 VCLK1 VSS VSS) nmos4
+M13 (net105 VCLK1 VSS VSS) nmos4
+M12 (net92 VCLK2 VSS VSS) nmos4
+M9 (net99 net101 IB1 VSS) nmos4
+M8 (net107 VSS IB1 VSS) nmos4
+M5 (VOUT1 VB2 net110 VSS) nmos4
+M4 (net95 VB2 net111 VSS) nmos4
+M7 (net110 net95 VSS VSS) nmos4
+M6 (net111 net95 VSS VSS) nmos4
+M1 (net99 VB3 VDD VDD) pmos4
+M0 (net107 VB3 VDD VDD) pmos4
+M3 (VOUT1 VB1 net99 VDD) pmos4
+M2 (net95 VB1 net107 VDD) pmos4

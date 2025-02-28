@@ -1,0 +1,22 @@
+R5 (net25 VSS) resistor
+R4 (net16 VSS) resistor
+R3 (VDD net29) resistor
+R2 (VDD net30) resistor
+R1 (VDD net28) resistor
+R0 (VDD net31) resistor
+Q10 (VSS net15 net7 0) pnp
+Q5 (VSS net16 VB1 0) pnp
+Q4 (net15 net16 net27 0) pnp
+Q3 (VB1 VB1 net30 0) pnp
+Q2 (net14 VB1 net29 0) pnp
+Q1 (net7 VB1 net28 0) pnp
+Q0 (net27 VB1 net31 0) pnp
+Q13 (net26 VB2 net25 0) npn
+Q12 (net16 VB2 VSS 0) npn
+Q11 (VB2 VB2 VSS 0) npn
+Q9 (net15 VB2 VSS 0) npn
+Q8 (net14 net7 net26 0) npn
+Q7 (VDD net7 VB2 0) npn
+Q6 (VDD net14 net16 0) npn
+C1 (net15 VSS) capacitor
+C0 (VDD net14) capacitor

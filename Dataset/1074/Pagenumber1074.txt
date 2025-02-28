@@ -1,0 +1,1 @@
+H. Zhuang, H. Tang and X. Liu, "Voltage Comparator With 60% Faster Speed by Using Charge Pump," in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 67, no. 12, pp. 2923-2927, Dec. 2020, doi: 10.1109/TCSII.2020.2983928. keywords: {Electronics packaging;Transconductance;Charge pumps;Logic gates;MOSFET;Comparator;high-speed;low-noise},

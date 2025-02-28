@@ -1,0 +1,4 @@
+M0 (IB1 IB1 VSS VSS) nmos4
+M1 (net18 IB1 VSS VSS) nmos4
+M3 (IB1 net18 VDD VDD) pmos4
+M2 (net18 net18 VDD VDD) pmos4

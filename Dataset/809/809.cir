@@ -1,0 +1,36 @@
+M32 (net196 net194 VSS VSS) nmos4
+M31 (VIN1 net195 net196 VSS) nmos4
+M30 (net200 VCLK2 VSS VSS) nmos4
+M29 (net200 VCLK3 net204 VSS) nmos4
+M28 (VCLK4 net215 net195 VSS) nmos4
+M27 (VCLK5 VOUT1 net195 VSS) nmos4
+M26 (VCLK5 net215 net194 VSS) nmos4
+M11 (VCLK4 VOUT1 net194 VSS) nmos4
+M9 (net203 net204 IB1 VSS) nmos4
+M8 (net218 VSS IB1 VSS) nmos4
+M5 (net229 VB2 net227 VSS) nmos4
+M4 (net197 VB2 net228 VSS) nmos4
+M7 (net227 net197 VSS VSS) nmos4
+M6 (net228 net197 VSS VSS) nmos4
+M25 (net206 VCLK3 VSS VSS) nmos4
+M23 (net206 VCLK2 VOUT1 VSS) nmos4
+M15 (VOUT1 net224 net211 VSS) nmos4
+M14 (net224 VOUT1 net223 VSS) nmos4
+M13 (net211 net229 net210 VSS) nmos4
+M12 (net223 VSS net210 VSS) nmos4
+M10 (net210 VCLK1 VSS VSS) nmos4
+C2 (net200 net196) capacitor
+C4 (net204 net229) capacitor
+C1 (net200 net206) capacitor
+C0 (net204 VOUT1) capacitor
+M1 (net203 VB3 VDD VDD) pmos4
+M0 (net218 VB3 VDD VDD) pmos4
+M3 (net229 VB1 net203 VDD) pmos4
+M2 (net197 VB1 net218 VDD) pmos4
+M21 (net223 VCLK1 VDD VDD) pmos4
+M20 (net211 VCLK1 VDD VDD) pmos4
+M19 (VOUT1 VCLK1 VDD VDD) pmos4
+M18 (VOUT1 net224 VDD VDD) pmos4
+M17 (net224 VOUT1 VDD VDD) pmos4
+M16 (net224 VCLK1 VDD VDD) pmos4
+I0 (VOUT1 net215 VDD VSS) INVERTER

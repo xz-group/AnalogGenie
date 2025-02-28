@@ -1,0 +1,9 @@
+L1 (net15 VDD) inductor
+L0 (net12 VDD) inductor
+M5 (net21 VB4 IB2 VSS) nmos4
+M4 (net15 VB2 net21 VSS) nmos4
+M3 (net20 VB3 IB2 VSS) nmos4
+M2 (net12 VB1 net20 VSS) nmos4
+M1 (net15 net12 IB1 VSS) nmos4
+M0 (net12 net15 IB1 VSS) nmos4
+C0 (net15 net12) capacitor

@@ -1,0 +1,12 @@
+R1 (VDD VOUT2) resistor
+R0 (VDD VOUT1) resistor
+Q3 (VOUT2 net12 IB2 0) npn
+Q2 (VOUT2 net12 IB1 0) npn
+Q1 (VOUT1 net13 IB1 0) npn
+Q0 (VOUT1 net13 IB2 0) npn
+C1 (VOUT2 net12) capacitor
+C0 (VOUT1 net13) capacitor
+M4 (VIN1 VCONT1 net12 VSS) nmos4
+M3 (VIN2 VCONT1 net12 VSS) nmos4
+M2 (VIN3 VCONT1 net13 VSS) nmos4
+M1 (VIN4 VCONT1 net13 VSS) nmos4

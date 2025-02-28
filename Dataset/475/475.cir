@@ -1,0 +1,12 @@
+C3 (VSS net013) capacitor
+C2 (VIN1 net010) capacitor
+C1 (IB1 VSS) capacitor
+C0 (VDD VOUT1) capacitor
+L2 (net010 net013) inductor
+L0 (VDD VOUT1) inductor
+L1 (net012 VSS) inductor
+M1 (IB1 IB1 VSS VSS) nmos4
+M2 (VOUT1 VDD net011 VSS) nmos4
+M0 (net011 net013 net012 VSS) nmos4
+R1 (net013 IB1) resistor
+R2 (VDD VOUT1) resistor

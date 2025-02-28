@@ -1,0 +1,2 @@
+A. Bhat and N. Krishnapura, "26.3 A 25-to-38GHz, 195dB FoMT LC QVCO in 65nm LP CMOS Using a 4-Port Dual-Mode Resonator for 5G Radios," 2019 IEEE International Solid-State Circuits Conference - (ISSCC), San Francisco, CA, USA, 2019, pp. 412-414, doi: 10.1109/ISSCC.2019.8662502.
+keywords: {Voltage-controlled oscillators;Inductance;Inductors;Phase noise;Tuning;Capacitors},

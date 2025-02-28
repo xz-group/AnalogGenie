@@ -1,0 +1,10 @@
+C0 (IB3 net16) capacitor
+C1 (net16 IB2) capacitor
+R0 (IB3 net16) resistor
+R1 (net16 IB2) resistor
+M0 (VDD VIN1 IB2 VSS) nmos4
+M1 (VDD VIN2 IB3 VSS) nmos4
+M2 (VOUT1 VOUT1 VSS VSS) nmos4
+M3 (net13 net13 VSS VSS) nmos4
+M4 (VOUT1 VREF1 IB1 VDD) pmos4
+M5 (net13 net16 IB1 VDD) pmos4

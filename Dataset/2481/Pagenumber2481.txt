@@ -1,0 +1,1 @@
+Ka Nang Leung and P. K. T. Mok, "A capacitor-free CMOS low-dropout regulator with damping-factor-control frequency compensation," in IEEE Journal of Solid-State Circuits, vol. 38, no. 10, pp. 1691-1702, Oct. 2003, doi: 10.1109/JSSC.2003.817256. keywords: {Regulators;Frequency;Space technology;CMOS technology;Voltage;System-on-a-chip;Pins;Stability;Load management;Temperature},

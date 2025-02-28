@@ -1,0 +1,4 @@
+Q0 (IOUT1 IB1 net3 0) npn
+Q1 (IB1 IB1 net7 0) npn
+R1 (net3 VSS) resistor
+R0 (net7 VSS) resistor

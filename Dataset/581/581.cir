@@ -1,0 +1,8 @@
+C0 (net6 net7) capacitor
+C2 (net12 VSS) capacitor
+C1 (net7 net12) capacitor
+L2 (net12 VSS) inductor
+L0 (VDD net6) inductor
+L1 (net7 net12) inductor
+R0 (net12 VSS) resistor
+M0 (net6 VIN1 VSS VSS) nmos4

@@ -1,0 +1,23 @@
+M14 (VBB3 net045 IB4 IB4) pmos4
+M13 (VBB4 net039 IB4 IB4) pmos4
+M3 (VBB1 net044 IB3 IB3) pmos4
+M2 (VBB2 net038 IB3 IB3) pmos4
+M10 (VSS net60 IB2 IB2) pmos4
+M8 (net60 net74 IB1 IB1) pmos4
+R12 (VBB3 VSS) resistor
+R11 (VBB4 VSS) resistor
+R8 (net74 net86) resistor
+R7 (net74 net60) resistor
+R6 (VIN1 net87) resistor
+R1 (VBB1 VSS) resistor
+R2 (net06 VB1) resistor
+R0 (VBB2 VSS) resistor
+C3 (net86 IB2) capacitor
+C2 (VSS IB1) capacitor
+C1 (net87 net74) capacitor
+C0 (IB2 net06) capacitor
+M12 (net039 VLO3 net06 VSS) nmos4
+M11 (net045 VLO4 net06 VSS) nmos4
+M9 (net60 net74 VSS VSS) nmos4
+M0 (net038 VLO1 net06 VSS) nmos4
+M1 (net044 VLO2 net06 VSS) nmos4

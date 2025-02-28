@@ -1,0 +1,5 @@
+M2 (IB1 VB1 net20 VSS) nmos4
+M0 (VOUT1 net20 VSS VSS) nmos4
+M1 (IB1 IB1 VSS VSS) nmos4
+R0 (VDD VOUT1) resistor
+C0 (net20 VIN1) capacitor

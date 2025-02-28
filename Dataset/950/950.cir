@@ -1,0 +1,34 @@
+M22 (VREF1 net23 VDD VDD) pmos4
+M21 (VREF1 net16 VDD VDD) pmos4
+M20 (net44 net35 VDD VDD) pmos4
+M16 (net37 net31 VDD VDD) pmos4
+M15 (net39 net35 VDD VDD) pmos4
+M14 (net35 net35 VDD VDD) pmos4
+M13 (net31 net31 VDD VDD) pmos4
+M11 (net55 net23 VDD VDD) pmos4
+M10 (net55 net16 VDD VDD) pmos4
+M6 (net19 net23 VDD VDD) pmos4
+M5 (net17 net16 VDD VDD) pmos4
+M4 (net23 net23 VDD VDD) pmos4
+M1 (net16 net16 VDD VDD) pmos4
+M0 (net5 net16 VDD VDD) pmos4
+M24 (VREF1 net44 VSS VSS) nmos4
+M23 (net44 net44 VSS VSS) nmos4
+M19 (net39 net39 net40 net40) nmos4
+M18 (net37 net39 net36 net36) nmos4
+M17 (net35 net37 VSS VSS) nmos4
+M12 (net31 net55 VSS VSS) nmos4
+M9 (net19 net19 net57 VSS) nmos4
+M8 (net17 net19 net58 VSS) nmos4
+M7 (net23 net17 VSS VSS) nmos4
+M3 (net16 net5 net60 VSS) nmos4
+M2 (net5 net5 net59 VSS) nmos4
+R4 (VREF1 VSS) resistor
+R3 (net40 VSS) resistor
+R2 (net55 VSS) resistor
+R1 (net57 VSS) resistor
+R0 (net60 net61) resistor
+D3 (net36 VSS) diode
+D2 (net58 VSS) diode
+D1 (net59 VSS) diode
+D0 (net61 VSS) diode

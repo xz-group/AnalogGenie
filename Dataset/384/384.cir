@@ -1,0 +1,4 @@
+M0 (net9 net7 VDD VDD) pmos4
+M1 (net7 net8 net9 VDD) pmos4
+R1 (net8 VSS) resistor
+R0 (net7 net8) resistor

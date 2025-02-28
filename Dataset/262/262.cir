@@ -1,0 +1,5 @@
+R0 (VDD net23) resistor
+R1 (IIN1 VOUT1) resistor
+R2 (VSS VOUT1) resistor
+M1 (VDD net23 VOUT1 VSS) nmos4
+M0 (net23 IIN1 VSS VSS) nmos4

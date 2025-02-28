@@ -1,0 +1,21 @@
+Q6 (VDD net20 net12 0) npn
+Q5 (net23 net12 net24 0) npn
+Q4 (net17 net12 net25 0) npn
+Q3 (net19 net18 net17 0) npn
+Q2 (net14 net16 net17 0) npn
+Q1 (net15 VB1 net19 0) npn
+Q0 (net15 VB1 net14 0) npn
+L0 (net19 net14) inductor
+C5 (net20 VSS) capacitor
+C4 (net20 net12) capacitor
+C3 (net14 net18) capacitor
+C2 (net19 net16) capacitor
+C1 (VCONT1 net19) capacitor
+C0 (VCONT1 net14) capacitor
+R4 (VDD net15) resistor
+R3 (net24 VSS) resistor
+R2 (net25 VSS) resistor
+R1 (net18 VREF2) resistor
+R0 (net16 VREF1) resistor
+D0 (net20 net23) diode
+M0 (net20 VB2 net15 VDD) pmos4

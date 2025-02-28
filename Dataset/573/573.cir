@@ -1,0 +1,8 @@
+M5 (VOUT1 VOUT2 net38 VSS) nmos4
+M4 (VOUT2 VOUT1 net38 VSS) nmos4
+M3 (VOUT2 VOUT2 net41 VSS) nmos4
+M2 (VOUT1 VOUT1 net41 VSS) nmos4
+M1 (net41 VIN2 VSS VSS) nmos4
+M0 (net38 VIN1 VSS VSS) nmos4
+L1 (VDD VOUT2) inductor
+L0 (VDD VOUT1) inductor

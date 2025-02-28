@@ -1,0 +1,3 @@
+M1 (net013 VLO1 VSS VSS) nmos4
+M0 (VIF1 VRF1 net013 VSS) nmos4
+R0 (VDD VIF1) resistor

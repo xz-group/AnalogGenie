@@ -1,0 +1,22 @@
+Q5 (net16 net15 net17 0) npn
+Q4 (net17 VB3 net24 0) npn
+Q3 (net24 net12 VSS 0) npn
+Q2 (net28 net13 VSS 0) npn
+Q1 (net18 VB3 net28 0) npn
+Q0 (net19 net14 net18 0) npn
+L4 (net17 net18) inductor
+L3 (net16 VDD) inductor
+L2 (VIN2 VIN1) inductor
+L0 (VDD net19) inductor
+C5 (net15 VSS) capacitor
+C4 (VOUT2 net16) capacitor
+C3 (net23 VIN2) capacitor
+C2 (net25 VIN1) capacitor
+C1 (net14 VSS) capacitor
+C0 (VOUT1 net19) capacitor
+R5 (VB2 net15) resistor
+R4 (VB1 net12) resistor
+R3 (net23 net12) resistor
+R2 (net13 VB1) resistor
+R1 (net25 net13) resistor
+R0 (VB2 net14) resistor

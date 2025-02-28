@@ -1,0 +1,6 @@
+R0 (VDD VOUT1) resistor
+R1 (VDD VOUT2) resistor
+M5 (VOUT1 LOGICA1 net1 VSS) nmos4
+M6 (VOUT2 LOGICA2 net1 VSS) nmos4
+M0 (VOUT2 LOGICB2 IB1 VSS) nmos4
+M1 (net1 LOGICB1 IB1 VSS) nmos4

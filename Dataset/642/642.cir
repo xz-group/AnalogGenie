@@ -1,0 +1,23 @@
+M17 (VOUT1 net31 VSS VSS) nmos4
+M16 (net19 net31 VSS VSS) nmos4
+M15 (net31 net45 VSS VSS) nmos4
+M14 (net45 net31 VSS VSS) nmos4
+M13 (net31 net13 VSS VSS) nmos4
+M12 (net6 net6 VSS VSS) nmos4
+M11 (net13 net6 VSS VSS) nmos4
+M10 (net55 net54 net8 VSS) nmos4
+M9 (net9 net3 net8 VSS) nmos4
+M0 (net54 VCONT1 VDD VDD) pmos4
+M1 (net55 net9 net54 net54) pmos4
+M2 (net9 net9 net54 net54) pmos4
+M3 (net55 net55 net54 net54) pmos4
+M4 (net50 net55 net54 net54) pmos4
+M5 (net45 net31 net50 net54) pmos4
+M6 (net31 net45 net54 net54) pmos4
+M7 (net13 net3 net42 net42) pmos4
+M8 (net6 VSS net42 net42) pmos4
+R2 (net8 net42) resistor
+R1 (net3 net19) resistor
+R0 (VDD net3) resistor
+C0 (net3 VSS) capacitor
+D0 (VDD VOUT1) diode

@@ -1,0 +1,4 @@
+Q3 (IOUT2 VSS IB3 0) npn
+Q2 (IOUT1 IB3 IB1 0) npn
+Q1 (IOUT1 VSS IB2 0) npn
+Q0 (IOUT2 IB2 IB1 0) npn

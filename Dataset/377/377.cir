@@ -1,0 +1,8 @@
+M4 (net015 net013 net25 VSS) nmos4
+M1 (net013 net013 VSS VSS) nmos4
+C1 (VSS net015) capacitor
+C2 (net012 VSS) capacitor
+I4 (net012 VSS VCLK2 VDD VSS) TRANSMISSION_GATE
+I2 (net25 net012 VCLK1 VDD VSS) TRANSMISSION_GATE
+M13 (net015 net015 VDD VDD) pmos4
+M3 (net013 net015 VDD VDD) pmos4

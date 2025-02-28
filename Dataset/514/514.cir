@@ -1,0 +1,8 @@
+M1 (VOUT2 VLO1 VBB1 VSS) nmos4
+M3 (VOUT2 VLO2 VBB2 VSS) nmos4
+M0 (VOUT1 VLO2 VBB1 VSS) nmos4
+M2 (VOUT1 VLO1 VBB2 VSS) nmos4
+C1 (VOUT2 VSS) capacitor
+C0 (VSS VOUT1) capacitor
+C3 (VOUT1 VLO2) capacitor
+C2 (VOUT2 VLO2) capacitor

@@ -1,0 +1,6 @@
+L2 (VDD net010) inductor
+L0 (VDD net07) inductor
+M2 (net07 VIN1 IB2 VSS) nmos4
+M1 (net010 VIN2 IB2 VSS) nmos4
+M0 (net07 net010 IB1 VSS) nmos4
+M3 (net010 net07 IB1 VSS) nmos4

@@ -1,0 +1,12 @@
+L1 (VDD net13) inductor
+L0 (VDD net9) inductor
+M4 (net11 VB1 VSS VSS) nmos4
+M3 (net12 net8 net11 VSS) nmos4
+M2 (net8 net12 net11 VSS) nmos4
+M1 (net13 VB3 net12 VSS) nmos4
+M0 (net9 VB2 net8 VSS) nmos4
+C4 (net12 net8) capacitor
+C3 (net13 net12) capacitor
+C2 (net9 net8) capacitor
+C1 (net23 net13) capacitor
+C0 (net23 net9) capacitor

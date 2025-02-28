@@ -1,0 +1,13 @@
+M6 (VDD VDD VSS VSS) nmos4
+M5 (net24 net017 VSS VSS) nmos4
+M4 (net23 net01 VSS VSS) nmos4
+M3 (net19 net20 net24 VSS) nmos4
+M2 (net20 net19 net24 VSS) nmos4
+M1 (net20 LOGICD2 net23 VSS) nmos4
+M0 (net19 LOGICD1 net23 VSS) nmos4
+R3 (net01 VDD) resistor
+R2 (net017 VDD) resistor
+R0 (VDD net19) resistor
+R1 (VDD net20) resistor
+C1 (net017 VCLK2) capacitor
+C0 (VCLK1 net01) capacitor

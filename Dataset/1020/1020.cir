@@ -1,0 +1,10 @@
+M8 (net16 VIN2 IB1 VDD) pmos4
+M2 (net25 net25 VDD VDD) pmos4
+M1 (IB1 net25 VDD VDD) pmos4
+M5 (VOUT4 VIN2 IB1 VDD) pmos4
+M4 (VOUT3 VIN1 IB1 VDD) pmos4
+M3 (IB2 net16 VSS VSS) nmos4
+M0 (net25 VIN1 IB2 VSS) nmos4
+M11 (net16 net16 VSS VSS) nmos4
+M7 (VOUT2 VIN2 IB2 VDD) nmos4
+M6 (VOUT1 VIN1 IB2 VDD) nmos4

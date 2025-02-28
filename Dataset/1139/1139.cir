@@ -1,0 +1,10 @@
+L0 (VDD net42) inductor
+L2 (net44 net45) inductor
+L1 (VDD net47) inductor
+C3 (VDD net45) capacitor
+C2 (net45 VSS) capacitor
+C0 (net47 net42) capacitor
+M3 (IB1 IB1 VSS VSS) nmos4
+M2 (net45 IB1 VSS VSS) nmos4
+M1 (net47 net42 net44 VSS) nmos4
+M0 (net42 net47 net44 VSS) nmos4

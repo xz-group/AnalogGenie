@@ -1,0 +1,6 @@
+M1 (net6 VB1 net8 VSS) nmos4
+M0 (net7 VB1 net9 VSS) nmos4
+R3 (VDD net6) resistor
+R2 (VDD net7) resistor
+R1 (net8 VSS) resistor
+R0 (net9 VSS) resistor
