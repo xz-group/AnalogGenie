@@ -2,9 +2,15 @@
 
 A generative engine for automatic discovery of analog circuit topologies by representing circuits as Eulerian circuits and using a decoder-only transformer to predict the next device pin. 
 
-## About this work
+## About This Work
 
 For more details, please refer to our **ICLR'25** paper: [_AnalogGenie: A Generative Engine for Automatic Discovery of Analog Circuit Topologies_](https://openreview.net/forum?id=jCPak79Kev)
+
+## Processed Dataset and Model Checkpoint
+
+Processed dataset: https://huggingface.co/datasets/JianGao666/AnalogGenie
+
+Model checkpoint: https://huggingface.co/JianGao666/AnalogGenie
 
 ## How to Use
 
