@@ -10,7 +10,7 @@ M15 (net44 net16 VSS VSS) nmos4
 M14 (net16 net16 VSS VSS) nmos4
 M13 (VOUT1 net17 net44 VSS) nmos4
 M12 (net17 net17 net16 VSS) nmos4
-M7 (VDD VIN2 net42 VDD) nmos4
-M6 (VDD VIN2 net32 VDD) nmos4
+M7 (VDD VIN2 net42 VSS) nmos4
+M6 (VDD VIN2 net32 VSS) nmos4
 M5 (net24 VIN1 net34 VSS) nmos4
 M4 (VDD VIN1 net43 VSS) nmos4

@@ -5,7 +5,7 @@ M12 (IB1 IB1 net0127 VSS) nmos4
 M10 (net0127 IB1 VSS VSS) nmos4
 M9 (net0125 IB1 VSS VSS) nmos4
 M15 (net0112 IB1 net060 VSS) nmos4
-M16 (net099 IB1 net059 VSS) nmos4
+M16 (net056 IB1 net059 VSS) nmos4
 M8 (net060 IB1 VSS VSS) nmos4
 M17 (net059 IB1 VSS VSS) nmos4
 M22 (net0111 net0110 net0112 VSS) nmos4
@@ -28,4 +28,4 @@ M19 (net0106 net0106 net0107 VDD) pmos4
 M20 (net0107 net0107 VDD VDD) pmos4
 M23 (net0110 net097 VDD VDD) pmos4
 M26 (VOUT1 net0111 VDD VDD) pmos4
-R0 (net099 net099) resistor
+R0 (net099 net056) resistor

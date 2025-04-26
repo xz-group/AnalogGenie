@@ -1,3 +1,7 @@
+M36 (net45 net58 net53 VDD) pmos4
+M35 (net63 net60 net20 VDD) pmos4
+M26 (VSS net51 net53 VDD) pmos4
+M25 (VSS net24 net20 VDD) pmos4
 M18 (net60 VIN1 net10 VDD) pmos4
 M17 (net58 VIN2 net10 VDD) pmos4
 M14 (net18 net88 net86 VDD) pmos4
@@ -21,14 +25,10 @@ M30 (net88 VB4 VSS VSS) nmos4
 M29 (net63 VB4 VSS VSS) nmos4
 M28 (net24 VB4 VSS VSS) nmos4
 M27 (net60 VB4 VSS VSS) nmos4
-M26 (VSS net51 net53 VSS) nmos4
-M25 (VSS net24 net20 VSS) nmos4
 M24 (VDD VB3 net51 VSS) nmos4
 M23 (net46 VB3 net45 VSS) nmos4
 M22 (VDD VB3 net24 VSS) nmos4
 M21 (net30 VB3 net63 VSS) nmos4
-M20 (net45 net58 net53 VDD) nmos4
-M19 (net63 net60 net20 VDD) nmos4
 M16 (net18 net30 net60 VSS) nmos4
 M15 (VOUT1 net46 net58 VSS) nmos4
 M8 (net34 net83 net42 VSS) nmos4
